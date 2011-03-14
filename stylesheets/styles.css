@@ -1,0 +1,292 @@
+* 																			{margin:0px; padding:0px; background:none; outline:none; border:none;}
+                                											
+body 																		{width:100%; font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; font-size:14px; color:#575757; line-height:16px;}
+
+
+
+                     		            									
+a 																			{color:#FF0052; text-decoration:none;}
+                                        									
+ul, ul li 																	{list-style-type:none;}                                  									
+ol, ol li 																	{list-style-position:outside;}
+                                        									
+.sprite 																	{display:block; background:url("../images/site/sprite.png");}                                    									
+.sprite.logo 																{float:left; width:101px; height:37px;}
+.sprite.logo.beta															{margin:0; padding:0; width:100px; height:42px; background-position:-726px -372px;}
+.wrapper.logo 																{display:inline-block; margin:3px 0px 0px 0px; padding:3px 18px; background:#FFFFFF; width:auto;}
+
+                                        									
+.sprite.create.account 														{width:100px; height:100px; background-position:0px 0px;}
+
+.special 																	{float:left; background:url("../images/site/special/special.png") 0px 0px;}
+.special.fairy 																{position:absolute; top:-300px; left:0px; width:318px; height:300px;}
+
+.special.oldie 																{z-index:-1; position:absolute; top:-53px; right:75px; width:208px; height:215px; background-position:-322px 0px;}
+.special.oldie .eyes	 													{position:absolute; bottom:65px; left:80px; width:61px; height:8px; background:url("../images/site/special/oldie/eyes.png") 0px 0px;}
+.special.oldie .arm 														{position:absolute; top:-115px; right:-44px; width:117px; height:380px; background:url("../images/site/special/oldie/arm.png") 0px 0px;}
+                                        									
+.nav 																		{}
+.nav.horizontal .link														{float:left;}
+                   
+.mask.header 																{position:absolute; top:0px; left:0px; width:100%; height:50px; background:#FFFFFF;}                                         				
+.background_for.header 														{position:absolute; top:50px; left:0px; width:100%; height:8px; background:#EAEAEA;}
+.site.header 																{position:relative; margin:0 auto; padding:25px 0; overflow:hidden; width:984px;}
+
+.site.header .nav 															{margin:0; padding:0; position:absolute; top:18px; left:200px;}
+.site.header .nav li														{margin:0; padding:0; float:left; border-right:1px solid #e8e8e8;}
+.site.header .nav li a														{margin:0; padding:0 10px; color:#8F0045; font-size:15px; line-height:30px; position:relative; display:block; height:32px;}
+.site.header .nav li a:hover												{color:#EB8550;}
+.site.header .nav li a.active												{background:#eaeaea; color:#000;}
+.site.header .nav li a.active .left											{display:block;}
+.site.header .nav li a.active .right										{display:block;}
+.site.header .nav li a .left												{margin:0; padding:0; width:3px; height:32px; display:block; background-position:-814px 0; position:absolute; top:0px; left:-3px; display:none;}
+.site.header .nav li a .right												{margin:0; padding:0; width:3px; height:32px; display:block; background-position:-884px 0; position:absolute; top:0px; right:-3px; display:none;}
+.site.header .nav li.last													{border:none;}
+
+.site.header .sprite.account 												{padding:0 0 0 16px; position:absolute; top:20px; right:0px; width:154px; height:24px; background-position:-888px 0px; color:#EB8550; font-size:14px; line-height:21px;}
+.site.header .sprite.account:hover											{color:#fff; background-position:-888px -25px;}
+.site.header .login															{margin:0; padding:0; color:#EB8550; font-size:14px; position:absolute; top:22px; right:180px;}
+.site.header .login:hover													{color:#8F0045;}
+                                        									
+.background_for.section.body 												{width:100%; background:#F1F1F1;}
+                                        									
+.section.media 																{position:relative; margin:0 auto; width:984px; padding:0px 0px 35px 0px;}
+.section.media .heading														{width:100%; padding:15px 0 50px 20px; color:#4D4D4D; font-size:20px; font-weight:normal;}
+.section.media .heading a													{color:#1176A7; font-size:14px; text-decoration:underline;}
+.section.media .heading a:hover												{text-decoration:none;}
+.section.media .video 														{margin:0 0 100px 20px; width:408px; height:269px; display:block; background:#E1E1E1 url('../images/site/video-btn.png')no-repeat 0 0;}
+.section.media .video:hover													{background:#BABBBB url('../images/site/video-btn.png')no-repeat 0 0;}
+#colorbox																	{color:#fff; font-size:0px;}
+
+.pain-out																	{margin:0; padding:0; width:100%; height:109px; background:url("../images/site/stripe-back.png") repeat-x;}
+.pain-out .sub-wrapper														{margin:0 auto; padding:0; width:961px; height:109px;}
+.pain-out .sub-wrapper .content-box											{margin:0 0 0 -100px; padding:0; width:961px; height:109px; position:relative; background-position:-516px -185px;}
+.pain-out .sub-wrapper .content-box	p										{margin:0; padding:25px 0 0 220px; color:#616861; font-size:21px; line-height:26px; width:550px;}
+.pain-out .sub-wrapper .content-box .basics									{margin:0; padding:0; width:161px; height:158px; display:block; position:absolute; top:-31px; left:140px; background-position:-652px 0;}
+
+.sprite.intro 																{width:567px; height:108px; background-position:0px -54px;}                                   									
+.section.content 															{overflow:hidden; width:984px; margin:0 auto; padding:93px 0px;}
+.section.content .block.group 												{float:left; width:28%; margin:0px 36px 0px 0px;}
+.section.content .block.group .heading 										{width:100%; margin:0px 0px 8px 0px; color:#FF0052; font-size:21px; font-weight:normal;}
+.section.content .block.group .content 										{width:100%; line-height:18px;}
+
+.background_for.group.odd													{margin:0 auto; width:100%; background:#F1F1F1;}
+.background_for.group.even 													{margin:0 auto; width:100%; background:#FFFFFF;}
+.feature-wrapper															{margin:25px auto; padding:40px 0 150px; width:878px; height:212px; position:relative;}
+.sprite.feature.process														{margin:0; width:880px; height:212px; position:relative; background:url("../images/site/features.png") 0px 0px;}
+.sprite.feature.process .one												{margin:0; padding:0; color:#939393; font-size:16px; position:absolute; bottom:45px; left:35px;}
+.sprite.feature.process .two												{margin:0; padding:0; color:#939393; font-size:16px; position:absolute; bottom:1px; left:270px; line-height:21px; width:160px;}
+.sprite.feature.process .three												{margin:0; padding:0; color:#939393; font-size:16px; position:absolute; bottom:1px; left:515px; line-height:21px; width:160px;}
+.sprite.feature.process .four												{margin:0; padding:0; color:#939393; font-size:16px; position:absolute; bottom:45px; left:775px; width:110px;}
+.feature-wrapper .arrow														{margin:0; padding:0; width:349px; height:182px; display:block; background-position:-371px -372px; position:absolute; bottom:-45px; right:40px;}
+.sprite.feature.pagodabot 													{z-index:-1; position:absolute; top:0px; right:0px; width:470px; height:550px; background:url("../images/site/pagodabot.gif") 0px 0px;}
+.section.features .sprite.feature 											{background:url("../images/site/features.png") 0px 0px;}
+.section.features .sprite.feature.deployment 								{position:relative; width:102px; height:312px; margin:20px 0 55px 150px; background:url("../images/site/ascii-rocket.png") 0px 0px;}
+.section.features .sprite.feature.deploy			 						{position:absolute; bottom:-38px; right:12px; width:66px; height:25px; margin:0px; background-position:-947px -337px; cursor:pointer;}
+.section.features .sprite.feature.rollback	 								{width:294px; height:64px; margin:45px 80px 0 0px; background-position:0px -212px;}
+.section.features .sprite.feature.environment 								{width:393px; height:262px; background-position:-322px -218px;}
+.section.features .sprite.feature.scaling	 								{width:319px; height:93px; margin:35px 60px 0 0; background-position:0px -280px;}
+.section.features .sprite.feature.infrastructure							{width:150px; height:138px; margin:10px 0 0 150px; background-position:-739px -225px;}
+.section.features .sprite.feature.configuration								{width:237px; height:103px; margin:60px 90px 0 0; background-position:0px -379px;}
+.section.features 															{width:100%;}
+.section.features .feature.stuff 											{width:50%;}
+.section.features .block.group 												{margin:0 auto; overflow:hidden; width:984px; padding:60px 0px 40px;}
+.section.features .block.group.small										{padding:10px 0;}
+.section.features .block.group .hgroup										{ width:100%; margin:0px 0px 15px 0px;}
+.section.features .block.group .hgroup .heading 							{margin:0 0 8px; color:#000; font-size:21px; font-weight:normal;}
+.section.features .block.group .hgroup .heading.extra-pad					{padding:60px 0 0;}
+.section.features .block.group .hgroup .heading.sub 						{color:#939393; font-size:18px; font-weight:normal;}
+.section.features .block.group .feature 									{line-height:18px;}
+.section.features .block.group .feature .content 							{width:100%; margin:12px 0px; color:#939393; line-height:22px;}
+.section.features .block.group .feature ul		 							{margin:0; padding:0 0 12px 7px; text-indent:-7px; list-style-type:disc; color:#939393; line-height:22px;}
+
+.section.features .group.odd .feature 										{float:right;}
+.section.features .group.even .feature 										{float:left;}
+
+.section.features .sprite 													{width:475px; height:250px; margin:10px;}
+.section.features .group.odd .sprite 										{float:left;}
+.section.features .group.even .sprite 										{float:right;}
+.section.features .top-back													{margin:0; padding:0; width:100%; height:7px; background:url("../images/site/stripe-thin.png") repeat-x;}
+
+.section.body.admin .sprite.intro 											{width:100%; height:107px; background-position:-1000px -314px;}
+.section.body.admin .sprite.detail	 										{width:100%; height:330px; background-position:-983px -466px;}
+.section.body.admin .nav 													{float:right;}
+.section.body.admin .nav .link 												{padding:0px 8px; text-transform:capitalize; border-right:1px solid #1176A7;}
+.section.body.admin .nav .link.last											{border:none;}
+.section.body.admin .nav .link a 											{color:#1176A7;}
+.section.body.admin .nav .link a:hover										{color:#FF0052;}
+.section.body.admin .section.features 										{position:relative; float:left; width:100%;}
+.section.body.admin .section.features .block.group 							{float:left; width:100%; padding:25px 0px;}
+.section.body.admin .section.features .block.group .hgroup					{float:left; width:100%; margin:0px 0px 15px 0px;}
+.section.body.admin .section.features .block.group .hgroup .heading 		{margin:5px 0px; color:#FF0052; font-size:21px; font-weight:normal;}
+.section.body.admin .section.features .block.group .hgroup .heading.sub 	{color:#939393; font-size:18px; font-weight:normal;}
+.section.body.admin .section.features .block.group .feature 				{float:left; width:30%; line-height:18px;}
+.section.body.admin .section.features .block.group .feature .content 		{float:left; width:100%; margin:12px 0px; color:#939393;}
+.section.body.admin .section.features .sprite 								{width:475px; height:250px; margin:10px;}
+
+.background_for.footer 														{margin:0; position:relative; clear:both; width:100%; background:url("/images/site/backgrounds/footer.png");}
+.site.footer 																{z-index:1; position:relative; margin:0 auto; width:984px; height:125px; padding:15px 0px;}
+.site.footer .nav 															{float:right;}
+.site.footer .nav .link 													{padding:0px 8px; border-right:1px solid #FF8049;}
+.site.footer .nav .link.last												{border:none;}
+.site.footer .nav .link a 													{color:#FFFFFF;}
+.site.footer .section.additional 											{position:absolute; bottom:15px; left:0px; width:100%;}
+.site.footer .section.additional .group										{float:left; padding:0px 29px; color:#000000; border-right:1px solid #EC4E32;}
+.site.footer .section.additional .group.first 								{padding-left:0;}
+.site.footer .section.additional .group.last 								{border:none;}
+.site.footer .section.additional .group .heading							{padding:0 0 6px; color:#FFFFFF; font-weight:normal; line-height:14px; font-size:13px;}
+.site.footer .section.additional .group .link 								{color:#FFFFFF; text-decoration:underline;}
+.site.footer .section.additional .group .email 								{color:#000000; font-size:13px;}
+.site.footer .section.additional .group.credits .pipe-one					{margin:0; padding:0 3px;}
+.site.footer .section.additional .group.credits .pipe-two					{margin:0; padding:0 3px;}
+.site.footer .section.additional .group.credits span						{padding:0 0 0 24px;}
+.site.footer .section.additional .group.credits .last						{padding:5px 0 0 0;}
+.site.footer .section.additional .group.credits	.twitter-link				{margin:10px 0; display:inline-block; padding:0 0 0 30px; color:#fff; font-size:14px; text-decoration:underline; position:relative;}
+.site.footer .section.additional .group.credits	.twitter-link .twitter		{margin:0; padding:0; width:20px; height:20px; display:block; position:absolute; top:0px; left:0px; background:url("/images/site/twitter-icon.png") no-repeat;}
+.site.footer .section.additional .sprite.account 							{width:158px; height:24px; margin:4px 0px 0px 0px; background-position:-101px -29px;}
+
+/* LEGAL */
+.legal 																		{position:relative; margin:0 auto; width:984px; color:#878787; font-size:11px;}
+.legal .nav 																{float:left; width:200px; margin:175px 0px 0px 100px;}
+.legal .nav .list .link a													{color:#1278A6; font-size:17px; display:block; padding:5px;}
+.legal .nav .list .link.active a											{color:#FFFFFF; background:#FF0052;}
+.legal .body 																{padding:50px 0; float:left; width:530px; font-family:"Lucida Console", Monaco, monospace;}
+.legal .body .heading.page 													{color:#849251; font-size:21px; margin:0px 0px 20px 0px;}
+.legal .body .heading 														{color:#B9053D; font-weight:normal; font-size:11px;}
+.legal .body .content 														{margin:0px 0px 10px 0px;}
+.legal .body .list 															{margin:0px 0px 20px 21px;}
+.legal .body .list.sub 														{list-style-type:lower-alpha;}
+.legal .body .list li														{padding:0 0 5px;}
+.legal .body .note 															{margin:0px 0px 10px 0px;}
+.legal .body .legal-index h3												{margin:0; padding:0 0 8px; color:#000; font-size:21px; font-weight:normal; font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans;}
+.legal .body .legal-index h4												{margin:0; padding:0 0 20px; color:#939393; font-size:18px; font-weight:normal; font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans;}
+.legal .body .legal-index p													{margin:0; padding:0 0 50px; color:#939393; font-size:14px; line-height:22px; font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans;}
+
+/* CONTACT */
+.section.contact 															{overflow:hidden; margin:0 auto 75px; width:40%; min-height:300px;}
+.section.contact .section.body 												{float:right; width:250px;}
+.section.contact .section.body .heading 									{margin:0; padding:0 0 15px 0; font-size:19px; font-weight:normal;}
+.section.contact .section.body .content 									{margin:0px 0px 15px 0px; color:#939393; font-size:16px; line-height:22px;}
+
+/* ARCHITECTURE */
+.strip-wrapper																{margin:0; padding:50px 0; width:100%; height:483px; overflow:hidden;}
+.strip-wrapper .buttons														{margin:0 auto; padding:0; width:952px; height:74px; position:relative;}
+.strip-wrapper .buttons .prev												{margin:0; padding:0; width:44px; height:17px; display:block; position:absolute; top:13px; left:0px; background-position:-783px -342px;}
+.strip-wrapper .buttons .prev:hover											{background-position:-875px -342px;}
+.strip-wrapper .buttons .next												{margin:0; padding:0; width:42px; height:17px; display:block; position:absolute; top:13px; right:0px; background-position:-830px -342px;}
+.strip-wrapper .buttons .next:hover											{background-position:-922px -342px;}
+.strip-wrapper .buttons .browser											{margin:0; padding:0; display:block; position:absolute; top:6px; left:92px; color:#B4B4B4; font-size:16px;}
+.strip-wrapper .buttons .browser .sprite									{margin:0 auto 5px; padding:0; width:43px; height:30px; display:block; background-position:-689px -338px;}
+.strip-wrapper .buttons .browser:hover										{color:#1D1D1B;}
+.strip-wrapper .buttons .browser:hover .sprite								{background-position:-733px -338px;}
+.strip-wrapper .buttons .browser.active										{color:#1D1D1B;}
+.strip-wrapper .buttons .browser.active .sprite								{background-position:-733px -338px;}
+.strip-wrapper .buttons .mother												{margin:0; padding:0; display:block; position:absolute; top:3px; left:225px; color:#B4B4B4; font-size:16px; text-align:center;}
+.strip-wrapper .buttons .mother .sprite										{margin:0 auto 5px; padding:0; width:26px; height:26px; display:block; background-position:-534px -338px;}
+.strip-wrapper .buttons .mother .etc										{padding:4px 0 0; color:#B4B4B4; font-size:14px; display:block;}
+.strip-wrapper .buttons .mother:hover										{color:#1D1D1B;}
+.strip-wrapper .buttons .mother:hover .sprite								{background-position:-506px -338px;}
+.strip-wrapper .buttons .mother:hover .etc									{color:#B9053D;}
+.strip-wrapper .buttons .mother.active 										{color:#1D1D1B;}
+.strip-wrapper .buttons .mother.active .sprite								{background-position:-506px -338px;}
+.strip-wrapper .buttons .mother.active .etc									{color:#B9053D;}
+.strip-wrapper .buttons .encryptor											{margin:0; padding:0; display:block; position:absolute; top:3px; left:375px; color:#B4B4B4; font-size:16px; text-align:center;}
+.strip-wrapper .buttons .encryptor .sprite									{margin:0 auto 5px; padding:0; width:26px; height:26px; display:block; background-position:-534px -338px;}
+.strip-wrapper .buttons .encryptor .etc										{padding:4px 0 0; color:#B4B4B4; font-size:14px; display:block;}
+.strip-wrapper .buttons .encryptor:hover									{color:#1D1D1B;}
+.strip-wrapper .buttons .encryptor:hover .sprite							{background-position:-506px -338px;}
+.strip-wrapper .buttons .encryptor:hover .etc								{color:#B9053D;}
+.strip-wrapper .buttons .encryptor.active									{color:#1D1D1B;}
+.strip-wrapper .buttons .encryptor.active .sprite							{background-position:-506px -338px;}
+.strip-wrapper .buttons .encryptor.active .etc								{color:#B9053D;}
+.strip-wrapper .buttons .baker												{margin:0; padding:0; display:block; position:absolute; top:3px; left:533px; color:#B4B4B4; font-size:16px; text-align:center;}
+.strip-wrapper .buttons .baker .sprite										{margin:0 auto 5px; padding:0; width:26px; height:26px; display:block; background-position:-534px -338px;}
+.strip-wrapper .buttons .baker .etc											{padding:4px 0 0; color:#B4B4B4; font-size:14px; display:block;}
+.strip-wrapper .buttons .baker:hover										{color:#1D1D1B;}
+.strip-wrapper .buttons .baker:hover .sprite								{background-position:-506px -338px;}
+.strip-wrapper .buttons .baker:hover .etc									{color:#B9053D;}
+.strip-wrapper .buttons .baker.active										{color:#1D1D1B;}
+.strip-wrapper .buttons .baker.active .sprite								{background-position:-506px -338px;}
+.strip-wrapper .buttons .baker.active .etc									{color:#B9053D;}
+.strip-wrapper .buttons .toast												{margin:0; padding:0; display:block; position:absolute; top:0px; left:649px; color:#B4B4B4; font-size:16px; text-align:center;}
+.strip-wrapper .buttons .toast .sprite										{margin:0 auto 5px; padding:0; width:33px; height:32px; display:block; background-position:-595px -338px;}
+.strip-wrapper .buttons .toast .etc											{padding:4px 0 0; color:#B4B4B4; font-size:14px; display:block;}
+.strip-wrapper .buttons .toast:hover										{color:#1D1D1B;}
+.strip-wrapper .buttons .toast:hover .sprite								{background-position:-561px -338px;}
+.strip-wrapper .buttons .toast:hover .etc									{color:#B9053D;}
+.strip-wrapper .buttons .toast.active										{color:#1D1D1B;}
+.strip-wrapper .buttons .toast.active .sprite								{background-position:-561px -338px;}
+.strip-wrapper .buttons .toast.active .etc									{color:#B9053D;}
+.strip-wrapper .buttons .database											{margin:0; padding:0; display:block; position:absolute; top:4px; left:808px; color:#B4B4B4; font-size:16px;}
+.strip-wrapper .buttons .database .sprite									{margin:0 auto 5px; padding:0; width:28px; height:28px; display:block; background-position:-630px -339px;}
+.strip-wrapper .buttons .database:hover										{color:#1D1D1B;}
+.strip-wrapper .buttons .database:hover .sprite								{background-position:-659px -339px;}
+.strip-wrapper .buttons .database.active									{color:#1D1D1B;}
+.strip-wrapper .buttons .database.active .sprite							{background-position:-659px -339px;}
+.strip-wrapper .buttons .content											{margin:0; padding:20px; width:360px; background:#fff; min-height:358px; position:absolute; top:115px; right:40px; border-top:7px solid #B9053D; border-bottom:7px solid #B9053D; z-index:1;}
+.strip-wrapper .buttons .content h2											{margin:0; padding:0 0 10px; color:#000000; font-size:21px; font-weight:normal;}
+.strip-wrapper .buttons .content h2 span									{color:#666267;}
+.strip-wrapper .buttons .content h3											{margin:0; padding:0 0 20px; color:#939393; font-size:18px; font-weight:normal;}
+.strip-wrapper .buttons .content p											{margin:0; padding:0 0 15px; color:#939393; font-size:14px; line-height:22px;}
+.strip-wrapper .buttons .content .sections									{margin:0; padding:0 20px 0 0; display:none;}
+.strip-wrapper .buttons .content .sections .sub-next						{margin:15px 0 0; padding:0 20px 0 0; font-style:italic; display:inline-block; position:relative;}
+.strip-wrapper .buttons .content .sections .sub-next span					{color:#939393;}
+.strip-wrapper .buttons .content .sections .sub-next span.sprite			{margin:0; padding:0; width:10px; height:14px; display:block; position:absolute; top:1px; right:0px; background-position:-968px -336px;}
+.strip-wrapper .buttons .content .sections .sub-next:hover span				{color:#000;}
+.strip-wrapper .buttons .content .sections .sub-next:hover span.sprite		{background-position:-968px -353px;}
+.strip-wrapper .strip-background 											{position:absolute; top:75px; left:0px; margin:0; padding:0; width:12385px; height:483px; background:url('/images/site/long-strip.png')no-repeat 0 0;}
+.strip-wrapper .strip-background .toast-content								{margin:0; padding:0; width:528px; height:1638px; background:url('/images/site/strip-toast.png')no-repeat 0 0; position:absolute; top:395px; right:2730px;}
+.strip-wrapper .strip-background .toast-content .section					{margin:0; padding:0;}
+.strip-wrapper .strip-background .toast-content .section h3					{margin:0; padding:0 0 10px; color:#000; font-size:21px; font-weight:normal;}
+.strip-wrapper .strip-background .toast-content .section p					{margin:0; padding:0; color:#939393; font-size:14px; width:320px; line-height:21px;}
+.strip-wrapper .strip-background .toast-content .section.one				{position:absolute; top:400px; left:0px;}
+.strip-wrapper .strip-background .toast-content .section.two				{position:absolute; top:1010px; left:330px;}
+.strip-wrapper .strip-background .toast-content .section.three				{position:absolute; top:1500px; left:0px;}
+.strip-wrapper .strip-background .go-btn									{margin:0; padding:0; width:148px; height:115px; position:absolute; top:189px; left:100px;}
+
+/* PRICING */
+.pricing-wrapper															{margin:0 auto; padding:50px 50px 100px; width:884px; overflow:hidden;}
+.pricing-wrapper h2															{margin:0; padding:0 0 10px; color:#000; font-size:21px; font-weight:normal;}
+.pricing-wrapper h4															{margin:0; padding:0 0 50px; color:#939393; font-size:18px; font-weight:normal;}
+.pricing-wrapper p															{margin:0; padding:0 0 10px; color:#939393; font-size:14px; line-height:23px;}
+.pricing-wrapper .free-box													{margin:0 0 50px; padding:0 25px 0 0; float:left; border-right:1px solid #f0f0f0; width:220px;}
+.pricing-wrapper .free-box .box												{margin:0 30px 0 0; padding:0; width:44px; height:51px; float:left; background-position:-1099px 0;}
+.pricing-wrapper .free-box p												{margin:0; padding:0; color:#C2C2C2; font-size:19px; line-height:25px;}
+.pricing-wrapper .free-box p span											{color:#5C5C5C;}
+.pricing-wrapper .price-box													{margin:0 0 50px; padding:0 25px; float:left; border-right:1px solid #f0f0f0; width:250px;}
+.pricing-wrapper .price-box .box											{margin:0 30px 0 0; padding:0; width:44px; height:51px; float:left; background-position:-1144px 0;}
+.pricing-wrapper .price-box p												{margin:0; padding:0; color:#C2C2C2; font-size:19px; line-height:25px;}
+.pricing-wrapper .price-box p span											{color:#5C5C5C;}
+.pricing-wrapper .scale-box													{margin:0 0 50px; padding:0 25px; float:left; width:280px;}
+.pricing-wrapper .scale-box .box											{margin:0 30px 0 0; padding:0; width:107px; height:45px; float:left; background-position:-1189px 0;}
+.pricing-wrapper .scale-box p												{margin:0; padding:0; color:#C2C2C2; font-size:19px; line-height:25px;}
+.pricing-wrapper .left-side													{margin:0; padding:0 0 50px; width:47%; float:left;}
+.pricing-wrapper .right-side												{margin:0; padding:0 0 50px; width:47%; float:right;}
+.pricing-wrapper .divider													{margin:0 0 75px; padding:0; height:1px; background:#f0f0f0; clear:both;}
+.pricing-wrapper .mysql														{margin:0; padding:0 50px 0 0; width:45%; border-right:1px solid #f0f0f0; float:left;}
+.pricing-wrapper .mysql h4													{margin:0; padding:0 0 20px;}
+.pricing-wrapper .mysql .database											{margin:0 0 50px; padding:0; width:357px; height:298px; background-position:0 -294px;}
+.pricing-wrapper .mysql span												{color:#000;}
+.pricing-wrapper .mongo														{margin:0; padding:0; width:40%; float:right;}
+.pricing-wrapper .mongo h4													{margin:0; padding:0 0 20px;}
+.pricing-wrapper .mongo .database											{margin:0 0 50px; padding:0; width:362px; height:302px; background:url('/images/site/mongodb.png') no-repeat;}
+
+/* FEATURES */
+.overview-sprite															{background:url("/images/site/admin-overview.png");}
+.how-wrapper																{margin:0 auto; padding:50px 0; width:984px; overflow:hidden;}
+.how-wrapper .sweet-panel													{margin:0 auto 100px; padding:0; width:908px; height:60px; background-position:-37px -341px;}
+.how-wrapper .dash-example													{margin:0 auto 100px; padding:0; width:984px; height:327px; background-position:-0px -6px;}
+.how-wrapper .stats-example													{margin:13px 0 50px; padding:0; width:607px; height:265px; background-position:-16px -420px;}
+.how-wrapper .slider-example												{margin:0 0 10px; padding:0; width:276px; height:64px; background-position:-637px -767px;}
+.how-wrapper .collaberate-example											{margin:0 0 30px; padding:0; width:271px; height:355px; background-position:-631px -405px;}
+.how-wrapper .deploy-example												{margin:0 0 30px; padding:0; width:694px; height:281px; background-position:-4px -830px;}
+.how-wrapper .latest-example												{margin:0 20px 0px; padding:0; width:107px; height:25px; background-position:-707px -847px;}
+.how-wrapper .undo-example													{margin:0 20px 0 0; padding:0; width:136px; height:35px; background-position:-817px -847px;}
+.how-wrapper .terminal-example												{margin:0 20px 0 0; padding:0; width:650px; height:292px; background-position:-2px -1124px;}
+.how-wrapper h1																{margin:0; padding:0 0 15px; color:#000; font-size:21px; font-weight:normal;}
+.how-wrapper .line															{margin:0 0 30px 0; padding:0; clear:both; width:auto; height:1px; background:#fcbfd5;}
+.how-wrapper .left															{margin:0; padding:0; float:left;}
+.how-wrapper .right															{margin:0; padding:0; float:right;}
+.how-wrapper h2																{margin:0; padding:0 0 10px; color:#FF0052; font-size:21px; font-weight:normal;}
+.how-wrapper h3																{margin:0; padding:0 0 15px; color:#939393; font-size:17px; font-weight:normal; max-width:275px;}
+.how-wrapper p																{margin:0; padding:0 0 30px; color:#939393; font-size:14px; width:275px; line-height:24px;}
