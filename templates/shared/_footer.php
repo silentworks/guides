@@ -1,4 +1,4 @@
-{% extends "_base.php" %}
+{% extends "../_base.php" %}
 
 {% block footer %}
 <div id="footer" class="background_for footer">
@@ -57,5 +57,4 @@
 	});
 //]]>
 </script>
-
 {% endblock %}

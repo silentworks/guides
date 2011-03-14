@@ -48,10 +48,10 @@
 	</head>
 	
 	<body>
-		
 		<!-- HEADER -->
 		{% block header %}{% endblock %}
 		
+		<!-- BODY -->
 		<div class="wrapper">
 			{% block body %}{% endblock %}
 		</div>
