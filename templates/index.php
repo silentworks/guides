@@ -11,12 +11,12 @@
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		
 		<!-- STYLESHEETS -->
-		<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
-		<link rel="stylesheet" type="text/css" href="/stylesheets/guides.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/guides.css" />
 		
 		<!-- JAVASCRIPTS -->
-		<script type="text/javascript" src="/javascripts/jquery.1.5.0.min"></script>
-		<script type="text/javascript" src="/javascripts/jquery.ui.effects.core.1.8.9.custom.min"></script>
+		<script type="text/javascript" src="javascripts/jquery.1.5.0.min"></script>
+		<script type="text/javascript" src="javascripts/jquery.ui.effects.core.1.8.9.custom.min"></script>
 		
 		<!-- BEGIN SYNTAX HIGHLIGHTER -->
 		<script type="text/javascript">

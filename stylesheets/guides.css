@@ -12,9 +12,9 @@ form																						{margin:0; padding:0;}
 input																						{margin:0;}
 img																							{margin:0; padding:0; border:none;}
 .sprite																						{background:url('../images/site/sprite.png') no-repeat 0 0;}
-.guides-sprite																				{background:url('../images/guides/sprite.png') no-repeat 0 0;}
-.horizontal-guides-sprite																	{background:url('../images/guides/horizontal-sprite.png') repeat-x 0 0;}
-.vertical-guides-sprite																		{background:url('../images/guides/vertical-sprite.png') repeat-y 0 0;}
+.guides-sprite																				{background:url('../images/sprite.png') no-repeat 0 0;}
+.horizontal-guides-sprite																	{background:url('../images/horizontal-sprite.png') repeat-x 0 0;}
+.vertical-guides-sprite																		{background:url('../images/vertical-sprite.png') repeat-y 0 0;}
 .wrapper																					{margin:0 auto; padding:0; width:1000px;}
 
 /* TOP SECTION */
