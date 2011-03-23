@@ -99,12 +99,9 @@
 			   		$(".link-box").show();
 			   	});
 
-			   	$('.link-box').mouseleave(function () {
-			   		$(".link-box").hide();
-			   	});
+			   
 				
 				$(".close").click(function () {
-			   		alert("ouch")
 					$(".link-box").hide();
 			   	});
 			</script>
