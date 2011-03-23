@@ -21,19 +21,19 @@
 		if($section){
 			if($page){
 				switch($section){
-					case 'legal':
-						Slim::render($section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page, 'is_legal' => true));
+					case false:
+						// Slim::render('/guides/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page, 'is_legal' => true));
 						break;       
 					default:         
-						Slim::render($section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page));
+						Slim::render('guides/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page));
 				}                    
 			}else{                   
 				switch($section){    
-					case "legal":    
-						Slim::render($section.'/_index.php', array('active_section' => $section, 'active_page' => '', 'is_legal' => true));
+					case false:    
+						// Slim::render('/guides/'.$section.'/_index.php', array('active_section' => $section, 'active_page' => '', 'is_legal' => true));
 						break;       
 					default:         
-						Slim::render($section.'.php', array('active_section' => $section, 'active_page' => ''));
+						Slim::render('guides/'.$section.'.php', array('active_section' => $section, 'active_page' => ''));
 				}
 			}
 		}

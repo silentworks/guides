@@ -8,7 +8,7 @@
 		<h3>Guides Index</h3>
 		<ul class="left">
 			<li>Start Here</li>
-			<li><a href="/getting-started/getting-started.php">Getting Started with Pagoda Box</a></li>
+			<li><a href="/getting-started/getting-started">Getting Started with Pagoda Box</a></li>
 		</ul>
 		<!-- <ul class="right">
 					<li>Environment Management</li>
