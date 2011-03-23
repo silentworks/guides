@@ -59,6 +59,7 @@
 				})();
 			// ]]>
 		</script>
+		<!-- GOOGLE ANALYTICS -->
 	</head>
 	
 	<body>
