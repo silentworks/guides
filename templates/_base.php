@@ -13,10 +13,12 @@
 		<!-- STYLESHEETS -->
 		<link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
 		<link rel="stylesheet" type="text/css" href="stylesheets/guides.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/colorbox.css" />
 		
 		<!-- JAVASCRIPTS -->
-		<script type="text/javascript" src="javascripts/jquery.1.5.0.min"></script>
-		<script type="text/javascript" src="javascripts/jquery.ui.effects.core.1.8.9.custom.min"></script>
+		<script type="text/javascript" src="javascripts/jquery.1.5.0.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.ui.effects.core.1.8.9.custom.min.js"></script>
+		<script type="text/javascript" src="javascripts/jquery.colorbox.min.js"></script>
 		
 		<!-- BEGIN SYNTAX HIGHLIGHTER -->
 		<script type="text/javascript">
