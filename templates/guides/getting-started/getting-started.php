@@ -5,7 +5,7 @@
 	<div class="guides-sprite name"></div>
 	<span class="guides-sprite drop-down">
 		Guides Index
-		<div class="link-box" style="display:block;">
+		<div class="link-box" style="display:none;">
 			<span class="guides-sprite top"></span>
 			<a href="#link" class="guides-sprite close"></a>
 			<h3>Guides Index</h3>
@@ -95,12 +95,17 @@
 					$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
 				});
 				
-				
+				$(".drop-down").click(function () {
+			   		$(".link-box").show();
+			   	});
 
-			   	
+			   	$('.link-box').mouseleave(function () {
+			   		$(".link-box").hide();
+			   	});
 				
 				$(".close").click(function () {
 					$(".link-box").hide();
+					return false;
 			   	});
 			</script>
 						
