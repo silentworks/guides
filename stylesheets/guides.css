@@ -17,6 +17,20 @@ img																							{margin:0; padding:0; border:none;}
 .vertical-guides-sprite																		{background:url('../images/vertical-sprite.png') repeat-y 0 0;}
 .wrapper																					{margin:0 auto; padding:0; width:1000px;}
 
+/* HOME PAGE */
+.main-wrapper																				{margin:0; padding:0; width:auto; min-height:661px; background:url('../images/index-back.png') no-repeat;}
+.main-wrapper p																				{margin:0; padding:100px 0 0 10px; color:#545454; font-size:21px; line-height:25px;}
+.main-wrapper .link-box																		{margin:50px 0 100px; padding:10px 34px; display:block; width:733px; position:relative; float:left; cursor:default; background:url('../images/nav-vertical.png') repeat-y;}
+.main-wrapper .link-box .top																{margin:0; padding:0; width:801px; height:19px; display:block; position:absolute; top:-19px; left:0px; border:none; background-position:-518px -254px;}
+.main-wrapper .link-box .bottom																{margin:0; padding:0; width:801px; height:26px; display:block; position:absolute; bottom:-26px; left:0px; background-position:-518px -288px;}
+.main-wrapper .link-box h3																	{margin:0 0 20px; padding:0 0 20px; color:#616161; font-size:30px; font-weight:normal; border-bottom:1px solid #C7C7C7;}
+.main-wrapper .link-box ul																	{margin:0; padding:0 0 20px; width:50%; list-style-type:none;}
+.main-wrapper .link-box ul li																{margin:0; padding:0; color:#ABABAB; font-size:18px; line-height:18px;}
+.main-wrapper .link-box ul li a																{margin:0 0 0 15px; padding:0; color:#549BCC; font-size:14px;}
+.main-wrapper .link-box ul li a:hover														{color:#164C70; text-decoration:underline;}
+.main-wrapper .link-box ul.left																{float:left; clear:left;}
+.main-wrapper .link-box ul.right															{float:right; clear:right;}
+
 /* TOP SECTION */
 .top																						{margin:0 auto; padding:0; width:946px; height:104px; border-bottom:1px solid #c7c7c7; position:relative; z-index:1;}
 .top .name																					{margin:0; padding:0; width:547px; height:104px; float:left; background-position:-527px -147px;}
