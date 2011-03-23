@@ -3,7 +3,7 @@
 	require 'views/TwigView.php';
 	
 	Slim::init('TwigView');
-	Slim::config('debug', false);
+	//Slim::config('debug', false);
 	
 	// ROOT
 	Slim::get('/', function () {
@@ -22,7 +22,7 @@
 			if($page){
 				switch($section){
 					case false:
-						// Slim::render('/guides/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page, 'is_legal' => true));
+						// Slim::render('guides/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page, 'is_legal' => true));
 						break;       
 					default:         
 						Slim::render('guides/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page));
@@ -30,7 +30,7 @@
 			}else{                   
 				switch($section){    
 					case false:    
-						// Slim::render('/guides/'.$section.'/_index.php', array('active_section' => $section, 'active_page' => '', 'is_legal' => true));
+						// Slim::render('guides/'.$section.'/_index.php', array('active_section' => $section, 'active_page' => '', 'is_legal' => true));
 						break;       
 					default:         
 						Slim::render('guides/'.$section.'.php', array('active_section' => $section, 'active_page' => ''));
