@@ -7,7 +7,7 @@
 	
 	// ROOT
 	Slim::get('/', function () {
-	    Slim::render('site/_index.php', array('active_section' => '', 'active_page' => ''));
+	    Slim::render('guides/_index.php', array('active_section' => '', 'active_page' => ''));
 	});
 	
 	/***** MEGA ROUTE *****\
@@ -22,18 +22,18 @@
 			if($page){
 				switch($section){
 					case 'legal':
-						Slim::render('site/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page, 'is_legal' => true));
-						break;
-					default:
-						Slim::render('site/'.$section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page));
-				}
-			}else{
-				switch($section){
-					case "legal":
-						Slim::render('site/'.$section.'/_index.php', array('active_section' => $section, 'active_page' => '', 'is_legal' => true));
-						break;
-					default:
-						Slim::render('site/'.$section.'.php', array('active_section' => $section, 'active_page' => ''));
+						Slim::render($section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page, 'is_legal' => true));
+						break;       
+					default:         
+						Slim::render($section.'/'.$page.'.php', array('active_section' => $section, 'active_page' => $page));
+				}                    
+			}else{                   
+				switch($section){    
+					case "legal":    
+						Slim::render($section.'/_index.php', array('active_section' => $section, 'active_page' => '', 'is_legal' => true));
+						break;       
+					default:         
+						Slim::render($section.'.php', array('active_section' => $section, 'active_page' => ''));
 				}
 			}
 		}

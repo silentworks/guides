@@ -1,4 +1,4 @@
-{% extends "_base.php" %}
+{% extends "layouts/base.php" %}
 
 {% block body %}
 <div class="main-wrapper">
@@ -8,7 +8,7 @@
 		<h3>Guides Index</h3>
 		<ul class="left">
 			<li>Start Here</li>
-			<li><a href="#link">Getting Started with Pagoda Box</a></li>
+			<li><a href="/getting-started/getting-started.php">Getting Started with Pagoda Box</a></li>
 		</ul>
 		<!-- <ul class="right">
 					<li>Environment Management</li>
