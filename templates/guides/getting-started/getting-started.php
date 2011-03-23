@@ -82,7 +82,7 @@
 			<div class="vertical-guides-sprite image">
 				<span class="guides-sprite top"></span>
 				<div class="overflow">
-					<img src="images/screenshots/test.png" alt="" />
+					<img src="../images/screenshots/test.png" alt="" />
 				</div>
 				<!-- IF ZOOM ADD THIS and javascript class -->
 				<a href="#link" class="guides-sprite zoom"></a>
@@ -103,7 +103,7 @@
 			   		$(".link-box").hide();
 			   	});
 			
-				$(".top .close").click(function () {
+				$(".close").click(function () {
 			   		$(".link-box").hide();
 			   	});
 			</script>
