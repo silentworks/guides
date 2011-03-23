@@ -33,7 +33,7 @@ img																							{margin:0; padding:0; border:none;}
 
 /* TOP SECTION */
 .top																						{margin:0 auto; padding:0; width:946px; height:104px; border-bottom:1px solid #c7c7c7; position:relative; z-index:1;}
-.top .name																					{margin:0; padding:0; width:547px; height:104px; float:left; background-position:-527px -147px;}
+.top .name																					{margin:0; padding:0; width:547px; height:104px; display:block; float:left; background-position:-527px -147px;}
 .top .drop-down																				{margin:30px 0 0; padding:0 0 0 20px; float:right; width:198px; height:42px; color:#3D3D3D; font-size:15px; line-height:40px; cursor:pointer; position:relative; background-position:0 0;}
 .top .drop-down .link-box																	{margin:0; padding:0 34px; width:733px; position:absolute; top:-20px; right:-20px; cursor:default; background:url('../images/nav-vertical.png') repeat-y;}
 .top .drop-down .link-box .top																{margin:0; padding:0; width:801px; height:19px; display:block; position:absolute; top:-19px; left:0px; border:none; background-position:-518px -254px;}

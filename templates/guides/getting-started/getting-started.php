@@ -2,7 +2,7 @@
 
 {% block body %}
 <div class="top">
-	<div class="guides-sprite name"></div>
+	<a href="/" class="guides-sprite name"></a>
 	<span class="guides-sprite drop-down">
 		Guides Index
 		<div class="link-box" style="display:none;">
