@@ -102,9 +102,10 @@
 			   	$('.link-box').mouseleave(function () {
 			   		$(".link-box").hide();
 			   	});
-			
+				
 				$(".close").click(function () {
-			   		$(".link-box").hide();
+			   		alert("ouch")
+					$(".link-box").hide();
 			   	});
 			</script>
 						
