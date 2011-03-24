@@ -67,7 +67,7 @@
 			</div>
 		</div>
 		<h3 class="tag"><span class="guides-sprite cap-notice"></span><span class="horizontal-guides-sprite red">Sample Login Function</span><span class="guides-sprite red-end-cap"></span></h3>
-		<div class="block grey">
+		<div class="block red">
 			<p>public function _onPostLoginResponse ( e:Event ):void {
 			    var loader:URLLoader = URLLoader(e.target);
 
