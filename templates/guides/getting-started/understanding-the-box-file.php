@@ -52,7 +52,7 @@
 		<p>You can start working on your PHP application.</p>
 		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Sample Login Function</span><span class="guides-sprite green-end-cap"></span></h3>
 		<div class="block grey">
-			public function _onPostLoginResponse ( e:Event ):void {
+			<p>public function _onPostLoginResponse ( e:Event ):void {
 			    var loader:URLLoader = URLLoader(e.target);
 
 			    if( loader.data == "Success" )
@@ -61,14 +61,14 @@
 			        echo( loader.data );
 			        sendNotification( AppFacade.LOGIN_FAILED );
 			    }
-			}
+			}</p>
 			<div class="extra">
 				/app/view/components/config.php
 			</div>
 		</div>
 		<h3 class="tag"><span class="guides-sprite cap-notice"></span><span class="horizontal-guides-sprite red">Sample Login Function</span><span class="guides-sprite red-end-cap"></span></h3>
 		<div class="block grey">
-			public function _onPostLoginResponse ( e:Event ):void {
+			<p>public function _onPostLoginResponse ( e:Event ):void {
 			    var loader:URLLoader = URLLoader(e.target);
 
 			    if( loader.data == "Success" )
@@ -77,7 +77,7 @@
 			        echo( loader.data );
 			        sendNotification( AppFacade.LOGIN_FAILED );
 			    }
-			}
+			}</p>
 			<div class="extra">
 				/app/view/components/config.php
 			</div>
