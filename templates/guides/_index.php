@@ -9,6 +9,7 @@
 		<ul class="left">
 			<li>Start Here</li>
 			<li><a href="/getting-started/getting-started">Getting Started with Pagoda Box</a></li>
+			<li><a href="/getting-started/understanding-the-box-file">Understanding the Box File</a></li>
 		</ul>
 		<!-- <ul class="right">
 					<li>Environment Management</li>
