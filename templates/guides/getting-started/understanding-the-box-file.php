@@ -42,22 +42,6 @@
 					./pear mage-setup
 				]]>
 			</script>
-			
-			
-			<!-- You also need to add some content to highlight, but that is covered elsewhere. -->
-			<pre class="brush: js">
-			function foo()
-			{
-			}
-			</pre>
-
-			<!-- Finally, to actually run the highlighter, you need to include this JS on your page -->
-			<script type="text/javascript">
-			     SyntaxHighlighter.all()
-			</script
-			
-			
-			
 			<div class="extra">
 				/.box
 			</div>

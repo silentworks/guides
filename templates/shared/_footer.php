@@ -91,3 +91,28 @@
 		    .resize(positionFooter)
 	//]]>
 </script>
+
+<!-- BEGIN SYNTAX HIGHLIGHTER -->
+<script type="text/javascript">
+	//<![CDATA[
+		SyntaxHighlighter.autoloader(
+		  	'js jscript javascript  ../javascripts/sh/shBrushJScript.js',
+			'bash shell             ../javascripts/sh/shBrushBash.js',
+			'css                    ../javascripts/sh/shBrushCss.js',
+			'js jscript javascript  ../javascripts/sh/shBrushJScript.js',
+			'perl pl                ../javascripts/sh/shBrushPerl.js',
+			'php                    ../javascripts/sh/shBrushPhp.js',
+			'text plain             ../javascripts/sh/shBrushPlain.js',
+			'ruby rails ror rb      ../javascripts/sh/shBrushRuby.js',
+			'scala                  ../javascripts/sh/shBrushScala.js',
+			'sql                    ../javascripts/sh/shBrushSql.js',
+			'xml xhtml xslt html    ../javascripts/sh/shBrushXml.js',
+			'apache				    ../javascripts/sh/shBrushApache.js'
+
+		);
+		SyntaxHighlighter.defaults['toolbar'] = false;
+		SyntaxHighlighter.defaults['gutter'] = false;
+		SyntaxHighlighter.all();
+	//]]>
+</script>
+<!-- END SYNTAX HIGHLIGHTER -->
