@@ -69,14 +69,17 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col h3.tag																	{margin:0 0 0 -13px; padding:0; color:#4A4A4C; font-size:15px; font-weight:normal; display:inline-block; position:relative; z-index:1;}
 .main-col .left-col h3.tag .title															{margin:0; padding:6px 6px 0; height:30px; color:#fff; background-position:0 -36px; display:inline-block;}
 .main-col .left-col h3.tag .cap																{margin:0; padding:0; width:8px; height:46px; background-position:-177px -91px; display:inline-block; float:left;}
+.main-col .left-col h3.tag .cap-notice														{margin:0; padding:0; width:8px; height:46px; background-position:-626px -91px; display:inline-block; float:left;}
 .main-col .left-col h3.tag .w-cap															{margin:0; padding:0; width:8px; height:52px; background-position:-379px -91px; display:inline-block; float:left;}
 .main-col .left-col h3.right-tag .blue-cap													{margin:0; padding:0; width:13px; height:51px; background-position:-918px -91px; display:inline-block; float:right;}
 .main-col .left-col h3.right-tag .green-cap													{margin:0; padding:0; width:13px; height:51px; background-position:-274px -39px; display:inline-block; float:right;}
 .main-col .left-col h3.tag .green															{margin:0; padding:6px 6px 0; height:30px; background-position:0 0; display:inline-block;}
+.main-col .left-col h3.tag .red																{margin:0; padding:6px 6px 0; height:30px; background-position:0 -177px; display:inline-block;}
 .main-col .left-col h3.tag .white															{margin:0; padding:6px 6px 0; height:30px; background-position:0 -72px; display:inline-block;}
 .main-col .left-col h3.right-tag .blue														{margin:0; padding:6px 6px 0 14px; height:28px; background-position:0 -108px; display:inline-block;}
 .main-col .left-col h3.right-tag .solid-green												{margin:0; padding:6px 6px 0 14px; height:28px; background-position:0 -142px; display:inline-block;}
-.main-col .left-col h3.tag .end-cap															{margin:0; padding:0; width:2px; height:46px; background-position:-371px -91px; display:block; float:right;}
+.main-col .left-col h3.tag .green-end-cap													{margin:0; padding:0; width:2px; height:46px; background-position:-371px -91px; display:block; float:right;}
+.main-col .left-col h3.tag .red-end-cap														{margin:0; padding:0; width:2px; height:46px; background-position:-789px -91px; display:block; float:right;}
 .main-col .left-col h3.tag .w-end-cap														{margin:0; padding:0; width:2px; height:46px; background-position:-616px -91px; display:block; float:right;}
 .main-col .left-col h3.right-tag .blue-end-cap												{margin:0; padding:0; width:4px; height:30px; background-position:-798px -91px; display:block; float:left;}
 .main-col .left-col h3.right-tag															{margin:0 -13px -30px 0; padding:0; color:#fff; font-size:15px; font-weight:normal; display:inline-block; position:relative; z-index:1; float:right;}
