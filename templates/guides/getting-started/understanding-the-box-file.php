@@ -115,7 +115,7 @@
 				/app/.htaccess
 			</div>
 		</div>
-		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Retrieving the codebase from github</span><span class="guides-sprite w-green-end-cap"></span></h3>
+		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Retrieving the codebase from github</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
 			public function _onPostLoginResponse ( e:Event ):void {
 			    var loader:URLLoader = URLLoader(e.target);
