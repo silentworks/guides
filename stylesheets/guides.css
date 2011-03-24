@@ -91,6 +91,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .block																	{margin:-25px 0 50px -5px; padding:20px 15px 10px; font-size:12px; width:auto; position:relative; clear:right;}
 .main-col .left-col .block.code																{font-family:"Courier New", monospace;}
 .main-col .left-col .block.grey																{background:#f4f4f4;}
+.main-col .left-col .block.grey.steps														{padding:10px 15px 0;}
 .main-col .left-col .block.black															{background:#231f20;}
 .main-col .left-col .block.yellow															{background:#fff; border:3px solid #FFE380; margin-top:-30px;}
 .main-col .left-col .block.red																{background:#fff; border:3px solid #FF0052; margin-top:-30px;}

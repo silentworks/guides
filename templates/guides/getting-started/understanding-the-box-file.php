@@ -139,7 +139,7 @@
 			<p class="answer"><span class="guides-sprite a-tab"></span>No.</p>
 		</div>
 		<h3 class="right-tag"><span class="horizontal-guides-sprite solid-green">Steps</span><span class="guides-sprite green-cap"></span></h3>
-		<div class="block grey">
+		<div class="block grey steps">
 			<ul>
 				<li><span class="guides-sprite step">1</span><a href="#link">An Ordered Process in Pagoda Box Docs with a second line of text</a></li>
 				<li><span class="guides-sprite step">2</span><a href="#link">An Ordered Process in Pagoda Box Docs with a second line of text</a></li>
@@ -148,7 +148,7 @@
 				<li><span class="guides-sprite step">5</span><a href="#link">A fifth and final step</a></li>
 			</ul>
 		</div>
-		<div class="block grey">
+		<div class="block grey steps">
 			<p class="primary-step"><span class="guides-sprite step">Step 1</span>An Ordered Process</p>
 		</div>
 		<ul>
