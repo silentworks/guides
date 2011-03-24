@@ -28,6 +28,25 @@
 			<span class="guides-sprite bottom"></span>
 		</div>
 		
+		<script>
+			$(document).ready(function(){
+				$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
+			});
+			
+			$(".drop-down").click(function () {
+		   		$(".link-box").show();
+		   	});
+
+		   	$('.link-box').mouseleave(function () {
+		   		$(".link-box").hide();
+		   	});
+			
+			$(".close").click(function () {
+				$(".link-box").hide();
+				return false;
+		   	});
+		</script>
+					
 		<p>It starts with a lightning-fast custom router using Earlang (a language designed to do high-speed routing for cellular networks), a high-speed PHP application layer and an optimized database structure housed within the super scalable and speedy cloud environments of Softlayer (It's like Amazon, but better). All of this is topped off with built-in PCI complacence and an SSL layer to provide maximum security.</p>
 		<p>You can stop worrying about your environment.</p>
 		<p>You can start working on your PHP application.</p>

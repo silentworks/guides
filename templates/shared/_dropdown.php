@@ -1,24 +1,3 @@
-<script>
-//<![CDATA[
-	$(document).ready(function(){
-		$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
-	});
-	
-	$(".drop-down").click(function () {
-   		$(".link-box").show();
-   	});
-
-   	$('.link-box').mouseleave(function () {
-   		$(".link-box").hide();
-   	});
-	
-	$(".close").click(function () {
-		$(".link-box").hide();
-		return false;
-   	});
-//]]>
-</script>
-
 <span class="guides-sprite drop-down">
 	Guides Index
 	<div class="link-box" style="display:none;">
