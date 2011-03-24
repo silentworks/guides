@@ -36,3 +36,26 @@
 	//]]>
 </script>
 <!-- END SYNTAX HIGHLIGHTER -->
+
+<!-- VARIOUS SCRIPTS for ZOOMING IMAGE, DROP DOWN, LINK BOX, ETC -->
+<script>
+	//<![CDATA[
+		$(document).ready(function(){
+			$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
+		});
+	
+		$(".drop-down").click(function () {
+	   		$(".link-box").show();
+	   	});
+
+	   	$('.link-box').mouseleave(function () {
+	   		$(".link-box").hide();
+	   	});
+	
+		$(".close").click(function () {
+			$(".link-box").hide();
+			return false;
+	   	});
+	//]]>
+</script>
+<!-- END VARIOUS SCRIPTS -->
