@@ -21,8 +21,6 @@
 			<p>Before explaining all the possible configurations, please note that our infrastructure does not use Apache, nor any other known product. Pagoda Box is a custom solution written from the bottom up for performance, predictability, scalability, and hot code reloads. For this reason we do not read .htaccess files or any other server specific config files. Don’t worry, since we wrote our own service, we also wrote the .box file spec. It’s so simple you’ll probably pee your pants.</p>
 		</div>
 		<h4 id="#-general-tips">General Tips</h4>
-		<p></p>
-		<p>Here are some general tips</p>
 		<ol>
 			<li>The .box file must be valid yaml markup. You can brush up on your yaml here: http://yaml.org/start.html or check your syntax here: http://instantyaml.appspot.com/.</li>
 			<li>It is only necessary to use a .box file when the defaults are insufficient.</li>
