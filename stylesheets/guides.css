@@ -88,24 +88,25 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .image .bottom															{margin:0; padding:0; width:518px; height:28px; display:block; position:absolute; bottom:-28px; left:0px; background-position:0 -433px;}
 .main-col .left-col .image .overflow 														{margin:0; padding:0; overflow:hidden;}
 .main-col .left-col .image .zoom															{margin:0; padding:0; width:35px; height:35px; display:block; position:absolute; bottom:-28px; right:0px; z-index:1; background-position:-229px 0;}
-.main-col .left-col .code-block																{margin:-25px 0 50px -5px; padding:20px 15px 10px; font-size:12px; width:auto; position:relative; font-family:"Courier New", monospace; clear:right;}
-.main-col .left-col .code-block.grey														{background:#f4f4f4;}
-.main-col .left-col .code-block.black														{background:#231f20;}
-.main-col .left-col .code-block.yellow														{background:#fff; border:3px solid #FFE380; margin-top:-30px;}
-.main-col .left-col .code-block.red															{background:#fff; border:3px solid #FF0052; margin-top:-30px;}
-.main-col .left-col .code-block .extra														{margin:0; padding:0; color:#B7B9B9; font-size:12px; text-align:right; position:absolute; bottom:-20px; right:0px;}
-.main-col .left-col .code-block .dot-divide													{margin:5px 0 5px -25px; padding:0; width:522px; height:35px; background-position:0 -143px;}
-.main-col .left-col .code-block .question													{margin:0; padding:0 0 0 25px; color:#231F20; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
-.main-col .left-col .code-block .question .q-tab											{margin:0; padding:0; width:40px; height:40px; background-position:-324px 0; display:block; position:absolute; top:-5px; left:-25px;}
-.main-col .left-col .code-block .answer														{margin:35px 0 0 0; padding:0 0 15px 25px; color:#7C7C7C; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
-.main-col .left-col .code-block .answer .a-tab												{margin:0; padding:0; width:40px; height:40px; background-position:-370px 0; display:block; position:absolute; top:-5px; left:-25px;}
-.main-col .left-col .code-block ul															{margin:0 0 0 -22px; padding:0;}
-.main-col .left-col .code-block ul li														{margin:0; padding:0 0 15px 35px; list-style-type:none; position:relative;}
-.main-col .left-col .code-block ul li a														{margin:0; padding:0; color:#4F93BD; font-size:14px; line-height:18px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; text-decoration:underline;}
-.main-col .left-col .code-block ul li a:hover												{text-decoration:none;}
-.main-col .left-col .code-block ul li .step													{margin:0; padding:0 0 0 9px; color:#fff; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; width:17px; height:24px; display:block; position:absolute; top:0px; left:0px; background-position:-287px -38px;}
-.main-col .left-col .code-block .primary-step												{margin:0 0 0 -25px; padding:0 0 25px 85px; color:#686868; font-size:23px; line-height:26px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
-.main-col .left-col .code-block .primary-step .step											{margin:0; padding:0 0 0 10px; color:#FFF; font-size:17px; line-height:25px; width:65px; height:45px; display:block; position:absolute; top:0px; left:0px; background-position:-693px -45px;}
+.main-col .left-col .block																	{margin:-25px 0 50px -5px; padding:20px 15px 10px; font-size:12px; width:auto; position:relative; clear:right;}
+.main-col .left-col .block.code																{font-family:"Courier New", monospace;}
+.main-col .left-col .block.grey																{background:#f4f4f4;}
+.main-col .left-col .block.black															{background:#231f20;}
+.main-col .left-col .block.yellow															{background:#fff; border:3px solid #FFE380; margin-top:-30px;}
+.main-col .left-col .block.red																{background:#fff; border:3px solid #FF0052; margin-top:-30px;}
+.main-col .left-col .block .extra															{margin:0; padding:0; color:#B7B9B9; font-size:12px; text-align:right; position:absolute; bottom:-20px; right:0px;}
+.main-col .left-col .block .dot-divide														{margin:5px 0 5px -25px; padding:0; width:522px; height:35px; background-position:0 -143px;}
+.main-col .left-col .block .question														{margin:0; padding:0 0 0 25px; color:#231F20; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
+.main-col .left-col .block .question .q-tab													{margin:0; padding:0; width:40px; height:40px; background-position:-324px 0; display:block; position:absolute; top:-5px; left:-25px;}
+.main-col .left-col .block .answer															{margin:35px 0 0 0; padding:0 0 15px 25px; color:#7C7C7C; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
+.main-col .left-col .block .answer .a-tab													{margin:0; padding:0; width:40px; height:40px; background-position:-370px 0; display:block; position:absolute; top:-5px; left:-25px;}
+.main-col .left-col .block ul																{margin:0 0 0 -22px; padding:0;}
+.main-col .left-col .block ul li															{margin:0; padding:0 0 15px 35px; list-style-type:none; position:relative;}
+.main-col .left-col .block ul li a															{margin:0; padding:0; color:#4F93BD; font-size:14px; line-height:18px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; text-decoration:underline;}
+.main-col .left-col .block ul li a:hover													{text-decoration:none;}
+.main-col .left-col .block ul li .step														{margin:0; padding:0 0 0 9px; color:#fff; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; width:17px; height:24px; display:block; position:absolute; top:0px; left:0px; background-position:-287px -38px;}
+.main-col .left-col .block .primary-step													{margin:0 0 0 -25px; padding:0 0 25px 85px; color:#686868; font-size:23px; line-height:26px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
+.main-col .left-col .block .primary-step .step												{margin:0; padding:0 0 0 10px; color:#FFF; font-size:17px; line-height:25px; width:65px; height:45px; display:block; position:absolute; top:0px; left:0px; background-position:-693px -45px;}
 .main-col .right-col																		{margin:0; padding:29px 0 0; width:auto; float:right;}
 .main-col .right-col .table-contents														{margin:0; padding:0; width:382px; position:relative;}
 .main-col .right-col .table-contents .top-corner											{margin:0; padding:0; width:382px; height:8px; background-position:-411px 0; display:block; position:absolute; top:-8px; left:0;}
