@@ -1,4 +1,4 @@
-{% extends "layouts/base.php" %}
+{% extends "layouts/guide.php" %}
 
 {% block body %}
 <div class="top">
