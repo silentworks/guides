@@ -1,3 +1,7 @@
+{% extends "layouts/guide.php" %}
+
+{% block content %}
+
 <div class="left-col">
 	<h1>Understanding the Box File</h1>
 	<p class="active">The .box file is at the heart of configuring your app for pagodabox. After reading this, you should know how to:</p>
@@ -59,4 +63,4 @@
 	</div>
 </div>
 
-
+{% endblock %}
