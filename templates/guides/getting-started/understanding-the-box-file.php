@@ -16,7 +16,7 @@
 	<div class="justify">
 		<h4 id="#-the-basics">The Basics</h4>
 		<p>Pagoda Box is an app deployment platform. Since the focus of the platform is your app, and not the services that support the platform, all configuration related to your app’s deployment is contained in one single file (.box), located at the base of your git repo. In short, the .box file will provide the necessary configuration to deploy your specific source code. The .box file is intended to be re-used whenever possible, especially when using a framework for multiple projects. When a .box file is not present, we will load a default .box file which might work for your app.</p>
-		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Pagodabox Is Not Apache, but a custom server</span><span class="guides-sprite w-end-cap"></span></h3>
+		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Pagodabox is a custom server (ie: it's not Apache)</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
 			<p>Before explaining all the possible configurations, please note that our infrastructure does not use Apache, nor any other known product. Pagoda Box is a custom solution written from the bottom up for performance, predictability, scalability, and hot code reloads. For this reason we do not read .htaccess files or any other server specific config files. Don’t worry, since we wrote our own service, we also wrote the .box file spec. It’s so simple you’ll probably pee your pants.</p>
 		</div>
