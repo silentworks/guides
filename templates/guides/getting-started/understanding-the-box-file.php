@@ -1,7 +1,9 @@
 {% extends "layouts/base.php" %}
 
+{% include 'partials/test.php' %}
+
 {% block body %}
-<?echo( "this is a test" )?>
+
 <div class="main-col">
 	<div class="left-col">
 		<h1>Getting Started with Pagoda Box</h1>
