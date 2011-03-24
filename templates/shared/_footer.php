@@ -107,6 +107,7 @@
 			'scala                  ../javascripts/sh/shBrushScala.js',
 			'sql                    ../javascripts/sh/shBrushSql.js',
 			'xml xhtml xslt html    ../javascripts/sh/shBrushXml.js',
+			'yaml yml				../javascripts/sh/shYaml.js',
 			'apache				    ../javascripts/sh/shBrushApache.js'
 
 		);
