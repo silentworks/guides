@@ -38,9 +38,9 @@
 		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">BOX</span><span class="horizontal-guides-sprite green">Default .box Config Settings</span><span class="guides-sprite green-end-cap"></span></h3>
 		<div class="block grey code">
 			<script class='brush: bash' type='syntaxhighlighter'>
-				//<![CDATA[
+				<![CDATA[
 					./pear mage-setup
-				//]]>
+				]]>
 			</script>	
 			<div class="extra">
 				/.box
