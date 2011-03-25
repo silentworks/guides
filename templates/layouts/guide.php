@@ -10,7 +10,7 @@
 	{% include 'shared/_dropdown.php' %}
 
 </div>
-<div class="main-col">
+<div class="main-col" doo="{{active_page}}">
 	
 	<!-- GUIDE CONTENT -->
 	{% block content %}{% endblock %}
