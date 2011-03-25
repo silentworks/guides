@@ -27,7 +27,7 @@
 	   		$(".link-box").show();
 	   	});
 
-	   	$('.link-box').mouseleave(function () {
+	   	$('#link-box').mouseleave(function () {
 	   		$("#link-box").hide();
 	   	});
 	
