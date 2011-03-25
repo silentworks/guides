@@ -33,7 +33,7 @@
 			<li>Database</li>
 			<li><a href="#link">MySQL</a></li>
 		</ul>
-		<ul class="left">
+		<ul class="right">
 			<li>Frameworks</li>
 			<li><a href="#link">Cake</a></li>
 			<li><a href="#link">Drupal</a></li>
