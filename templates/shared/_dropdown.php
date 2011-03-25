@@ -7,52 +7,39 @@
 		<ul class="left">
 			<li>Start Here</li>
 			<li><a href="#link">Getting Started with Pagoda Box</a></li>
+			<li><a href="#link">What You Need to Know About Pagoda</a></li>
+			<li><a href="#link">Recommended Workflow</a></li>
+			<li><a href="#link">Getting Started</a></li>
 		</ul>
 		<ul class="right">
-			<li>Environment Management</li>
-			<li><a href="#link">Page Title</a></li>
-			<li><a href="#link">Page Titles shouldn't extend to two lines</a></li>
-			<li><a href="#link">Can we build the dropdown like that?</a></li>
-			<li><a href="#link">This could be a medium one</a></li>
+			<li>PHP</li>
+			<li><a href="#link">Sending Mail</a></li>
+			<li><a href="#link">Understanding the Environment</a></li>
+			<li><a href="#link">Connecting to Services</a></li>
+			<li><a href="#link">Configuration & Deployment</a></li>
 		</ul>
 		<ul class="left">
-			<li>Environment Management</li>
-			<li><a href="#link">Page Title</a></li>
-			<li><a href="#link">Page Titles shouldn't extend to two lines</a></li>
-			<li><a href="#link">Can we build the dropdown like that?</a></li>
-			<li><a href="#link">This could be a medium one</a></li>
+			<li>Processes</li>
+			<li><a href="#link">Getting Started</a></li>
+			<li><a href="#link">Creating a Database</a></li>			
+			<li><a href="#link">Going Live</a></li>
+			<li><a href="#link">Scaling Your App</a></li>
+			<li><a href="#link">Transferring Ownership</a></li>
+			<li><a href="#link">Creating a DNS Alias</a></li>
+			<li><a href="#link">Adding SSL</a></li>
+			<li><a href="#link">Adding Collaborators</a></li>
 		</ul>
 		<ul class="right">
-			<li>Environment Management</li>
-			<li><a href="#link">Page Title</a></li>
-			<li><a href="#link">Page Titles shouldn't extend to two lines</a></li>
-			<li><a href="#link">Can we build the dropdown like that?</a></li>
-			<li><a href="#link">This could be a medium one</a></li>
+			<li>Database</li>
+			<li><a href="#link">MySQL</a></li>
 		</ul>
 		<ul class="left">
-			<li>Start Here</li>
-			<li><a href="#link">Getting Started with Pagoda Box</a></li>
-		</ul>
-		<ul class="right">
-			<li>Environment Management</li>
-			<li><a href="#link">Page Title</a></li>
-			<li><a href="#link">Page Titles shouldn't extend to two lines</a></li>
-			<li><a href="#link">Can we build the dropdown like that?</a></li>
-			<li><a href="#link">This could be a medium one</a></li>
-		</ul>
-		<ul class="left">
-			<li>Environment Management</li>
-			<li><a href="#link">Page Title</a></li>
-			<li><a href="#link">Page Titles shouldn't extend to two lines</a></li>
-			<li><a href="#link">Can we build the dropdown like that?</a></li>
-			<li><a href="#link">This could be a medium one</a></li>
-		</ul>
-		<ul class="right">
-			<li>Environment Management</li>
-			<li><a href="#link">Page Title</a></li>
-			<li><a href="#link">Page Titles shouldn't extend to two lines</a></li>
-			<li><a href="#link">Can we build the dropdown like that?</a></li>
-			<li><a href="#link">This could be a medium one</a></li>
+			<li>Frameworks</li>
+			<li><a href="#link">Cake</a></li>
+			<li><a href="#link">Drupal</a></li>
+			<li><a href="#link">Magento</a></li>
+			<li><a href="#link">Symfony</a></li>
+			<li><a href="#link">Wordpress</a></li>
 		</ul>
 		<span class="guides-sprite bottom"></span>
 	</div>
