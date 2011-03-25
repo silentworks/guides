@@ -1,7 +1,7 @@
 {% extends "layouts/base.php" %}
 
 {% block body %}
-<div class="main-wrapper">
+<div class="main-wrapper">{{active_page}}
 	<p>Need some help gettin' where yer goin'?<br /> Here are some guides to help you along your way.</p>
 	<div class="link-box home">
 		<span class="guides-sprite top"></span>
