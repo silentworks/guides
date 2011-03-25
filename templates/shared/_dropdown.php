@@ -1,5 +1,9 @@
 <span class="guides-sprite drop-down">
-	Guides Index
+
+	{% if active_page != "" %}
+		Guides Index
+	{% endif %}
+
 	{% if active_page == "" %}
 		<div class="link-box home">
 	{% else %}
