@@ -1,11 +1,10 @@
 <span class="guides-sprite drop-down">
 	Guides Index
-	{% if active_page == "index" %}
-		ifffff
+	{% if active_page == "" %}
+		<div class="link-box home">
 	{% else %}
-		elseeeee
+		<div class="link-box" id="link-box" style="display:none;">
 	{% endif %}
-	<div class="link-box" id="link-box" style="display:none;">
 		<span class="guides-sprite top"></span>
 		<a href="#link" class="guides-sprite close"></a>
 		<h3>Guides Index</h3>
