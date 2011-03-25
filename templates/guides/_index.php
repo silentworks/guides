@@ -1,7 +1,7 @@
 {% extends "layouts/base.php" %}
 
 {% block body %}
-<div class="main-wrapper">{{active_page}}
+<div class="main-wrapper">
 	<p>Need some help gettin' where yer goin'?<br /> Here are some guides to help you along your way.</p>
 	<div class="link-box home">
 		<span class="guides-sprite top"></span>
@@ -9,7 +9,7 @@
 		<ul class="left">
 			<li>Start Here</li>
 			<li><a href="/getting-started/getting-started">Getting Started with Pagoda Box</a></li>
-			<li><a href="/getting-started/understanding-the-box-file">Understanding the Box File</a></li>
+			<li><a href="/getting-started/understanding-the-box-file">Understanding the Box File - "{{active_page}}"</a></li>
 		</ul>
 		<!-- <ul class="right">
 					<li>Environment Management</li>
