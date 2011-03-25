@@ -3,7 +3,7 @@
 {% block body %}
 <div class="main-wrapper">
 	<p>Need some help gettin' where yer goin'?<br /> Here are some guides to help you along your way.</p>
-	<div class="link-box">
+	<div class="link-box home">
 		<span class="guides-sprite top"></span>
 		<h3>Guides Index</h3>
 		<ul class="left">

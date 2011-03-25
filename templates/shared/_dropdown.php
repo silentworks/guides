@@ -1,6 +1,6 @@
 <span class="guides-sprite drop-down">
 	Guides Index
-	<div class="link-box" style="display:none;">
+	<div class="link-box" id="link-box" style="display:none;">
 		<span class="guides-sprite top"></span>
 		<a href="#link" class="guides-sprite close"></a>
 		<h3>Guides Index</h3>

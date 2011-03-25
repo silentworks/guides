@@ -28,7 +28,7 @@
 	   	});
 
 	   	$('.link-box').mouseleave(function () {
-	   		$(".link-box").hide();
+	   		$("#link-box").hide();
 	   	});
 	
 		$(".close").click(function () {
