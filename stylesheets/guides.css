@@ -20,7 +20,7 @@ img																							{margin:0; padding:0; border:none;}
 .wrapper																					{margin:0 auto; padding:0; width:1000px;}
 
 /* HOME PAGE */
-.main-wrapper																				{margin:0 0 40px 0; padding:0; width:auto; min-height:661px; background:url('../images/index-back.png') no-repeat;}
+.main-wrapper																				{margin:0 0 40px 0;  padding:0; width:auto; min-height:661px; background:url('../images/index-back.png') no-repeat;}
 .main-wrapper p																				{margin:0; padding:100px 0 0 10px; color:#545454; font-size:21px; line-height:25px;}
 .main-wrapper .link-box																		{margin:50px 0 100px; padding:10px 34px; display:block; width:733px; position:relative; float:left; cursor:default; background:url('../images/nav-vertical.png') repeat-y;}
 .main-wrapper .link-box .top																{margin:0; padding:0; width:801px; height:19px; display:block; position:absolute; top:-19px; left:0px; border:none; background-position:-518px -254px;}
