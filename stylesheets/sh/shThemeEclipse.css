@@ -1,4 +1,7 @@
-/* @override http://127.0.0.1:9393/stylesheets/shThemeEclipse.css */
+/* @override 
+	http://127.0.0.1:9393/stylesheets/shThemeEclipse.css
+	http://guides.pagodabox.dev/stylesheets/sh/shThemeEclipse.css
+*/
 
 /**
  * SyntaxHighlighter
@@ -87,7 +90,7 @@
   color: #646464 !important;
 }
 .syntaxhighlighter .variable {
-  color: #aa7700 !important;
+  color: #cf5b21 !important;;
 }
 .syntaxhighlighter .value {
   color: #009900 !important;
@@ -107,7 +110,7 @@
   color: gray !important;
 }
 .syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
-  color: #ff1493 !important;
+  color: #000;
 }
 .syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
   color: red !important;
@@ -171,9 +174,7 @@ font-weight : normal !important;
   color: #479D52 !important;
 }
 
-.syntaxhighlighter .variable {
-  color: #346578 !important;
-}
+
 
 .syntaxhighlighter .functions {
 /*  color: #3072af !important;*/
@@ -181,7 +182,7 @@ color: #005ac7 !important;
 }
 
 .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
-  color: #a3a080 !important;
+  color: #c8c8c4!important;;
 }
 
 .syntaxhighlighter.strike table  { 
