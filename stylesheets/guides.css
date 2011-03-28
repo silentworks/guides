@@ -12,6 +12,7 @@ p 																							{margin:0; padding:0; line-height:23px;}
 ol,ul,li																					{margin:0; padding:0;}
 a																							{margin:0; padding:0; text-decoration:none; color:#549BCC;}
 table																						{margin:0; padding:0; border-collapse:collapse;}
+p a:hover																										{color:#164C70; text-decoration:underline;}
 tr, td, th																					{margin:0; padding:0; vertical-align:top;}
 form																						{margin:0; padding:0;}
 input																						{margin:0;}
@@ -64,7 +65,8 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col ol																		{margin:0; padding:0 0 19px; color: red;}
 .main-col .left-col ul.checked li															{margin:0; padding:0 0 19px 22px; color:#939393; font-size:15px; line-height:15px; position:relative; list-style-type:none;}
 .main-col .left-col ul li																	{margin:0; padding:0 0 19px 0; color:#4A4A4C; font-size:15px; line-height:15px; position:relative; list-style-type:disc;}
-.main-col .left-col ol li																	{margin:0; padding:0 0 0px 0; color:#4D8BC9; font-size:15px; line-height:15px; position:relative; }
+.main-col .left-col ol li																	{margin:0; padding:0 0 0px 0; color:#BBB; font-size:15px;  position:relative; font-weight: bold;}
+.main-col .left-col ol li p																				{ font-weight: normal; }
 .main-col .left-col ol li span																{color:#4A4A4C;}
 .main-col .left-col ul li .check															{margin:0; padding:0; width:10px; height:8px; display:block; background-position:-219px -0px; position:absolute; top:10%; left:0px;}
 .main-col .left-col .line-divider															{margin:0 0 22px; padding:0; width:auto; height:1px; background:#c7c7c7;}
