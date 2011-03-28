@@ -1,5 +1,6 @@
 <span class="guides-sprite drop-down">
-
+	
+	{# I'm using these if statements to check if this is on the home or on a guide page #}
 	{% if active_page != "" %}
 		Guides Index
 	{% endif %}

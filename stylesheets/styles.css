@@ -4,7 +4,7 @@ body 																		{width:100%; font-family: "ff-meta-web-pro-1","ff-meta-we
 a 																			{color:#FF0052; text-decoration:none;}                                        									
 ul, ul li 																	{list-style-type:none;}                                  									
 ol, ol li 																	{list-style-position:outside;}                                        									
-.sprite 																	{display:block; background:url("../images/site/sprite.png");}                                    									
+.sprite 																	{display:block; background:url("/images/site/sprite.png");}                                    									
 .sprite.logo 																{float:left; width:101px; height:37px;}
 .sprite.logo.beta															{margin:0; padding:0; width:100px; height:42px; background-position:-726px -372px;}
 .wrapper.logo 																{display:inline-block; margin:3px 0px 0px 0px; padding:3px 18px; background:#FFFFFF; width:auto;}
@@ -29,7 +29,7 @@ ol, ol li 																	{list-style-position:outside;}
 .site.header .login:hover													{color:#8F0045;}
 
 /* FOOTER */
-.background_for.footer 														{margin:0; position:relative; clear:both; width:100%; background:url("../images/site/backgrounds/footer.png");}
+.background_for.footer 														{margin:0; position:relative; clear:both; width:100%; background:url("/images/site/backgrounds/footer.png");}
 .nav.horizontal .link														{float:left;}
 .site.footer 																{z-index:1; position:relative; margin:0 auto; width:984px; height:125px; padding:15px 0px;}
 .site.footer .nav 															{float:right;}
