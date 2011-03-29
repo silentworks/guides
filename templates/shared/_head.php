@@ -3,36 +3,39 @@
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 <!-- STYLESHEETS -->
-<link rel="stylesheet" type="text/css" href="stylesheets/styles.css" />
-<link rel="stylesheet" type="text/css" href="stylesheets/guides.css" />
-<link rel="stylesheet" type="text/css" href="stylesheets/colorbox.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/guides.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/colorbox.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/sh/shCore.css" media="all" /> 
+<link rel="stylesheet" type="text/css" href="/stylesheets/sh/shThemeEclipse.css" media="all" />
 
 <!-- JAVASCRIPTS -->
-<script type="text/javascript" src="javascripts/jquery.1.5.0.min.js"></script>
-<script type="text/javascript" src="javascripts/jquery.ui.effects.core.1.8.9.custom.min.js"></script>
-<script type="text/javascript" src="javascripts/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.1.5.0.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.ui.effects.core.1.8.9.custom.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.colorbox.min.js"></script>
+<script type="text/javascript" src="/javascripts/sh/shCore.js"></script> 
+<script type="text/javascript" src="/javascripts/sh/shAutoloader.js"></script>
 
-<!-- BEGIN SYNTAX HIGHLIGHTER -->
-<script type="text/javascript">
+<!-- VARIOUS SCRIPTS for ZOOMING IMAGE, DROP DOWN, LINK BOX, ETC -->
+<script>
 	//<![CDATA[
-		SyntaxHighlighter.autoloader(
-		  	'js jscript javascript  /javascripts/sh/shBrushJScript.js',
-			'bash shell             /javascripts/sh/shBrushBash.js',
-			'css                    /javascripts/sh/shBrushCss.js',
-			'js jscript javascript  /javascripts/sh/shBrushJScript.js',
-			'perl pl                /javascripts/sh/shBrushPerl.js',
-			'php                    /javascripts/sh/shBrushPhp.js',
-			'text plain             /javascripts/sh/shBrushPlain.js',
-			'ruby rails ror rb      /javascripts/sh/shBrushRuby.js',
-			'scala                  /javascripts/sh/shBrushScala.js',
-			'sql                    /javascripts/sh/shBrushSql.js',
-			'xml xhtml xslt html    /javascripts/sh/shBrushXml.js',
-			'apache				    /javascripts/sh/shBrushApache.js'
+	$(document).ready(function(){
+		
+		$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
+	
+		$(".drop-down").click(function () {
+	   		$(".link-box").show();
+	   	});
 
-		);
-		SyntaxHighlighter.defaults['toolbar'] = false;
-		SyntaxHighlighter.defaults['gutter'] = false;
-		SyntaxHighlighter.all();
+	   	$('#link-box').mouseleave(function () {
+	   		$("#link-box").hide();
+	   	});
+	
+		$(".close").click(function () {
+			$(".link-box").hide();
+			return false;
+	   	});
+	});
 	//]]>
 </script>
-<!-- END SYNTAX HIGHLIGHTER -->
+<!-- END VARIOUS SCRIPTS -->
