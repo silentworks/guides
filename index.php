@@ -41,12 +41,12 @@
 	
 	// 404
 	Slim::notFound(function () {
-	    //Slim::render('errors/404.html');
+	    Slim::render('errors/404.html');
 	});
 
 	// ERROR
 	Slim::error(function () {
-	    //Slim::render('errors/404.html');
+	    Slim::render('errors/404.html');
 	});
 	
 	Slim::run();
