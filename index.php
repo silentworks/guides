@@ -3,7 +3,7 @@
 	require 'views/TwigView.php';
 	
 	Slim::init('TwigView');
-	//Slim::config('debug', false);
+	Slim::config('debug', false);
 	
 	// ROOT
 	Slim::get('/', function () {
@@ -41,12 +41,12 @@
 	
 	// 404
 	Slim::notFound(function () {
-	    //Slim::render('errors/404.html');
+	    Slim::render('errors/404.html');
 	});
 
 	// ERROR
 	Slim::error(function () {
-	    //Slim::render('errors/404.html');
+	    Slim::render('errors/404.html');
 	});
 	
 	Slim::run();

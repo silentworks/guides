@@ -1,0 +1,12 @@
+.error-sprite																				{background:url('../images/errors/sprite.png') no-repeat 0 0;}
+.error-wrapper																				{margin:0 auto; padding:100px 0; width:984px; overflow:hidden;}
+.error-wrapper .four-four																	{margin:0; padding:0; width:239px; height:231px; display:block; float:left;}
+.error-wrapper .five																		{margin:0; padding:0; width:239px; height:231px; display:block; float:left; background-position:0 -231px;}
+.error-wrapper .five-two																	{margin:0; padding:0; width:239px; height:231px; display:block; float:left; background-position:0 -462px;}
+.error-wrapper .five-three																	{margin:0; padding:0; width:239px; height:231px; display:block; float:left; background-position:0 -693px;}
+.error-wrapper .five-four																	{margin:0; padding:0; width:239px; height:231px; display:block; float:left; background-position:0 -924px;}
+.error-wrapper .text-box																	{margin:0; padding:100px 0 0 50px; text-align:center; float:left;}
+.error-wrapper .text-box h1																	{margin:0; padding:0; color:#595959; font-size:20px; display:inline-block; font-weight:normal;}
+.error-wrapper .text-box h1.underline														{margin:0 0 12px; padding:0 0 18px; border-bottom:1px solid #595959;}
+.error-wrapper .text-box p																	{margin:0; padding:0; color:#595959; font-size:13px;}
+.footer-push																				{margin:0; padding:0; width:100%;}

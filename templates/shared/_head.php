@@ -5,6 +5,7 @@
 <!-- STYLESHEETS -->
 <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
 <link rel="stylesheet" type="text/css" href="/stylesheets/guides.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/errors.css" />
 <link rel="stylesheet" type="text/css" href="/stylesheets/colorbox.css" />
 <link rel="stylesheet" type="text/css" href="/stylesheets/sh/shCore.css" media="all" /> 
 <link rel="stylesheet" type="text/css" href="/stylesheets/sh/shThemeEclipse.css" media="all" />
@@ -19,23 +20,23 @@
 <!-- VARIOUS SCRIPTS for ZOOMING IMAGE, DROP DOWN, LINK BOX, ETC -->
 <script>
 	//<![CDATA[
-	$(document).ready(function(){
+		$(document).ready(function(){
 		
-		$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
+			$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
 	
-		$(".drop-down").click(function () {
-	   		$(".link-box").show();
-	   	});
+			$(".drop-down").click(function () {
+		   		$(".link-box").show();
+		   	});
 
-	   	$('#link-box').mouseleave(function () {
-	   		$("#link-box").hide();
-	   	});
+		   	$('#link-box').mouseleave(function () {
+		   		$("#link-box").hide();
+		   	});
 	
-		$(".close").click(function () {
-			$(".link-box").hide();
-			return false;
-	   	});
-	});
+			$(".close").click(function () {
+				$(".link-box").hide();
+				return false;
+		   	});
+		});
 	//]]>
 </script>
 <!-- END VARIOUS SCRIPTS -->
