@@ -5,6 +5,7 @@
 <!-- STYLESHEETS -->
 <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
 <link rel="stylesheet" type="text/css" href="/stylesheets/guides.css" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/errors.css" />
 <link rel="stylesheet" type="text/css" href="/stylesheets/colorbox.css" />
 <link rel="stylesheet" type="text/css" href="/stylesheets/sh/shCore.css" media="all" /> 
 <link rel="stylesheet" type="text/css" href="/stylesheets/sh/shThemeEclipse.css" media="all" />
