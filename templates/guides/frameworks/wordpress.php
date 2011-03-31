@@ -40,8 +40,8 @@
 		<h4 id="-create-a-local-instance-of-wordpress">Create a Local Instance of Wordpress</h4>
 		<p>
 			We’re assuming that you’ve already done this. If you haven’t and don’t know how, here’s some links for you:<br/>
-			<a href="http://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP">Create a local Wordpress instance on a Mac</a>
-			<a href="http://codex.wordpress.org/Installing_WordPress#Easy_5_Minute_WordPress_Installation_on_Windows">Create a local Wordpress instance in Windows</a>
+			<a href="http://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP" target="_blank">Create a local Wordpress instance on a Mac</a><br/>
+			<a href="http://codex.wordpress.org/Installing_WordPress#Easy_5_Minute_WordPress_Installation_on_Windows" target="_blank">Create a local Wordpress instance in Windows</a>
 		</p>
 		<h4 id="-if-you-don-t-know-what-s-wrong-you-can-t-fix-it">If You Don’t Know What’s Wrong, You Can’t Fix It</h4>
 		<p>While installing Wordpress locally, Wordpress should have created wp-config.php file for your Wordpress app. On line 81 of wp-config.php, set WP_DEBUG to true. This way, any errors that Wordpress might throw in the deployment process will be shown instead of just showing you a blank white page. </p>
@@ -65,7 +65,7 @@
 		<h4 id="-create-a-github-repo-for-your-wordpress-app">Create a Github Repo for Your Wordpress App</h4>
 		<p>
 			If you haven’t heard of git or github before, here’s a link just for you:<br/>
-			<a href="http://help.github.com/">Getting Started with Github</a>
+			<a href="http://help.github.com/" target="_blank">Getting Started with Github</a>
 		</p>
 		<h4 id="-the-all--powerful-box-file">The All-Powerful .box File</h4>
 		<p>Create a file named ".box" in the base directory of your git repo and paste in the following code snippet. The .box file is your Pagoda Box config file. If you want the .box file explained in more detail, click <a href="/getting-started/understanding-the-box-fil">here</a>. </p>
@@ -85,10 +85,10 @@
 				/.box
 			</div>
 		</div>
-		<p>Identifying /wp-conent/uploads as a writable directory will allow you to upload images, video, and other media to your Wordpress app. Setting display_errors to off will hide any errors that php throws. Setting your upload_max_filesize is a matter of preference. If you want to be able to upload media larger than 20MB, set the number higher. If you want the limit to be lower, set the number lower. It’s totally up to you.</p>
+		<p>Identifying /wp-content/uploads as a writable directory will allow you to upload images, video, and other media to your Wordpress app. Setting display_errors to off will hide any errors that php throws. While debugging your app, display_errors should be set to "on," but once you're finished debugging, remember to change it to "off." Setting your upload_max_filesize is a matter of preference. If you want to be able to upload media larger than 20MB, set the number higher. If you want the limit to be lower, set the number lower. It’s totally up to you.</p>
 		<p>Save the .box file, commit your changes, and push them to your Github repo.</p>
 		<h4 id="-deploy-your-app-on-pagoda-box">Deploy Your App on Pagoda Box</h4>
-		<p>Just go through the normal process of deploying your app. If you aren’t sure how to do this, it’s explained <a href="#">here</a></p>
+		<p>Just go through the normal process of deploying your app. If you aren’t sure how to do this, it’s explained <a href="#">here</a>.</p>
 		<p>Once your app has been successfully created, if you click on "View Live App Online" it will load an error page that looks something like the following:</p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
@@ -150,7 +150,7 @@
 		<div class="block yellow">
 			<p>If you changed WP_DEBUG to true, now would be a good time to change it back to false, unless your still debugging your Wordpress app.</p>
 			<p>There’s a few more things you can do to make your app fully functional that are covered in these other guides:<br/>
-			- <a href="/php/sending-mail-from-your-ap">Sending Mail from Your App</a><br/>
+			- <a href="/php/sending-mail-from-your-app">Sending Mail from Your App</a><br/>
 			- <a href="/processes/createing-a-dns-alias">Creating a DNS Alias</a><br/>
 			- <a href="/processes/scaling-your-app">Scaling your App</a></p>
 		</div>
