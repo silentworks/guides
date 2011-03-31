@@ -40,7 +40,7 @@
 		<h4 id="-create-a-local-instance-of-wordpress">Create a Local Instance of Wordpress</h4>
 		<p>
 			We’re assuming that you’ve already done this. If you haven’t and don’t know how, here’s some links for you:<br/>
-			<a href="http://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP">Create a local Wordpress instance on a Mac</a>
+			<a href="http://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP">Create a local Wordpress instance on a Mac</a><br />
 			<a href="http://codex.wordpress.org/Installing_WordPress#Easy_5_Minute_WordPress_Installation_on_Windows">Create a local Wordpress instance in Windows</a>
 		</p>
 		<h4 id="-if-you-don-t-know-what-s-wrong-you-can-t-fix-it">If You Don’t Know What’s Wrong, You Can’t Fix It</h4>
