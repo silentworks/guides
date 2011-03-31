@@ -68,7 +68,7 @@
 			<a href="http://help.github.com/" target="_blank">Getting Started with Github</a>
 		</p>
 		<h4 id="-the-all--powerful-box-file">The All-Powerful .box File</h4>
-		<p>Create a file named ".box" in the base directory of your git repo and paste in the following code snippet. The .box file is your Pagoda Box config file. If you want the .box file explained in more detail, click <a href="/getting-started/understanding-the-box-fil">here</a>. </p>
+		<p>Create a file named ".box" in the base directory of your git repo and paste in the following code snippet. The .box file is your Pagoda Box config file. If you want the .box file explained in more detail, click <a href="/getting-started/understanding-the-box-file">here</a>. </p>
 		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Default Wordpress .box File:</span><span class="guides-sprite green-end-cap"></span></h3>
 		<div class="block grey code" id="default-box-config-settings">
 			<script class='brush: yaml' type='syntaxhighlighter'>
