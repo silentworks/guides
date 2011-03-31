@@ -21,8 +21,23 @@
 <script>
 	//<![CDATA[
 		$(document).ready(function(){
-		
-			$(".zoom").colorbox({width:"50%", inline:true, href:".overflow"});
+			
+			// Wouldn't hurt to move these to a pagoda.js file
+			$(".zoom").click(function () {
+				var btn    = $(this);
+				var target = btn.attr("targ");
+				btn.colorbox({
+					href : target, 
+					onLoad : function(){
+						$("#colorbox").css("visibility", "hidden");
+					}, 
+					onComplete: function(){
+						$("#colorbox").css("visibility", "visible");
+					}, 
+					transition : "fade", 
+					speed : 270
+				});
+		   	});
 	
 			$(".drop-down").click(function () {
 		   		$(".link-box").show();
