@@ -107,7 +107,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .block.yellow															{background:#fff; border:3px solid #FFE380; margin-top:-30px;}
 .main-col .left-col .block.red																{background:#fff; border:3px solid #FF0052; margin-top:-30px;}
 .main-col .left-col .block .extra															{margin:0; padding:0; color:#B7B9B9; font-size:12px; text-align:right; position:absolute; bottom:-20px; right:0px;}
-.main-col .left-col .block .dot-divide														{margin:5px 0 5px -25px; padding:0; width:522px; height:35px; background-position:0 -143px;}
+.main-col .left-col .block .dot-divide														{margin:5px 0 5px -25px; padding:0; width:522px; height:35px; background-position:0 -143px; background: url('../images/sprite.png') no-repeat 0 -142px;}
 .main-col .left-col .block .question														{margin:0; padding:0 0 0 25px; color:#231F20; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
 .main-col .left-col .block .question .q-tab													{margin:0; padding:0; width:40px; height:40px; background-position:-324px 0; display:block; position:absolute; top:-5px; left:-25px;}
 .main-col .left-col .block .answer															{margin:35px 0 0 0; padding:0 0 15px 25px; color:#7C7C7C; font-size:15px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
@@ -134,4 +134,3 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .right-col .table-contents ul li .tag												{margin:3px 5px 0 0; padding:0; width:13px; height:16px; display:inline-block; float:left; background-position:-678px -47px;}
 
 .strike { text-decoration: line-through !important;}
-.dot-space { margin: 0; padding: 0; width: 480px; height: 36px;  background: url('../images/sprite.png') no-repeat 0 -142px; right: 20px; position: absolute; }
