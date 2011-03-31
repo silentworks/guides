@@ -31,7 +31,7 @@
 			<div class="overflow">
 				<img src="/images/guides/add-a-collaborator.png" alt="" />
 			</div>
-			<a href="add-a-collaborator-full.png" class="guides-sprite zoom"></a>
+			<a href="#" targ="/images/guides/add-a-collaborator-full.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>
 		
@@ -44,7 +44,6 @@
 			<div class="overflow">
 				<img src="/images/guides/transfer-ownership.png" alt="" />
 			</div>
-			<a href="" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>
 		
