@@ -23,32 +23,31 @@
 		<ul class="right">
 			<li>PHP</li>
 			<li><a href="/index.php/php/sending-mail-from-your-app">Sending Mail From Your App</a></li>
-			<li><a href="#link"><i>Understanding the Environment</i></a></li>
+			<li><a href="#link"><i>Understanding the Environment (Coming)</i></a></li>
 			<li><a href="/index.php/php/connecting-to-services">Connecting to Services</a></li>
 			<li><a href="/index.php/php/configuration-and-deployment">Configuration & Deployment</a></li>
 		</ul>
 		<ul class="left">
 			<li>Processes</li>
-			<li><a href="#link"><i>Getting Started</i></a></li>
-			<li><a href="#link"><i>Creating a Database</a</i>></li>			
-			<li><a href="#link"><i>Going Live</i></a></li>
-			<li><a href="#link"><i>Scaling Your App</i></a></li>
-			<li><a href="#link"><i>Transferring Ownership</i></a></li>
-			<li><a href="#link"><i>Creating a DNS Alias</i></a></li>
-			<li><a href="#link"><i>Adding SSL</i></a></li>
-			<li><a href="#link"><i>Adding Collaborators</i></a></li>
+			<li><a href="/index.php/processes/adding-a-collaborator">Adding Collaborators + Transferring Ownership</a></li>
+			<li><a href="#link"><i>Getting Started (Coming)</i></a></li>
+			<li><a href="#link"><i>Creating a Database (Coming)</i></a></li>			
+			<li><a href="#link"><i>Going Live (Coming)</i></a></li>
+			<li><a href="#link"><i>Scaling Your App (Coming)</i></a></li>
+			<li><a href="#link"><i>Creating a DNS Alias (Coming)</i></a></li>
+			<li><a href="#link"><i>Adding SSL (Coming)</i></a></li>
 		</ul>
 		<ul class="right">
 			<li>Database</li>
-			<li><a href="#link"><i>MySQL</i></a></li>
+			<li><a href="#link"><i>MySQL (Coming)</i></a></li>
 		</ul>
 		<ul class="right">
 			<li>Frameworks</li>
-			<li><a href="#link"><i>Cake</i></a></li>
-			<li><a href="#link"><i>Drupal</i></a></li>
-			<li><a href="#link"><i>Magento</i></a></li>
-			<li><a href="#link"><i>Symfony</i></a></li>
-			<li><a href="#link"><i>Wordpress</i></a></li>
+			<li><a href="#link"><i>Cake (Coming)</i></a></li>
+			<li><a href="#link"><i>Drupal (Coming)</i></a></li>
+			<li><a href="#link"><i>Magento (Coming)</i></a></li>
+			<li><a href="#link"><i>Symfony (Coming)</i></a></li>
+			<li><a href="/index.php/frameworks/wordpress">Wordpress</a></li>
 		</ul>
 		<span class="guides-sprite bottom"></span>
 	</div>

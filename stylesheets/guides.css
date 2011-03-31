@@ -54,12 +54,12 @@ img																							{margin:0; padding:0; border:none;}
 .top .drop-down .link-box ul.left															{float:left; clear:left;}
 .top .drop-down .link-box ul.right															{float:right; clear:right;}
 
-.top .drop-down .link-box 	i { color: black; }
+.link-box 	i { color: #d6d6d6; }
 
 /* MAIN COL */
 .main-col																					{margin:0; padding:0 20px 50px; width:auto; overflow:hidden;}
 .main-col .left-col																			{margin:0; padding:29px 0 0; width:500px; float:left;}
-.main-col .left-col h1																		{margin:0; padding:0 0 12px; color:#79B94A; font-size:30px; font-weight:normal;line-height: 29px;}
+.main-col .left-col h1																		{margin:0; padding:0 0 12px; color:#79B94A; font-size:30px; font-weight:normal;line-height: 36px;}
 .main-col .left-col p																		{margin:0; padding:0 0 18px; color:#5e5e61; font-size:15px;}
 .main-col .left-col p.active																{color:#748A99; font-style:italic;}
 .main-col .left-col ul.checked																{margin:0; padding:0 0 19px; list-style-type:none;}
@@ -74,7 +74,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col ol li span																{color:#4A4A4C;}
 .main-col .left-col ul li .check															{margin:0; padding:0; width:10px; height:8px; display:block; background-position:-219px -0px; position:absolute; top:10%; left:0px;}
 .main-col .left-col .line-divider															{margin:0 0 22px; padding:0; width:auto; height:1px; background:#c7c7c7;}
-.main-col .left-col h2																		{margin:20px 0 0 0; padding:0 0 16px; color:#7C7C7C; font-size:23px; font-weight:normal;}
+.main-col .left-col h2																		{margin:50px 0 0 0; padding:0 0 16px; color:#7C7C7C; font-size:23px; font-weight:normal;}
 .main-col .left-col h4																		{margin:0; padding:0 0 3px; color:#79B94A; font-size:15px; font-weight:normal;}
 .main-col .left-col .justify																{margin:0; padding:0 0 0 5px; width:auto;}
 .main-col .left-col h3.tag																	{margin:0 0 0 -13px; padding:0; color:#4A4A4C; font-size:15px; font-weight:normal; display:inline-block; position:relative; z-index:1;}
@@ -132,3 +132,6 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .right-col .table-contents ul li a												{margin:0; padding:0; color:#737373; font-size:13px; line-height:15px;}
 .main-col .right-col .table-contents ul li a:hover											{color:#549BCC;}
 .main-col .right-col .table-contents ul li .tag												{margin:3px 5px 0 0; padding:0; width:13px; height:16px; display:inline-block; float:left; background-position:-678px -47px;}
+
+.strike { text-decoration: line-through !important;}
+.dot-space { margin: 0; padding: 0; width: 480px; height: 36px;  background: url('../images/sprite.png') no-repeat 0 -142px; right: 20px; position: absolute; }
