@@ -16,20 +16,20 @@
 		<ul class="left">
 			<li>Start Here</li>
 			<li><a href="#link"><i>Getting Started with Pagoda Box (Coming)</i></a></li>
-			<li><a href="/index.php/getting-started/what-you-need-to-know-about-pagoda-box">What You Need to Know About Pagoda</a></li>
-			<li><a href="/index.php/getting-started/recommended-workflow">Recommended Workflow</a></li>
-			<li><a href="/index.php/getting-started/understanding-the-box-file">Understanding the .box Config File</a></li>
+			<li><a href="/getting-started/what-you-need-to-know-about-pagoda-box">What You Need to Know About Pagoda</a></li>
+			<li><a href="/getting-started/recommended-workflow">Recommended Workflow</a></li>
+			<li><a href="/getting-started/understanding-the-box-file">Understanding the .box Config File</a></li>
 		</ul>
 		<ul class="right">
 			<li>PHP</li>
-			<li><a href="/index.php/php/sending-mail-from-your-app">Sending Mail From Your App</a></li>
+			<li><a href="/php/sending-mail-from-your-app">Sending Mail From Your App</a></li>
 			<li><a href="#link"><i>Understanding the Environment (Coming)</i></a></li>
-			<li><a href="/index.php/php/connecting-to-services">Connecting to Services</a></li>
-			<li><a href="/index.php/php/configuration-and-deployment">Configuration & Deployment</a></li>
+			<li><a href="/php/connecting-to-services">Connecting to Services</a></li>
+			<li><a href="/php/configuration-and-deployment">Configuration & Deployment</a></li>
 		</ul>
 		<ul class="left">
 			<li>Processes</li>
-			<li><a href="/index.php/processes/adding-a-collaborator">Adding Collaborators + Transferring Ownership</a></li>
+			<li><a href="/processes/adding-a-collaborator">Adding Collaborators + Transferring Ownership</a></li>
 			<li><a href="#link"><i>Getting Started (Coming)</i></a></li>
 			<li><a href="#link"><i>Creating a Database (Coming)</i></a></li>			
 			<li><a href="#link"><i>Going Live (Coming)</i></a></li>
@@ -47,7 +47,7 @@
 			<li><a href="#link"><i>Drupal (Coming)</i></a></li>
 			<li><a href="#link"><i>Magento (Coming)</i></a></li>
 			<li><a href="#link"><i>Symfony (Coming)</i></a></li>
-			<li><a href="/index.php/frameworks/wordpress">Wordpress</a></li>
+			<li><a href="/frameworks/wordpress">Wordpress</a></li>
 		</ul>
 		<span class="guides-sprite bottom"></span>
 	</div>
