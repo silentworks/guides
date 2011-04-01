@@ -27,7 +27,7 @@
 
 <div class="left-col">
 	<h1>Installing Wordpress</h1>
-	<p class="active">Getting Wordpress up and running is pretty simple. There are a few things to be aware of when launch Wordpress on Pagoda Box. After reading this, you should be able to:</p>
+	<p class="active">Getting Wordpress up and running is pretty simple. There are a few things to be aware of when launching Wordpress on Pagoda Box. After reading this, you should be able to:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>Create a local instance of Wordpress</li>
 		<li><span class="guides-sprite check"></span>Take your local instance of Wordpress and deploy it to Pagoda Box</li>
