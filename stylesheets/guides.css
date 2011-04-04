@@ -12,6 +12,7 @@ tr, td, th																					{margin:0; padding:0; vertical-align:top;}
 form																						{margin:0; padding:0;}
 input																						{margin:0;}
 img																							{margin:0; padding:0; border:none;}
+.strike 																					{text-decoration: line-through !important;}
 .sprite																						{background:url('../images/site/sprite.png') no-repeat 0 0;}
 .guides-sprite																				{background:url('../images/sprite.png') no-repeat 0 0;}
 .horizontal-guides-sprite																	{background:url('../images/horizontal-sprite.png') repeat-x 0 0;}
@@ -120,12 +121,10 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .right-col .table-contents .bottom-corner											{margin:0; padding:0; width:382px; height:14px; background-position:-411px -14px; display:block; position:absolute; bottom:-14px; left:0;}
 .main-col .right-col .table-contents h3														{margin:0 25px 10px; padding:0 0 10px; color:#999999; font-size:17px; font-weight:normal; border-bottom:1px solid #C2C2C2;}
 .main-col .right-col .table-contents h4														{margin:0; padding:0 0 8px 25px; color:#181412; font-size:19px; font-weight:normal;}
-.main-col .right-col .table-contents h4 a													{ color:#000; }
-.main-col .right-col .table-contents h4 a:hover												{ color:#549BCC; }
+.main-col .right-col .table-contents h4 a													{color:#000; }
+.main-col .right-col .table-contents h4 a:hover												{color:#549BCC; }
 .main-col .right-col .table-contents ul														{margin:0; padding:0 0 20px 25px; list-style:none;}
 .main-col .right-col .table-contents ul li													{margin:0; padding:0 0 6px 0; position:relative;}
 .main-col .right-col .table-contents ul li a												{margin:0; padding:0; color:#737373; font-size:13px; line-height:15px;}
 .main-col .right-col .table-contents ul li a:hover											{color:#549BCC;}
 .main-col .right-col .table-contents ul li .tag												{margin:3px 5px 0 0; padding:0; width:13px; height:16px; display:inline-block; float:left; background-position:-678px -47px;}
-
-.strike 																					{ text-decoration: line-through !important;}
