@@ -88,10 +88,11 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col h3.tag .w-end-cap														{margin:0; padding:0; width:2px; height:46px; background-position:-616px -91px; display:block; float:right;}
 .main-col .left-col h3.right-tag .blue-end-cap												{margin:0; padding:0; width:4px; height:30px; background-position:-798px -91px; display:block; float:left;}
 .main-col .left-col h3.right-tag															{margin:0 -13px -30px 0; padding:0; color:#fff; font-size:15px; font-weight:normal; display:inline-block; position:relative; z-index:1; float:right;}
-.main-col .left-col .image																	{margin:50px 0px 50px -8px; padding:0 18px; width:482px; position:relative; background-position:-394px 0;}
+.main-col .left-col .image																	{margin:50px 0px 50px -8px; padding:0 18px 0 17px; width:483px; position:relative; background-position:-394px 0;}
 .main-col .left-col .image .top																{margin:0; padding:0; width:518px; height:40px; display:block; position:absolute; top:-40px; left:0px; border:none; background-position:0 -183px;}
 .main-col .left-col .image .bottom															{margin:0; padding:0; width:518px; height:28px; display:block; position:absolute; bottom:-28px; left:0px; background-position:0 -433px;}
 .main-col .left-col .image .overflow 														{margin:0; padding:0; overflow:hidden;}
+.main-col .left-col .image .overflow img													{margin:-6px 0;}
 .main-col .left-col .image .zoom															{margin:0; padding:0; width:35px; height:35px; display:block; position:absolute; bottom:-28px; right:0px; z-index:1; background-position:-229px 0;}
 .main-col .left-col .image .zoom:hover														{ background-position:-262px 0;}
 .main-col .left-col .block																	{margin:-25px 0 50px -5px; padding:20px 15px 10px; font-size:12px; width:auto; position:relative; clear:right;}
