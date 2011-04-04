@@ -34,7 +34,7 @@
 		<p>When you’re ready to make your site live and allow people to visit you from your real domain (myapp.com) instead of your Pagoda Box domain (myapp.pagodabox.com), you need to do two things: 
 			<ol>
 				<li><p>Create a DNS alias on pagodabox</p></li>
-				<li><p>Add a A-Record on your domain registrar's zone file pointing to Pagoda's IP Address</p></li>
+				<li><p>Add an A-Record on your domain registrar's zone file pointing to Pagoda's IP Address</p></li>
 			</ol>
 		</p>
 		<h4 id="-create-the-alias">Create The Alias</h4>
