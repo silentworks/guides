@@ -4,7 +4,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		
 		<!-- TITLE -->
-		<title>Pagoda Box</title>
+		<title>Pagoda Box - Guides</title>
 		
 		<!-- EXTERNALS (CSS, JS, ETC.) -->
 		{% include 'shared/_head.php' %}
