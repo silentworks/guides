@@ -12,6 +12,7 @@ tr, td, th																					{margin:0; padding:0; vertical-align:top;}
 form																						{margin:0; padding:0;}
 input																						{margin:0;}
 img																							{margin:0; padding:0; border:none;}
+.strike 																					{text-decoration: line-through !important;}
 .sprite																						{background:url('../images/site/sprite.png') no-repeat 0 0;}
 .guides-sprite																				{background:url('../images/sprite.png') no-repeat 0 0;}
 .horizontal-guides-sprite																	{background:url('../images/horizontal-sprite.png') repeat-x 0 0;}
@@ -88,10 +89,10 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col h3.tag .w-end-cap														{margin:0; padding:0; width:2px; height:46px; background-position:-616px -91px; display:block; float:right;}
 .main-col .left-col h3.right-tag .blue-end-cap												{margin:0; padding:0; width:4px; height:30px; background-position:-798px -91px; display:block; float:left;}
 .main-col .left-col h3.right-tag															{margin:0 -13px -30px 0; padding:0; color:#fff; font-size:15px; font-weight:normal; display:inline-block; position:relative; z-index:1; float:right;}
-.main-col .left-col .image																	{margin:50px 0px 50px -8px; padding:0 18px; width:482px; position:relative; background-position:-394px 0;}
+.main-col .left-col .image																	{margin:50px 0px 50px -8px; padding:0 18px 0 17px; width:483px; position:relative; background-position:-394px 0;}
 .main-col .left-col .image .top																{margin:0; padding:0; width:518px; height:40px; display:block; position:absolute; top:-40px; left:0px; border:none; background-position:0 -183px;}
 .main-col .left-col .image .bottom															{margin:0; padding:0; width:518px; height:28px; display:block; position:absolute; bottom:-28px; left:0px; background-position:0 -433px;}
-.main-col .left-col .image .overflow 														{margin:0; padding:0; overflow:hidden;}
+.main-col .left-col .image img																{margin:-6px 0 -10px;}
 .main-col .left-col .image .zoom															{margin:0; padding:0; width:35px; height:35px; display:block; position:absolute; bottom:-28px; right:0px; z-index:1; background-position:-229px 0;}
 .main-col .left-col .image .zoom:hover														{ background-position:-262px 0;}
 .main-col .left-col .block																	{margin:-25px 0 50px -5px; padding:20px 15px 10px; font-size:12px; width:auto; position:relative; clear:right;}
@@ -111,7 +112,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .block ul li															{margin:0; padding:0 0 15px 35px; list-style-type:none; position:relative;}
 .main-col .left-col .block ul li a															{margin:0; padding:0; color:#4F93BD; font-size:14px; line-height:18px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; text-decoration:underline;}
 .main-col .left-col .block ul li a:hover													{text-decoration:none;}
-.main-col .left-col .block ul li .step														{margin:0; padding:0 0 12px 3px; color:#fff; width:24px; height:26px; display:block; position:absolute; top:0; left:0px; background-position:-287px -36px; letter-spacing: -1px; font: 14px "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; }
+.main-col .left-col .block ul li .step														{margin:0; padding:0 0 0 5px; color:#fff; width:23px; height:24px; display:block; position:absolute; top:0; left:0px; line-height:16px; background-position:-413px -44px; letter-spacing: -1px; font-size: 14px; font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; }
 .main-col .left-col .block .primary-step													{margin:0 0 0 -25px; padding:0 0 25px 85px; color:#686868; font-size:23px; line-height:26px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
 .main-col .left-col .block .primary-step .step												{margin:0; padding:0 0 0 10px; color:#FFF; font-size:17px; line-height:25px; width:65px; height:45px; display:block; position:absolute; top:0px; left:0px; background-position:-693px -45px;}
 .main-col .right-col																		{margin:0; padding:29px 0 0; width:auto; float:right;}
@@ -120,12 +121,10 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .right-col .table-contents .bottom-corner											{margin:0; padding:0; width:382px; height:14px; background-position:-411px -14px; display:block; position:absolute; bottom:-14px; left:0;}
 .main-col .right-col .table-contents h3														{margin:0 25px 10px; padding:0 0 10px; color:#999999; font-size:17px; font-weight:normal; border-bottom:1px solid #C2C2C2;}
 .main-col .right-col .table-contents h4														{margin:0; padding:0 0 8px 25px; color:#181412; font-size:19px; font-weight:normal;}
-.main-col .right-col .table-contents h4 a													{ color:#000; }
-.main-col .right-col .table-contents h4 a:hover												{ color:#549BCC; }
+.main-col .right-col .table-contents h4 a													{color:#000; }
+.main-col .right-col .table-contents h4 a:hover												{color:#549BCC; }
 .main-col .right-col .table-contents ul														{margin:0; padding:0 0 20px 25px; list-style:none;}
 .main-col .right-col .table-contents ul li													{margin:0; padding:0 0 6px 0; position:relative;}
 .main-col .right-col .table-contents ul li a												{margin:0; padding:0; color:#737373; font-size:13px; line-height:15px;}
 .main-col .right-col .table-contents ul li a:hover											{color:#549BCC;}
 .main-col .right-col .table-contents ul li .tag												{margin:3px 5px 0 0; padding:0; width:13px; height:16px; display:inline-block; float:left; background-position:-678px -47px;}
-
-.strike 																					{ text-decoration: line-through !important;}
