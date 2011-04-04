@@ -16,6 +16,7 @@
 		<ul class="left">
 			<li>Start Here</li>
 			<li><a href="#link"><i>Getting Started with Pagoda Box (Coming)</i></a></li>
+			<li><a href="/getting-started/launching-your-first-app">Launching Your First App</a></li>
 			<li><a href="/getting-started/what-you-need-to-know-about-pagoda-box">What You Need to Know About Pagoda</a></li>
 			<li><a href="/getting-started/recommended-workflow">Recommended Workflow</a></li>
 			<li><a href="/getting-started/understanding-the-box-file">Understanding the .box Config File</a></li>
@@ -25,13 +26,12 @@
 			<li><a href="/php/sending-mail-from-your-app">Sending Mail From Your App</a></li>
 			<li><a href="#link"><i>Understanding the Environment (Coming)</i></a></li>
 			<li><a href="/php/connecting-to-services">Connecting to Services</a></li>
-			<li><a href="/php/configuration-and-deployment">Configuration & Deployment</a></li>
 		</ul>
 		<ul class="left">
 			<li>Processes</li>
 			<li><a href="/processes/adding-a-collaborator">Adding Collaborators + Transferring Ownership</a></li>
 			<li><a href="#link"><i>Getting Started (Coming)</i></a></li>
-			<li><a href="/processes/creating-a-database"><i>Creating a Database</i></a></li>			
+			<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
 			<li><a href="#link"><i>Going Live (Coming)</i></a></li>
 			<li><a href="#link"><i>Scaling Your App (Coming)</i></a></li>
 			<li><a href="#link"><i>Creating a DNS Alias (Coming)</i></a></li>
