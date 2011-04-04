@@ -48,7 +48,7 @@
 		<p>Once your created your alias, your should have something that looks like the following image. Note the IP address in bold. This is the IP address you will point your A-Record to in your domain's zone file. </p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-							<img src="/images/guides/dns-alias-ip-sml.png" alt="" />
+			<img src="/images/guides/dns-alias-ip-sml.png" alt="" />
 			<a href="#link" targ="/images/guides/dns-alias-ip.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>
