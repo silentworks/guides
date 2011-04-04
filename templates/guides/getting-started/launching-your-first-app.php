@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="left-col">
-	<h1>Configuration And Deployment</h1>
+	<h1>Launching Your First App</h1>
 	<p class="active">Preparing your app for deployment is dead simple. This guide will walk you through the necessary steps for configuring pagoda for your application. After reading this, you should know how to:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>Prepare your app for deployment</li>
