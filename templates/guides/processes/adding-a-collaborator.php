@@ -28,9 +28,7 @@
 		<p>To add a collaborator, go to your app's dashboard, and click the “Add a Collaborator” button. Enter your friend’s email address in the field, and click send. They will be sent an invitation email. After they create an account, they will have access to your application</p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/add-a-collaborator.png" alt="" />
-			</div>
+			<img src="/images/guides/add-a-collaborator.png" alt="" />
 			<a href="#" targ="/images/guides/add-a-collaborator-full.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>
