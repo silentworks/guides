@@ -31,7 +31,7 @@
 			<li>Processes</li>
 			<li><a href="/processes/adding-a-collaborator">Adding Collaborators + Transferring Ownership</a></li>
 			<li><a href="#link"><i>Getting Started (Coming)</i></a></li>
-			<li><a href="#link"><i>Creating a Database (Coming)</i></a></li>			
+			<li><a href="/processes/creating-a-database"><i>Creating a Database</i></a></li>			
 			<li><a href="#link"><i>Going Live (Coming)</i></a></li>
 			<li><a href="#link"><i>Scaling Your App (Coming)</i></a></li>
 			<li><a href="#link"><i>Creating a DNS Alias (Coming)</i></a></li>

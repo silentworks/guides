@@ -36,8 +36,7 @@
 		<div class="block grey code" id="choose-a-php-version">
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
-					php:
-					    version: '5.2.17'
+				version: '5.2.17'
 				]]>
 			</script>
 			<div class="extra">
@@ -52,18 +51,17 @@
 		<div class="block grey code" id="default-box-config-settings">
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
-					php:
-					    # short list
-					    extensions: [apc, mysql]
+				# short list
+				extensions: [apc, mysql]
 
-					    # long list
-					    extensions:
-					        - apc
-					        - mysql
-					        - hash
-					        - iconv
-					        - soap
-					        - simplexml
+				# long list
+				extensions:
+					- apc
+					- mysql
+					- hash
+					- iconv
+					- soap
+					- simplexml
 				]]>
 			</script>
 			<div class="extra">
@@ -79,39 +77,38 @@
 		<div class="block grey code" id="default-box-config-settings">
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
-					php:
-					    # http://bit.ly/hE3GT7
-					    error_reporting: 'E_ALL'
+				# http://bit.ly/hE3GT7
+				error_reporting: 'E_ALL'
 
-					    # http://bit.ly/elKiAH
-					    display_errors: On
+				# http://bit.ly/elKiAH
+				display_errors: On
 
-					    # http://php.net/manual/en/ini.core.php
-					    short_open_tag: On
+				# http://php.net/manual/en/ini.core.php
+				short_open_tag: On
 
-					    # http://php.net/manual/en/ini.core.php
-					    default_mimetype: text/html
+				# http://php.net/manual/en/ini.core.php
+				default_mimetype: text/html
 
-					    # http://php.net/manual/en/ini.core.php
-					    date_timezone: US/central
+				# http://php.net/manual/en/ini.core.php
+				date_timezone: US/central
 
-					    # http://php.net/manual/en/ini.core.php
-					    max_execution_time: 30
+				# http://php.net/manual/en/ini.core.php
+				max_execution_time: 30
 
-					    # http://php.net/manual/en/ini.core.php
-					    max_input_time: 60
+				# http://php.net/manual/en/ini.core.php
+				max_input_time: 60
 
-					    # http://php.net/manual/en/ini.core.php
-					    post_max_size: 8M
+				# http://php.net/manual/en/ini.core.php
+				post_max_size: 8M
 
-					    # http://php.net/manual/en/ini.core.php
-					    file_uploads: On
+				# http://php.net/manual/en/ini.core.php
+				file_uploads: On
 
-					    # http://php.net/manual/en/ini.core.php
-					    upload_max_filesize: 2M
+				# http://php.net/manual/en/ini.core.php
+				upload_max_filesize: 2M
 
-					    # http://php.net/manual/en/ini.core.php
-					    max_file_uploads: 20
+				# http://php.net/manual/en/ini.core.php
+				max_file_uploads: 20
 				]]>
 			</script>
 			<div class="extra">
@@ -128,8 +125,7 @@
 	<div class="block grey code" id="default-box-config-settings">
 		<script class='brush: yaml' type='syntaxhighlighter'>
 			<![CDATA[
-				web:
-				    document_root: /app
+			document_root: /app
 			]]>
 		</script>
 		<div class="extra">
@@ -145,8 +141,7 @@
 	<div class="block grey code" id="default-box-config-settings">
 		<script class='brush: yaml' type='syntaxhighlighter'>
 			<![CDATA[
-				web:
-				    default_gateway: bootstrap.php
+			default_gateway: bootstrap.php
 			]]>
 		</script>
 		<div class="extra">
@@ -167,8 +162,7 @@
 	<div class="block grey code" id="default-box-config-settings">
 		<script class='brush: yaml' type='syntaxhighlighter'>
 			<![CDATA[
-				general:
-				    writable_directories: [/media, /var/log]
+			writable_directories: [/media, /var/log]
 			]]>
 		</script>
 		<div class="extra">
@@ -184,10 +178,9 @@
 	<div class="block grey code" id="default-box-config-settings">
 		<script class='brush: yaml' type='syntaxhighlighter'>
 			<![CDATA[
-				web:
-				    error_pages:
-				        404: /404.html
-				        502: /502.html
+			error_pages:
+				404: /404.html
+				502: /502.html
 			]]>
 		</script>
 		<div class="extra">
@@ -203,7 +196,7 @@
 	<div class="block grey code" id="default-box-config-settings">
 		<script class='brush: yaml' type='syntaxhighlighter'>
 			<![CDATA[
-				# EXAMPLE COMING...
+			# EXAMPLE COMING...
 			]]>
 		</script>
 		<div class="extra">

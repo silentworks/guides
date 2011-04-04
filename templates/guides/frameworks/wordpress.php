@@ -73,12 +73,9 @@
 		<div class="block grey code" id="default-box-config-settings">
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
-					general: 
-					    writable_directories: [ /wp-content/uploads/ ]
-
-					php:
-					   display_errors: off
-					   upload_max_filesize: 20M
+				writable_directories: [ /wp-content/uploads/ ]
+				display_errors: off
+				upload_max_filesize: 20M
 				]]>
 			</script>
 			<div class="extra">
