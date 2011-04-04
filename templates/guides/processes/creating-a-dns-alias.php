@@ -41,18 +41,14 @@
 		<p>First, you need create a DNS Alias in your app’s admin panel. This alias should be the url that you purchased to house your app (mycoolapp.com). It’s important that the alias perfectly matches your purchased domain name.</p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/dns-alias-sml.png" alt="" />
-			</div>
+			<img src="/images/guides/dns-alias-sml.png" alt="" />
 			<a href="#" targ="/images/guides/dns-alias.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>
 		<p>Once your created your alias, your should have something that looks like the following image. Note the IP address in bold. This is the IP address you will point your A-Record to in your domain's zone file. </p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/dns-alias-ip-sml.png" alt="" />
-			</div>
+							<img src="/images/guides/dns-alias-ip-sml.png" alt="" />
 			<a href="#link" targ="/images/guides/dns-alias-ip.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>

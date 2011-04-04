@@ -89,9 +89,7 @@
 		<p>Once your app has been successfully created, if you click on "View Live App Online" it will load an error page that looks something like the following:</p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/error-establishing-db-connection.png" alt="" />
-			</div>
+							<img src="/images/guides/error-establishing-db-connection.png" alt="" />
 			<span class="guides-sprite bottom"></span>
 		</div>
 		
@@ -105,9 +103,7 @@
 		<p>Once your database is created, click on the "Show Credentials" link.</p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/db-credentials.png" alt="" />
-			</div>
+							<img src="/images/guides/db-credentials.png" alt="" />
 			<span class="guides-sprite bottom"></span>
 		</div>
 		

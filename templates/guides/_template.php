@@ -81,9 +81,7 @@
 			<p>To make sure you get the best configuration, our engineers have tirelessly tested and analyzed web technologies to provide you with the most efficient, flexible, and reliable environment for your app to spread it's wings.</p> 
 			<div class="vertical-guides-sprite image">
 				<span class="guides-sprite top"></span>
-				<div class="overflow">
-					<img src="images/screenshots/test.png" alt="" />
-				</div>
+									<img src="images/screenshots/test.png" alt="" />
 				<!-- IF ZOOM ADD THIS and javascript class -->
 				<a href="#link" class="guides-sprite zoom"></a>
 				<!-- END ZOOM -->
