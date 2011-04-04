@@ -31,7 +31,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-wrapper .link-box ul li a:hover														{color:#164C70; text-decoration:underline;}
 
 /* TOP SECTION */
-.top																						{margin:0 auto; padding:0; width:946px; height:104px; border-bottom:1px solid #c7c7c7; position:relative; z-index:1;}
+.top																						{margin:0 auto; padding:0; width:946px; height:104px; border-bottom:1px solid #c7c7c7; position:relative; z-index:2;}
 .top .name																					{margin:0; padding:0; width:547px; height:104px; display:block; float:left; background-position:-527px -147px;}
 .top .drop-down																				{margin:30px 0 0; padding:0 0 0 20px; float:right; width:198px; height:42px; color:#3D3D3D; font-size:15px; line-height:40px; cursor:pointer; position:relative; background-position:0 0; }
 .top .drop-down:hover																		{color: black;  background-position:0 -43px;}
