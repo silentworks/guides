@@ -30,12 +30,11 @@
 		<ul class="left">
 			<li>Processes</li>
 			<li><a href="/processes/adding-a-collaborator">Adding Collaborators + Transferring Ownership</a></li>
-			<li><a href="#link"><i>Getting Started (Coming)</i></a></li>
 			<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
-			<li><a href="#link"><i>Going Live (Coming)</i></a></li>
-			<li><a href="#link"><i>Scaling Your App (Coming)</i></a></li>
-			<li><a href="#link"><i>Creating a DNS Alias (Coming)</i></a></li>
+			<!-- <li><a href="#link"><i>Going Live (Coming)</i></a></li> -->
+			<li><a href="/processes/creating-a-dns-alias">Creating a DNS Alias</a></li>
 			<li><a href="#link"><i>Adding SSL (Coming)</i></a></li>
+			<li><a href="#link"><i>Scaling Your App (Coming)</i></a></li>
 		</ul>
 		<ul class="right">
 			<li>Database</li>
