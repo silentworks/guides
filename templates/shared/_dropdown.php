@@ -17,8 +17,9 @@
 		<div class="left">
 			<ul class="block">
 				<li>Start Here</li>
-				<li><a href="#link" class="coming-soon">Getting Started with Pagoda Box (Coming)</a></li>
+				<!-- <li><a href="#link" class="coming-soon">Getting Started with Pagoda Box (Coming)</a></li> -->
 				<li><a href="/getting-started/launching-your-first-app">Launching Your First App</a></li>
+				<li><a href="/getting-started/git-github">Git &amp; Github</a></li>
 				<li><a href="/getting-started/what-you-need-to-know-about-pagoda-box">What You Need to Know About Pagoda</a></li>
 				<li><a href="/getting-started/recommended-workflow">Recommended Workflow</a></li>
 				<li><a href="/getting-started/understanding-the-box-file">Understanding the .box Config File</a></li>

@@ -6,7 +6,17 @@
 	<div class="vertical-guides-sprite table-contents">
 		<span class="guides-sprite top-corner"></span>
 		<h3>Table of Contents</h3>
-		<!-- To add navigation sections :: navsect -->
+		<h4>Git + Github</h4>
+		<ul>
+			<li><a href="#-overview">Overview</a></li>
+			<li><a href="#-practical-examples">Practical Examples</a></li>
+		</ul>
+		<h4>Pagoda Box and Github</h4>
+		<ul>
+			<li><a href="#-overview">Overview</a></li>
+			<li><a href="#adding-pagoda-as-a-github-collaborator">Adding Pagoda Box As A Collaborator</a></li>
+			<li><a href="#github-clone-url">Your github Clone URL</a></li>
+		</ul>
 		<span class="guides-sprite bottom-corner"></span>
 	</div>
 </div>
@@ -29,8 +39,8 @@
 			<p><b>Git</b> is a distributed version control systen with an emphasis on collaborative software development.</p>
 			<p><b>GitHub</b> is bar none the best tool for collaborating as a developer.</p>
 		</div>
-		<h4 id="-practical-examples">Practical Examples</h4>
-		<p>Rather than a long explanation of git and github, the following is a short list of what is possible when you use git and github:</p>
+		<h4 id="-practical-examples">Show not Tell</h4>
+		<p>Here is a short list of what is possible with git and github:</p>
 		<ol>
 			<li><p>You realize that you have deleted a seemingly unimportant piece of code a few days ago. You now need it, and are able to retrieve it.</p></li>
 			<li><p>After adding a new feature, you realize you have somehow broken another part of your app. To help isolate what broke, You compare a particular piece of code’s before and after state </p></li>
@@ -48,8 +58,22 @@
 	<h2>Pagoda Box and Github</h2>
 	<div class="justify">
 		<h4 id="-overview">Overview</h4>
-		<p>Because github keeps a copy of your code online, we can clone that code directly from github and deploy it across our infrastructure. To do so, we need you to add us to your list of collaborators (only necessary if your repo is private). You will also need to copy your github clone url for pointing Pagoda Box to your repo during pagoda’s app creation process.</p>
-		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Note</span><span class="guides-sprite w-end-cap"></span></h3>
+		<p>Because github keeps a copy of your code online, we can clone that code directly from github and deploy it across our infrastructure. If your github repo is private, you will need to add <a href="https://github.com/pagodabox">pagodabox</a> to your list of collaborators.</p>
+		<div class="vertical-guides-sprite image">
+			<span class="guides-sprite top"></span>
+			<img src="/images/guides/adding-github-collaborator-sml.png" alt="" />
+			<a href="#" targ="/images/guides/adding-github-collaborator.png" class="guides-sprite zoom"></a>
+			<span class="guides-sprite bottom"></span>
+		</div>
+		<p id="adding-pagoda-as-a-github-collaborator">You will also need to copy your github clone url for pointing Pagoda Box to your repo during pagoda’s app creation process. (You can use the SSH, HTTP, or Git Read-Only URL)</p>
+		<div class="vertical-guides-sprite image">
+			<span class="guides-sprite top"></span>
+			<img src="/images/guides/git-clone-urls-small.png" alt="" />
+			<a href="#" targ="/images/guides/git-clone-urls.png" class="guides-sprite zoom"></a>
+			<span class="guides-sprite bottom"></span>
+		</div>
+		
+		<h3 class="tag"><span class="guides-sprite w-cap" id="github-clone-url"></span><span class="horizontal-guides-sprite white">Note</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
 			<p>Pagoda Box never modifies your codebase. Adding us as a collaborator means that we can clone your app to our servers–we will pull, but never push code back to github. </p>
 		</div>
