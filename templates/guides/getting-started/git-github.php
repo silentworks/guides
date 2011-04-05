@@ -40,14 +40,14 @@
 			<p><b>GitHub</b> is bar none the best tool for collaborating as a developer.</p>
 		</div>
 		<h4 id="-practical-examples">Show not Tell</h4>
-		<p>Here is a short list of what is possible with git and github:</p>
+		<p>What you get with git &amp; github:</p>
 		<ol>
-			<li><p>You realize that you have deleted a seemingly unimportant piece of code a few days ago. You now need it, and are able to retrieve it.</p></li>
-			<li><p>After adding a new feature, you realize you have somehow broken another part of your app. To help isolate what broke, You compare a particular piece of code’s before and after state </p></li>
-			<li><p>You are about try something highly experimental, but you know that if you screw thing up that you can easily roll your code base back to its current stable state.</p></li>
-			<li><p>You want to work with a friend editing the same file. You do so, and are able to seamlessly combine your edits. </p></li>
-			<li><p>You work on a team spread across multiple cities. You all have access to the same codebase. Each team member’s contributions are elegantly integrated into everyone else’s local codebase.</p></li>
-			<li><p>You want to discuss a particular piece of code with your client. you quickly pull it up in your browser where you isolate the changes that have occurred since you last spoke.</p></li>
+			<li><p><b>Code Backups : <br/></b>You realize that you have deleted a seemingly unimportant piece of code a few days ago. You now need it, and are able to retrieve it.</p></li>
+			<li><p><b>State Comparison : <br/></b>After adding a new feature, you realize you have somehow broken another part of your app. To help isolate what broke, You compare a particular piece of code’s before and after state </p></li>
+			<li><p><b>Freedom To Experiment : <br/></b>You are about try something highly experimental, but you know that if you screw thing up that you can easily roll your code base back to its current stable state.</p></li>
+			<li><p><b>Conflict Control : <br/></b>You want to work with a friend editing the same file. You do so, and are able to seamlessly combine your edits. </p></li>
+			<li><p><b>Collaboration : <br/></b>You work on a team spread across multiple cities. You all have access to the same codebase. Each team member’s contributions are elegantly integrated into everyone else’s local codebase.</p></li>
+			<li><p><b>Visualization Tools : <br/></b>You want to discuss a particular piece of code with your client. you quickly pull it up in your browser where you isolate the changes that have occurred since you last spoke.</p></li>
 		</ol>
 		<p>
 			Here a couple of good resources for learning more about git and github:<br/>
