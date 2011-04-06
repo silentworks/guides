@@ -23,7 +23,7 @@
 
 <div class="left-col">
 	<h1>Why Git and Github?</h1>
-	<p class="active">Git is one of those amazing tools that changes the way you work forever. Github takes this to a whole new level with dead simple collaboration points, and convenient access / visualization tools. After reading this guide, you will understand:</p>
+	<p class="active">Git is one of those amazing tools that changes the way you work forever. Github takes git to a whole new level with dead simple collaboration points, convenient access, and beautiful visualization tools. After reading this guide, you will understand:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>What Git is</li>
 		<li><span class="guides-sprite check"></span>What Github is</li>
