@@ -29,7 +29,7 @@
 		<li><span class="guides-sprite check"></span>What Pagoda Box is (and what it is not).</li>
 		<li><span class="guides-sprite check"></span>What it means to scale your app</li>
 		<li><span class="guides-sprite check"></span>How your App is secured</li>
-		<li><span class="guides-sprite check"></span>No auto instalation of apps</li>
+		<li><span class="guides-sprite check"></span>No auto installation of apps</li>
 		<li><span class="guides-sprite check"></span>Why SSH is not needed</li>
 		<li><span class="guides-sprite check"></span>How to handle your user’s state (cookies)</li>
 	</ul>
@@ -37,7 +37,7 @@
 	<h2>Understanding Pagoda Box</h2>
 	<div class="justify">
 		<h4 id="-quick-definition-of-pagoda-box">Quick Definition of Pagoda Box</h4>
-		<p>Pagoda Box is not a LAMP stack. Furthermore, your app does not live on one server. Rather, you specify the number of instances (clones) of your application, and we distribute them across our computing grid. Doing so gives you redundancy, and also guarantees ample compute resources. When you want to push your code live, we have simplified the app deployment process by using git as a deployment vehicle. Furthermore, we have greatly tightened security by removing security risks presented by ssh & ftp.  So, what does this mean to you:</p>
+		<p>Pagoda Box is not a LAMP stack. Furthermore, your app does not live on one server. Rather, you specify the number of instances (clones) of your application, and we distribute them across our computing grid. Doing so gives you redundancy, and also guarantees ample compute resources. When you want to push your code live, we have simplified the app deployment process by using git as a deployment vehicle. Furthermore, we have greatly tightened security by removing security risks presented by ssh &amp; ftp.  So, what does this mean to you:</p>
 	</div>
 	<h2>The Nitty Gritty</h2>
 	<div class="justify">

@@ -93,6 +93,15 @@
 			<span class="guides-sprite bottom"></span>
 		</div>
 		
+		<p>- OR -</p>
+		
+		<div class="vertical-guides-sprite image">
+			<span class="guides-sprite top"></span>
+			<img src="/images/guides/wp-error-establishing-database-connection-sml.png" alt="" />
+			<a href="#" targ="/images/guides/wp-error-establishing-database-connection.png" class="guides-sprite zoom"></a>
+			<span class="guides-sprite bottom"></span>
+		</div>		
+		
 		<p>This is because you haven't created a live database for your Wordpress app to link to. </p>
 		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Note</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
@@ -144,7 +153,7 @@
 			<p>If you changed WP_DEBUG to true, now would be a good time to change it back to false, unless your still debugging your Wordpress app.</p>
 			<p>There’s a few more things you can do to make your app fully functional that are covered in these other guides:<br/>
 			- <a href="/php/sending-mail-from-your-app">Sending Mail from Your App</a><br/>
-			- <a href="/processes/createing-a-dns-alias">Creating a DNS Alias</a><br/>
+			- <a href="/processes/creating-a-dns-alias">Creating a DNS Alias</a><br/>
 			- <a href="/processes/scaling-your-app">Scaling your App</a></p>
 		</div>
 	</div>

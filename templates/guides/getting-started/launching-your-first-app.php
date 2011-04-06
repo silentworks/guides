@@ -4,7 +4,7 @@
 
 <div class="left-col">
 	<h1>Launching Your First App</h1>
-	<p class="active">Preparing your app for deployment is dead simple. This guide will walk you through the necessary steps for configuring pagoda for your application. After reading this, you should know how to:</p>
+	<p class="active">Preparing your app for deployment is dead simple. This guide will walk you through the necessary steps for configuring your application for Pagoda. After reading this, you should know how to:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>Prepare your app for deployment</li>
 	</ul>
@@ -46,7 +46,7 @@
 	<div class="block grey steps">	
 		<p class="primary-step"><span class="guides-sprite step" id="step-3">Step 3</span>Customize Your PHP Build</p>
 	</div>
-		<p>by default, your php build is bare-bones default nothing compilation. We don’t assume you need anything, and as a side effect, your build is clean and efficient. Adding features (ie mysql) is extremely simple. You can load them as extensions at any time. Check here for a list of all available extensions: (Braxton to provide a doc for available extensions)</p>
+		<p>by default, your php build is bare-bones default nothing compilation. We don’t assume you need anything, and as a side effect, your build is clean and efficient. Adding features (i.e. mysql) is extremely simple. You can load them as extensions at any time. Check here for a list of all available extensions: (Braxton to provide a doc for available extensions)</p>
 		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">&nbsp;&nbsp;&nbsp;</span><span class="guides-sprite green-end-cap"></span></h3>
 		<div class="block grey code" id="default-box-config-settings">
 			<script class='brush: yaml' type='syntaxhighlighter'>
@@ -119,7 +119,7 @@
 	<div class="block grey steps">
 		<p class="primary-step"><span class="guides-sprite step" id="step-5">Step 5</span>Set Your Root Directory</p>
 	</div>
-	<p>Pagoda needs to know what you consider your root directory. In many cases, your root directory is the base of your project. But, if you like to nestle your app in a subdirectory for security or preferencial reasons, rest assured, you can still use it as your root directory.</p>
+	<p>Pagoda needs to know what you consider your root directory. In many cases, your root directory is the base of your project. But, if you like to nestle your app in a subdirectory for security or preferential reasons, rest assured, you can still use it as your root directory.</p>
 	<p>So let’s say your index.php file is inside of /app, but you don’t want your url to say http:you.pagodabox.com/app. All you need to do is set “/app” as your root directory, and Pagoda Box will know to start from there. If the base of your project is your root directory, you don’t need to specify anything. Pagoda Box will assume your root directory is /.</p>
 	<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">&nbsp;&nbsp;&nbsp;</span><span class="guides-sprite green-end-cap"></span></h3>
 	<div class="block grey code" id="default-box-config-settings">
@@ -207,8 +207,8 @@
 	<div class="block grey steps">
 		<p class="primary-step"><span class="guides-sprite step" id="step-10">Step 10</span>Shutup and Deploy Already!</p>		
 	</div>
-	<p>Ok, your app should be good to go. Once you have commited your changes and deployed the newly created .box file, we will rebuild each clone’s environment to match your new configuration settings (app clones are rebuilt with every deploy). If something gets messed up, never fear, configuration can be undone with a quick rollback!</p>
-	<p>This has been a 0 to deploy configuration guide. To see an exhaustive .box file guide <a href="/getting-started/understanding-the-box-file">visit here</a> </p>
+	<p>Ok, your app should be good to go. Once you have committed your changes and deployed the newly created .box file, we will rebuild each clone’s environment to match your new configuration settings (app clones are rebuilt with every deploy). If something gets messed up, never fear, configuration can be undone with a quick rollback!</p>
+	<p>This has been a 0-to-deploy configuration guide. To see an exhaustive .box file guide, <a href="/getting-started/understanding-the-box-file">visit here</a>.</p>
 </div>
 
 

@@ -15,7 +15,7 @@
 		<ul>
 			<li><a href="#-overview">Overview</a></li>
 			<li><a href="#adding-pagoda-as-a-github-collaborator">Adding Pagoda Box As A Collaborator</a></li>
-			<li><a href="#github-clone-url">Your github Clone URL</a></li>
+			<li><a href="#github-clone-url">Your Github Clone URL</a></li>
 		</ul>
 		<span class="guides-sprite bottom-corner"></span>
 	</div>
@@ -27,16 +27,16 @@
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>What Git is</li>
 		<li><span class="guides-sprite check"></span>What Github is</li>
-		<li><span class="guides-sprite check"></span>How Pagodabox Works with Github</li>
+		<li><span class="guides-sprite check"></span>How Pagoda Box Works with Github</li>
 	</ul>
 	<div class="line-divider"></div>
 	<h2>Git + Github</h2>
 	<div class="justify">
 		<h4 id="-overview">Overview</h4>
-		<p>This isn’t meant to be an exhaustive explanation of git / github or a tutorial for using these tools.  Rather we hope to give you a quick overview of what they are, and why they are so very useful. We will provide links to more in depth articles, and tutorials for getting started. </p>
+		<p>This isn’t meant to be an exhaustive explanation of Git / github or a tutorial for using these tools.  Rather we hope to give you a quick overview of what they are, and why they are so very useful. We will provide links to more in depth articles, and tutorials for getting started. </p>
 		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Short and Sweet</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
-			<p><b>Git</b> is a distributed version control systen with an emphasis on collaborative software development.</p>
+			<p><b>Git</b> is a distributed version control system with an emphasis on collaborative software development.</p>
 			<p><b>GitHub</b> is bar none the best tool for collaborating as a developer.</p>
 		</div>
 		<h4 id="-practical-examples">Show not Tell</h4>

@@ -33,7 +33,7 @@
 	</div>
 	<h2 id="-github">Github</h2>
 	<div class="justify">
-		<p>Push your changes to github so pagodabox can clone your changes and push them live.</p>
+		<p>Push your changes to github so Pagoda Box can clone your changes and push them live.</p>
 	</div>
 	<h2 id="-loadit">Load It</h2>
 	<div class="justify">
