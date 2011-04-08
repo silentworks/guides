@@ -35,7 +35,7 @@
 						$("#colorbox").css("visibility", "visible");
 					}, 
 					transition : "fade", 
-					speed : 270
+					speed : 0250
 				});
 		   	});
 	
