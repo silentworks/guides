@@ -10,7 +10,7 @@
 		<ul>
 			<li><a href="-create-your-db">Creating A Database</a></li>
 			<li><a href="#-select-your-database-model">Select Your Database Model</a></li>
-			<li><a href="#-select-your-database-type">Select Your Database Typ</a></li>
+			<li><a href="#-select-your-database-type">Select Your Database Type</a></li>
 			<li><a href="#-specify-the-database’-s-power">Specify The Database’s Power</a></li>
 			<li><a href="#-build-it">Build It</a></li>
 		</ul>

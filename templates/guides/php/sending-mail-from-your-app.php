@@ -18,7 +18,7 @@
 
 <div class="left-col">
 	<h1>Sending Mail From Your App</h1>
-	<p class="active">Pagodabox protects your IPs from being flagged as spam by using the SMTP mail protocol to send Mail using your third party mail provider's SMTP credentials. After reading this, you should understand:</p>
+	<p class="active">Pagoda Box protects your IPs from being flagged as spam by using the SMTP mail protocol to send Mail using your third party mail provider's SMTP credentials. After reading this, you should understand:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>How Pagoda Box sends email from your app</li>
 		<li><span class="guides-sprite check"></span>How to send mail from your app</li>
