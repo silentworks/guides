@@ -7,7 +7,7 @@ p 																							{margin:0; padding:0; line-height:23px;}
 ol,ul,li																					{margin:0; padding:0;}
 a																							{margin:0; padding:0; text-decoration:none; color:#549BCC;}
 table																						{margin:0; padding:0; border-collapse:collapse;}
-p a:hover																										{color:#164C70; text-decoration:underline;}
+p a:hover																					{color:#164C70; text-decoration:underline;}
 tr, td, th																					{margin:0; padding:0; vertical-align:top;}
 form																						{margin:0; padding:0;}
 input																						{margin:0;}
@@ -71,6 +71,8 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .line-divider															{margin:0 0 22px; padding:0; width:auto; height:1px; background:#c7c7c7;}
 .main-col .left-col h2																		{margin:50px 0 0 0; padding:0 0 16px; color:#7C7C7C; font-size:23px; font-weight:normal;}
 .main-col .left-col h4																		{margin:0; padding:0 0 3px; color:#79B94A; font-size:15px; font-weight:normal;}
+.main-col .left-col h5																		{margin:50px 0 0 0; padding:0 0 0 12px; color:#fff; font-size:15px; line-height:28px; font-weight:normal; width:auto; height:30px; display:block; position:relative;}
+.main-col .left-col h5 .gear																{margin:0; padding:0; width:101px; height:30px; display:block; position:absolute; top:0px; right:0px; background-position:-518px -37px;}
 .main-col .left-col .justify																{margin:0; padding:0 0 0 5px; width:auto;}
 .main-col .left-col h3.tag																	{margin:0 0 0 -13px; padding:0; color:#4A4A4C; font-size:15px; font-weight:normal; display:inline-block; position:relative; z-index:1;}
 .main-col .left-col h3.tag .title															{margin:0; padding:6px 6px 0 0; height:30px; color:#fff; background-position:0 -36px; display:inline-block;}
@@ -94,7 +96,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .image .bottom															{margin:0; padding:0; width:518px; height:28px; display:block; position:absolute; bottom:-28px; left:0px; background-position:0 -433px;}
 .main-col .left-col .image img																{margin:-6px 0 -10px;}
 .main-col .left-col .image .zoom															{margin:0; padding:0; width:35px; height:35px; display:block; position:absolute; bottom:-28px; right:0px; z-index:1; background-position:-229px 0;}
-.main-col .left-col .image .zoom:hover														{ background-position:-262px 0;}
+.main-col .left-col .image .zoom:hover														{background-position:-262px 0;}
 .main-col .left-col .block																	{margin:-25px 0 50px -5px; padding:20px 15px 10px; font-size:12px; width:auto; position:relative; clear:right;}
 .main-col .left-col .block.code																{font-family:"Courier New", monospace;}
 .main-col .left-col .block.grey																{background:#f4f4f4;}
