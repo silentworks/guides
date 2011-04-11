@@ -22,7 +22,7 @@
 
 <div class="left-col">
 	<h1>Creating a DNS Alias</h1>
-	<p class="active">While yourapp.pagodabox.com is a handy domain for accessing your app when in development, it’s probably not the domain you want your users to visit. No worries. Creating a DNS alias is quick and simple. After reading this, you should be able to:</p>
+	<p class="active">While app.pagodabox.com is a handy domain for accessing your app when in development, it’s probably not the domain you want your users to visit. No worries. Creating a DNS alias is quick and simple. After reading this, you should be able to:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>Create a DNS alias</li>
 		<li><span class="guides-sprite check"></span>Understand What to Add to Your Domain's Zone File</li>
@@ -31,28 +31,24 @@
 	<h2>Creating your DNS Alias on Pagoda Box</h2>
 	<div class="justify">
 		<h4 id="-overview">Overview</h4>
-		<p>When you’re ready to make your site live and allow people to visit you from your real domain (myapp.com) instead of your Pagoda Box domain (myapp.pagodabox.com), you need to do two things: 
+		<p>When you’re ready to make your site live and allow people to visit your real domain (myapp.com) instead of your Pagoda Box domain (myapp.pagodabox.com), you need to do two things: 
 			<ol>
-				<li><p>Create a DNS alias on pagodabox</p></li>
+				<li><p>Create a DNS alias on Pagoda Box</p></li>
 				<li><p>Add an A-Record on your domain registrar's zone file pointing to Pagoda's IP Address</p></li>
 			</ol>
 		</p>
 		<h4 id="-create-the-alias">Create The Alias</h4>
-		<p>First, you need create a DNS Alias in your app’s admin panel. This alias should be the url that you purchased to house your app (mycoolapp.com). It’s important that the alias perfectly matches your purchased domain name.</p>
+		<p>First, you need to create a DNS Alias in your app’s admin panel. This alias should be the url that you purchased to house your app (mycoolapp.com). It’s important that the alias perfectly matches your purchased domain name.</p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/dns-alias-sml.png" alt="" />
-			</div>
+			<img src="/images/guides/dns-alias-sml.png" alt="" />
 			<a href="#" targ="/images/guides/dns-alias.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>
-		<p>Once your created your alias, your should have something that looks like the following image. Note the IP address in bold. This is the IP address you will point your A-Record to in your domain's zone file. </p>
+		<p>Once you've created your alias, you should have something that looks like the following image. Note the IP address in bold. This is the IP address you will point your A-Record to in your domain's zone file. </p>
 		<div class="vertical-guides-sprite image">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/dns-alias-ip-sml.png" alt="" />
-			</div>
+			<img src="/images/guides/dns-alias-ip-sml.png" alt="" />
 			<a href="#link" targ="/images/guides/dns-alias-ip.png" class="guides-sprite zoom"></a>
 			<span class="guides-sprite bottom"></span>
 		</div>

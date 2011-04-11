@@ -30,9 +30,7 @@
 		<p>All Pagoda Box services expose a local unix socket connector to your app clones. There’s two reason for doing this: security and portability. For more details, take a look at: <a href="/getting-started/what-you-need-to-know-about-pagoda-box">What You Need To Know About Pagoda Box</a>. You will always be given the path and filename needed to connect to the specified service in your app dashboard. Here is an example of a MySQL database created on Pagoda Box, and a sample code snippet for connecting to that database:</p>
 		<div class="vertical-guides-sprite image" id="example-connecting-to-a-mysql">
 			<span class="guides-sprite top"></span>
-			<div class="overflow">
-				<img src="/images/guides/mysql-example.png" alt="" />
-			</div>
+			<img src="/images/guides/mysql-example.png" alt="" />
 			<span class="guides-sprite bottom"></span>
 		</div>
 		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Connecting to a MySQL Database Using a Basic <i>mysqli</i> Adapter</span><span class="guides-sprite green-end-cap"></span></h3>

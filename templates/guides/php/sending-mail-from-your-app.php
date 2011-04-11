@@ -18,7 +18,7 @@
 
 <div class="left-col">
 	<h1>Sending Mail From Your App</h1>
-	<p class="active">Pagodabox protects your IPs from being flagged as spam by using the SMTP mail protocol to send Mail using your third party mail provider's SMTP credentials. After reading this, you should understand:</p>
+	<p class="active">Pagoda Box protects your IPs from being flagged as spam by using the SMTP mail protocol to send Mail using your third party mail provider's SMTP credentials. After reading this, you should understand:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>How Pagoda Box sends email from your app</li>
 		<li><span class="guides-sprite check"></span>How to send mail from your app</li>
@@ -31,7 +31,7 @@
 		<h4 id="-the-technical-mechanics">The Technical Mechanics</h4>
 		<p>We’ve built each php app box to have a custom Pagoda mail transport agent. Instead of trying to use the local node to send email, we route all messages sent from your app using the mail() function, to a centralized mail delivery system. From there we connect to an authoritative SMTP service (like gmail) that you provide. We then use your SMTP credentials to send the email message.</p>
 		<h4 id="-translation-please">In English Please</h4>
-		<p>In short, you just have to find a company that specializes in smtp email delivery. Gmail is one of them. Once you have a valid account, simply enter the connection details into the admin panel in the ‘smtp’ section. Now, every time your app tries to send mail, it will be sent through your smtp service of choice. It’s simple, it’s fast, and best of all you won’t get flagged as a spammer. Unless you are a spammer, in which case I’d try to convince you to bugger off and please find someone else to bother!</p>
+		<p>In short, you just have to find a company that specializes in smtp email delivery. Gmail is one of them. Once you have a valid account, simply enter the connection details into the admin panel in the ‘smtp’ section. Now, every time your app tries to send mail, it will be sent through your smtp service of choice. It’s simple, it’s fast, and best of all you won’t get flagged as a spammer. Unless you are a spammer, in which case I’d try to convince you to shove off and find someone else to bother!</p>
 		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Caveat</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
 			<p>If you plan on sending lots of email, you will want to check with your email provider to make sure you aren’t exceeding their maximum allotted email sends per day.</p>
