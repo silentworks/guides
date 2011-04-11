@@ -22,12 +22,12 @@
 </div>
 
 <div class="left-col">
-	<h1>Why Git and Github?</h1>
-	<p class="active">Git is one of those amazing tools that changes the way you work forever. Github takes git to a whole new level with dead simple collaboration points, convenient access, and beautiful visualization tools. After reading this guide, you will understand:</p>
+	<h1>Git and Github</h1>
+	<p class="active">Git is one of those amazing tools that changes the way you work forever. Github then takes git to a new level altogether with simple collaboration points, convenient access, and beautiful visualization tools. After reading this guide, you will understand:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>What Git is</li>
 		<li><span class="guides-sprite check"></span>What Github is</li>
-		<li><span class="guides-sprite check"></span>How Pagoda Box Works with Github</li>
+		<li><span class="guides-sprite check"></span>How Pagoda Box works with Github</li>
 	</ul>
 	<div class="line-divider"></div>
 	<h2>Git + Github</h2>
@@ -42,15 +42,15 @@
 		<h4 id="-practical-examples">Show not Tell</h4>
 		<p>What you get with git &amp; github:</p>
 		<ol>
-			<li><p><b>Code Backups : <br/></b>You realize that you have deleted a seemingly unimportant piece of code a few days ago. You now need it, and are able to easily retrieve it.</p></li>
+			<li><p><b>Code Backups : <br/></b>You realize that you  deleted a seemingly unimportant piece of code a few days ago. You now need it, and are able to easily retrieve it.</p></li>
 			<li><p><b>State Comparison : <br/></b>After adding a new feature, you realize you have somehow broken another part of your app. To help isolate what broke, You compare a particular piece of code’s before and after state </p></li>
-			<li><p><b>Freedom To Experiment : <br/></b>You are about try something highly experimental, but you know that if you screw thing up that you can easily roll your code base back to its current stable state.</p></li>
+			<li><p><b>Freedom To Experiment : <br/></b>You are about try something highly experimental, but you know that if you screw things up, you can easily roll your code base back to its current stable state.</p></li>
 			<li><p><b>Conflict Control : <br/></b>You want to work with a friend editing the same file. You do so, and are able to seamlessly combine your edits. </p></li>
 			<li><p><b>Collaboration : <br/></b>You work on a team spread across multiple cities. You all have access to the same codebase. Each team member’s contributions are elegantly integrated into everyone else’s local codebase.</p></li>
 			<li><p><b>Visualization Tools : <br/></b>You want to discuss a particular piece of code with your client. you quickly pull it up in your browser where you isolate the changes that have occurred since you last spoke.</p></li>
 		</ol>
 		<p>
-			Here a couple of good resources for learning more about git and github:<br/>
+			Here's a couple of good resources for learning more about git and github:<br/>
 			<b>git</b> : <a href="http://git-scm.com/documentation">http://git-scm.com/documentation</a><br/>
 			<b>github:</b> : <a href="http://help.github.com">http://help.github.com</a>
 		</p>

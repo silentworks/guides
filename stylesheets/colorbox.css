@@ -35,13 +35,13 @@
 #cboxTitle													{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
 #cboxCurrent												{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
 
-#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow		{position:absolute; top:-18px; background:url('../images/sprite.png') no-repeat 0px 0px; width:22px; height:22px; text-indent:-9999px;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow		{position:absolute; top:-18px; background:url('../images/sprite.png') no-repeat 0px 0px; width:30px; height:32px; text-indent:-9999px;}
 #cboxPrevious												{left:0px; background-position: -51px -25px;}
 #cboxPrevious.hover											{background-position:-51px 0px;}
 #cboxNext													{left:27px; background-position:-75px -25px;}
 #cboxNext.hover												{background-position:-75px 0px;}
-#cboxClose													{right:-13px; background-position:-316px -47px;}
-#cboxClose.hover											{background-position:-340px -47px;}
+#cboxClose													{right:-13px; background-position:-308px -47px;}
+#cboxClose.hover											{background-position:-452px -45px;}
 
 .cboxSlideshow_on #cboxSlideshow							{background-position:-125px 0px; right:27px;}
 .cboxSlideshow_on #cboxSlideshow.hover						{background-position:-150px 0px;}
