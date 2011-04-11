@@ -22,12 +22,12 @@
 </div>
 
 <div class="left-col">
-	<h1>Why Git and Github?</h1>
+	<h1>Git and Github</h1>
 	<p class="active">Git is one of those amazing tools that changes the way you work forever. Github then takes git to a new level altogether with simple collaboration points, convenient access, and beautiful visualization tools. After reading this guide, you will understand:</p>
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>What Git is</li>
 		<li><span class="guides-sprite check"></span>What Github is</li>
-		<li><span class="guides-sprite check"></span>How Pagoda Box Works with Github</li>
+		<li><span class="guides-sprite check"></span>How Pagoda Box works with Github</li>
 	</ul>
 	<div class="line-divider"></div>
 	<h2>Git + Github</h2>
