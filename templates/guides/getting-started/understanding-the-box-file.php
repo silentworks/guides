@@ -45,8 +45,8 @@
 			<li><p>If you specify a framework when your app is created, a framework tailored .box file will become the new default. At all times, we provide a link to the .box file we are using as your default.</p></li>
 		</ol>
 	</div>
-	<h2 id="sample-files">Sample Files</h2>
 	<h5>document_root<span class="guides-sprite gear"></span></h5>
+	<h2 id="sample-files">Sample Files</h2>
 	<div class="justify">
 		<h4 id="all-the-options">All The Options</h4>
 		<p>Now for the nitty gritty. The following commented code snippet shows the default .box setting</p>
