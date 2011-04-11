@@ -46,6 +46,7 @@
 		</ol>
 	</div>
 	<h2 id="sample-files">Sample Files</h2>
+	<h5>document_root<span class="sprite gear"></span></h5>
 	<div class="justify">
 		<h4 id="all-the-options">All The Options</h4>
 		<p>Now for the nitty gritty. The following commented code snippet shows the default .box setting</p>
