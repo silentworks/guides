@@ -3,7 +3,7 @@
 <div class="header site">
 	<div class="wrapper logo"><a href="http://www.pagodabox.com" class="sprite logo beta"></a></div>
 	<a href="https://dashboard.pagodabox.com/apps" class="login">Login</a>
-	<a href="https://dashboard.pagodabox.com/register" class="sprite create account">RequestAan Invite</a>	
+	<a href="https://dashboard.pagodabox.com/register" class="sprite create account">Request An Invite</a>	
 	<ul class="nav">
 		<li><a href="http://www.pagodabox.com/features"><span class="sprite left"></span>Features<span class="sprite right"></span></a></li>
 		<li><a href="http://www.pagodabox.com/architecture"><span class="sprite left"></span>Architecture<span class="sprite right"></span></a></li>
