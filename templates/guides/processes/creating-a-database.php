@@ -42,8 +42,8 @@
 	<h4 id="-specify-the-database’-s-power">Specify The Database’s Power</h4>
 	<p>You may specify how beefy your database is based on what you need to do with your database. The resources you specify depend on your database type. For instance, a MySQL cloud database requires you to specify the amount of RAM you need. A MySQL dedicated database requires you to specify the number of CPU Cores, The amount of RAM, and the amount of disk space you need. Don’t worry, you can migrate between cloud / dedicated at any time. You may also scale your database’s resources up or down at any time.</p>
 	<ol>
-		<li><h5>Cloud Databases</h5><p><i>RAM</i> - in 100 MB increments up to 2000 MB</p><p><i>Disk Storage </i>- on a Cloud Database, disk storage is determined by the data inside the database. You only pay for what you use. </p></li>
-		<li><h5>Dedicated Databases</h5><p><i>CPU Cores</i> - up to 16</p><p><i>RAM</i> - in 1GB increments up to 32 GB</p><p><i>Disk Storage</i> - up to 1 TB</p></li>
+		<li><h6>Cloud Databases</h6><p><i>RAM</i> - in 100 MB increments up to 2000 MB</p><p><i>Disk Storage </i>- on a Cloud Database, disk storage is determined by the data inside the database. You only pay for what you use. </p></li>
+		<li><h6>Dedicated Databases</h6><p><i>CPU Cores</i> - up to 16</p><p><i>RAM</i> - in 1GB increments up to 32 GB</p><p><i>Disk Storage</i> - up to 1 TB</p></li>
 	</ol>
 	<h4 id="-build-it">Build It</h4>
 	<p>Once you’ve defined your database resources, clicking “Create this Database” will start the process of building your database.</p>

@@ -36,7 +36,7 @@
 		<div class="block grey code" id="choose-a-php-version">
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
-				version: '5.2.17'
+				php_version: '5.2.17'
 				]]>
 			</script>
 			<div class="extra">
@@ -52,10 +52,10 @@
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
 				# short list
-				extensions: [apc, mysql]
+				php_extensions: [apc, mysql]
 
 				# long list
-				extensions:
+				php_extensions:
 					- apc
 					- mysql
 					- hash
@@ -78,37 +78,37 @@
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
 				# http://bit.ly/hE3GT7
-				error_reporting: 'E_ALL'
+				php_error_reporting: 'E_ALL'
 
 				# http://bit.ly/elKiAH
-				display_errors: On
+				php_display_errors: On
 
 				# http://php.net/manual/en/ini.core.php
-				short_open_tag: On
+				php_short_open_tag: On
 
 				# http://php.net/manual/en/ini.core.php
-				default_mimetype: text/html
+				php_default_mimetype: text/html
 
 				# http://php.net/manual/en/ini.core.php
-				date_timezone: US/central
+				php_date_timezone: US/central
 
 				# http://php.net/manual/en/ini.core.php
-				max_execution_time: 30
+				php_max_execution_time: 30
 
 				# http://php.net/manual/en/ini.core.php
-				max_input_time: 60
+				php_max_input_time: 60
 
 				# http://php.net/manual/en/ini.core.php
-				post_max_size: 8M
+				php_post_max_size: 8M
 
 				# http://php.net/manual/en/ini.core.php
-				file_uploads: On
+				php_file_uploads: On
 
 				# http://php.net/manual/en/ini.core.php
-				upload_max_filesize: 2M
+				php_upload_max_filesize: 2M
 
 				# http://php.net/manual/en/ini.core.php
-				max_file_uploads: 20
+				php_max_file_uploads: 20
 				]]>
 			</script>
 			<div class="extra">
