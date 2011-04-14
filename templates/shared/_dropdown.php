@@ -33,6 +33,11 @@
 				<li><a href="#link" class="coming-soon">Adding SSL (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Scaling Your App (Coming)</a></li>
 			</ul>
+			<ul class="block">
+				<li>Database</li>
+				<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
+				<li><a href="#link" class="coming-soon">MySQL (Coming)</a></li>
+			</ul>
 		</div>
 		
 		<div class="right">
@@ -41,11 +46,6 @@
 				<li><a href="/php/sending-mail-from-your-app">Sending Mail From Your App</a></li>
 				<li><a href="#link" class="coming-soon">Understanding the Environment (Coming)</a></li>
 				<li><a href="/php/connecting-to-services">Connecting to Services</a></li>
-			</ul>
-			<ul class="block">
-				<li>Database</li>
-				<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
-				<li><a href="#link" class="coming-soon">MySQL (Coming)</a></li>
 			</ul>
 			<ul class="block">
 				<li>Frameworks</li>
