@@ -49,10 +49,18 @@
 			</ul>
 			<ul class="block">
 				<li>Frameworks</li>
+				<li><a href="#link" class="coming-soon">Akelos (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Cake (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Code Ignitor (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Kohana (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Symfony (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Yii (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Zend (Coming)</a></li>
+			</ul>
+			<ul class="block">
+				<li>End Solutions</li>
 				<li><a href="#link" class="coming-soon">Drupal (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Magento (Coming)</a></li>
-				<li><a href="#link" class="coming-soon">Symfony (Coming)</a></li>
 				<li><a href="/frameworks/wordpress">Wordpress</a></li>
 			</ul>
 		</div>
