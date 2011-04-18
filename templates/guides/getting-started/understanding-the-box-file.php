@@ -202,7 +202,7 @@
  			</div>
  			
 		<h5 id="php-Error-Reporting">php_error_reporting<span class="guides-sprite gear"></span></h5>
-			<p><a href"http://bit.ly/hE3GT7">http://bit.ly/hE3GT7</a></p>	
+			<p><a href="http://bit.ly/hE3GT7">http://bit.ly/hE3GT7</a></p>	
 		<h5 id="php-Error-Reporting">php_display_errors<span class="guides-sprite gear"></span></h5>
 			<p><a href=" http://bit.ly/elKiAH"> http://bit.ly/elKiAH</a></p>
 		<h5 id="php-Short-Open-Tag">php_short_open_tag<span class="guides-sprite gear"></span></h5>
