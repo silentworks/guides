@@ -66,7 +66,7 @@
 		<p>Every domain registrar handles this in a slightly different way. If you have questions about how to edit your zone file, contact your domain registrar.</p>
 		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Note</span><span class="guides-sprite w-end-cap"></span></h3>
 		<div class="block yellow">
-			<p>Once you have added this MX record to your domain, it can take up to 48 hours to propagate across the web’s nameservers. </p>
+			<p>Once you have added this A-Record to your domain, it can take up to 48 hours to propagate across the web’s nameservers. </p>
 		</div>
 	</div>
 </div> 

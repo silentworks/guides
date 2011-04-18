@@ -33,6 +33,11 @@
 				<li><a href="#link" class="coming-soon">Adding SSL (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Scaling Your App (Coming)</a></li>
 			</ul>
+			<ul class="block">
+				<li>Database</li>
+				<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
+				<li><a href="#link" class="coming-soon">MySQL (Coming)</a></li>
+			</ul>
 		</div>
 		
 		<div class="right">
@@ -43,16 +48,19 @@
 				<li><a href="/php/connecting-to-services">Connecting to Services</a></li>
 			</ul>
 			<ul class="block">
-				<li>Database</li>
-				<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
-				<li><a href="#link" class="coming-soon">MySQL (Coming)</a></li>
+				<li>Frameworks</li>
+				<li><a href="#link" class="coming-soon">Akelos (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Cake (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Code Ignitor (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Kohana (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Symfony (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Yii (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">Zend (Coming)</a></li>
 			</ul>
 			<ul class="block">
-				<li>Frameworks</li>
-				<li><a href="#link" class="coming-soon">Cake (Coming)</a></li>
+				<li>End Solutions</li>
 				<li><a href="#link" class="coming-soon">Drupal (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Magento (Coming)</a></li>
-				<li><a href="#link" class="coming-soon">Symfony (Coming)</a></li>
 				<li><a href="/frameworks/wordpress">Wordpress</a></li>
 			</ul>
 		</div>

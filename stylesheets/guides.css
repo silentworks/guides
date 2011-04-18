@@ -1,3 +1,5 @@
+/* @override http://guides.pagodabox.dev/stylesheets/guides.css */
+
 /* CSS DOCUMENT */
 
 /* GENERAL */
@@ -65,7 +67,7 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col ol li																	{margin:0; padding:0 0 0px 0; color: #ff823c; font-size:15px;  position:relative; font-weight: bold;}
 .main-col .left-col ol.sub																	{margin: 0 0 -30px 40px; }
 .main-col .left-col ol li p																	{font-weight: normal; padding: 6px 0 2px 0 ; }
-.main-col .left-col ol li h5																{font-weight: normal; font-size: 14px; margin: 10px 0 0 0; }
+.main-col .left-col ol li h6																{font-weight: normal; font-size: 15px; margin: 10px 0 0 0; color: black; }
 .main-col .left-col ol li span																{color:#4A4A4C;}
 .main-col .left-col ul li .check															{margin:0; padding:0; width:10px; height:8px; display:block; background-position:-219px -0px; position:absolute; top:10%; left:0px;}
 .main-col .left-col .line-divider															{margin:0 0 22px; padding:0; width:auto; height:1px; background:#c7c7c7;}
