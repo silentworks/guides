@@ -35,8 +35,9 @@
 			</ul>
 			<ul class="block">
 				<li>Database</li>
-				<li><a href="/processes/creating-a-database">Creating a Database</a></li>			
+				<li><a href="/database/creating-a-database">Creating a Database</a></li>			
 				<li><a href="#link" class="coming-soon">MySQL (Coming)</a></li>
+				<!-- <li><a href="/database/installing-phpmyadmin"">Installing phpMyAdmin</a></li> -->
 			</ul>
 		</div>
 		
