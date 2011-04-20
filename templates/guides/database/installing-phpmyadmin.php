@@ -48,7 +48,7 @@
 			</script>
 			<div class="sprite dot-divide"></div>
 			<div class="extra">
-				/config.inc.php
+				/phpMyAdmin/config.inc.php
 			</div>
 		</div>
 		<p>For multiple databases, make these changes in config.inc.php:</p>
@@ -88,9 +88,8 @@
 				$cfg['ServerDefault'] = 1;	
 				]]>
 			</script>
-			<div class="sprite dot-divide"></div>
 			<div class="extra">
-				/config.ing.php
+				/phpMyAdmin/config.inc.php
 			</div>
 		</div>
 		
