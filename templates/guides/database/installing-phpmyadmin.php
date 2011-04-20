@@ -34,19 +34,19 @@
 		<p>Rename config.sample.inc.php to config.inc.php and for a single database, make the following changes:</p>
 		<h3 class="tag" id="edit-config"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Edit config.inc.php for a Single Database</span><span class="guides-sprite green-end-cap"></span></h3>
 		<div class="block grey code">
+			<div class="sprite dot-divide"></div>
+			<script class='brush: php; class-name: strike' type='syntaxhighlighter'>
+				<![CDATA[
+					$cfg['Servers'][$i]['connect_type'] = 'tcp';
+				]]>
+			</script>
 			<script class='brush: php' type='syntaxhighlighter'>
 				<![CDATA[
-					/* 
-					 * Example config settings for a Single Database
-					 * Adjust to reflect the socket connection type
-					 * required by Pagoda
-					*/
-
-					/* Server parameters */
 					$cfg['Servers'][$i]['connect_type'] = 'socket';
 					$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
 				]]>
 			</script>
+			<div class="sprite dot-divide"></div>
 			<div class="extra">
 				/config.inc.php
 			</div>
@@ -56,36 +56,39 @@
 		<div class="block grey code">
 			<script class='brush: php' type='syntaxhighlighter'>
 				<![CDATA[
-				/*
-				 * Example config settings for Multiple Databases
-				 * 1. Adjust to reflect the socket connection type
-				 *    required by Pagoda
-				 * 2. Name multiple databases for easy reference
-				 */
-
-				/*
-				 * First server
-				 */
-
-				/* Server parameters */
-				$cfg['Servers'][$i]['verbose']      = 'pagoda-1';
+					$i = 0;
+				]]>
+			</script>
+			<div class="sprite dot-divide"></div>
+			<script class='brush: php' type='syntaxhighlighter'>
+				<![CDATA[
+				// (Line 33ish)
+				// First Database :
+				$cfg['Servers'][$i]['verbose']      = 'name-your-database-here';
+				$cfg['Servers'][$i]['connect_type'] = 'socket';
+				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
+				]]>
+			</script>
+			<div class="sprite dot-divide"></div>
+			<script class='brush: php' type='syntaxhighlighter'>
+				<![CDATA[
+					$i = 1;
+				]]>
+			</script>
+			<div class="sprite dot-divide"></div>
+			<script class='brush: php' type='syntaxhighlighter'>
+				<![CDATA[
+				// Additional Database :
+				$cfg['Servers'][$i]['verbose']      = 'name-your-second-db-here';
 				$cfg['Servers'][$i]['connect_type'] = 'socket';
 				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
 
-				/*
-				 * Second server
-				 */
 
-				/* Server parameters */
-				$cfg['Servers'][$i]['verbose']      = 'pagoda-2';
-				$cfg['Servers'][$i]['connect_type'] = 'socket';
-				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
-
-
-				/* Default Database */
+				/* Specify which database is your default */
 				$cfg['ServerDefault'] = 1;	
 				]]>
 			</script>
+			<div class="sprite dot-divide"></div>
 			<div class="extra">
 				/config.ing.php
 			</div>
