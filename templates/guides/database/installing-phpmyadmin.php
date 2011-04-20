@@ -51,47 +51,47 @@
 				/phpMyAdmin/config.inc.php
 			</div>
 		</div>
-		<p>For multiple databases, make these changes in config.inc.php:</p>
-		<h3 class="tag" id="edit-config-multiple"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Edit config.inc.php for Multiple Databases</span><span class="guides-sprite green-end-cap"></span></h3>
-		<div class="block grey code">
-			<script class='brush: php' type='syntaxhighlighter'>
-				<![CDATA[
-					$i = 0;
-				]]>
-			</script>
-			<div class="sprite dot-divide"></div>
-			<script class='brush: php' type='syntaxhighlighter'>
-				<![CDATA[
-				// (Line 33ish)
-				// First Database :
-				$cfg['Servers'][$i]['verbose']      = 'name-your-database-here';
-				$cfg['Servers'][$i]['connect_type'] = 'socket';
-				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
-				]]>
-			</script>
-			<div class="sprite dot-divide"></div>
-			<script class='brush: php' type='syntaxhighlighter'>
-				<![CDATA[
-					$i = 1;
-				]]>
-			</script>
-			<div class="sprite dot-divide"></div>
-			<script class='brush: php' type='syntaxhighlighter'>
-				<![CDATA[
-				// Additional Database :
-				$cfg['Servers'][$i]['verbose']      = 'name-your-second-db-here';
-				$cfg['Servers'][$i]['connect_type'] = 'socket';
-				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
+		<!-- <p>For multiple databases, make these changes in config.inc.php:</p>
+				<h3 class="tag" id="edit-config-multiple"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Edit config.inc.php for Multiple Databases</span><span class="guides-sprite green-end-cap"></span></h3>
+				<div class="block grey code">
+					<script class='brush: php' type='syntaxhighlighter'>
+						<![CDATA[
+							$i = 0;
+						]]>
+					</script>
+					<div class="sprite dot-divide"></div>
+					<script class='brush: php' type='syntaxhighlighter'>
+						<![CDATA[
+						// (Line 33ish)
+						// First Database :
+						$cfg['Servers'][$i]['verbose']      = 'name-your-database-here';
+						$cfg['Servers'][$i]['connect_type'] = 'socket';
+						$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
+						]]>
+					</script>
+					<div class="sprite dot-divide"></div>
+					<script class='brush: php' type='syntaxhighlighter'>
+						<![CDATA[
+							$i = 1;
+						]]>
+					</script>
+					<div class="sprite dot-divide"></div>
+					<script class='brush: php' type='syntaxhighlighter'>
+						<![CDATA[
+						// Additional Database :
+						$cfg['Servers'][$i]['verbose']      = 'name-your-second-db-here';
+						$cfg['Servers'][$i]['connect_type'] = 'socket';
+						$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
 
 
-				/* Specify which database is your default */
-				$cfg['ServerDefault'] = 1;	
-				]]>
-			</script>
-			<div class="extra">
-				/phpMyAdmin/config.inc.php
-			</div>
-		</div>
+						/* Specify which database is your default */
+						$cfg['ServerDefault'] = 1;	
+						]]>
+					</script>
+					<div class="extra">
+						/phpMyAdmin/config.inc.php
+					</div>
+				</div> -->
 		
 		<h4 id="add-php-extensions-to-your-box-file">Add PHP Extensions to Your .box File</h4>
 		<p>Add the following php extensions needed to run phpMyAdmin into your app's .box file. If you have questions about the .box file, check out <a href="/getting-started/understanding-the-box-file">Understanding the Box File</a>.</p>
