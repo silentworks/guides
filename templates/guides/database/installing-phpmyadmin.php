@@ -9,7 +9,9 @@
 		<h4>Installing phpMyAdmin</h4>
 		<ul>
 			<li><a href="#download-install-phpmyadmin-locally">Download and Install phpMyAdmin Locally</a></li>
-			<li><span class="guides-sprite tag"></span><a href="#edit-config">Edit config.inc.php</a></li>
+			<li><a href="#rename-edit-config">Rename &amp; Edit config.inc.php</a></li>
+			<li><span class="guides-sprite tag"></span><a href="#edit-config">Edit config.inc.php for a Single Database</a></li>
+			<li><span class="guides-sprite tag"></span><a href="#edit-config-multiple">Edit config.inc.php for Multiple Databases</a></li>
 			<li><a href="#add-php-extensions-to-your-box-file">Add PHP Extensions to Your .box File</a></li>
 			<li><span class="guides-sprite tag"></span><a href="#box-php-extensions">phpMyAdmin .box PHP Extensions</a></li>
 			<li><a href="#add-commit-push-deploy-enjoy">Add, Commit, Push, Deploy &amp; Enjoy</a></li>
@@ -28,34 +30,71 @@
 	<div class="justify">
 		<h4 id="download-install-phpmyadmin-locally">Download and Install phpMyAdmin Locally</h4>
 		<p>Download <a href="http://www.phpmyadmin.net/home_page/downloads.php">phpMyAdmin</a>, uncompress it and place it in the root of your application. Rename the directory something more friendly like phpmyadmin instead of phpMyAdmin-x.x.x.x-language.</p>
-		<p>Rename config.sample.inc.php to config.inc.php and edit the following sections:</p>
-		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Edit config.inc.php</span><span class="guides-sprite green-end-cap"></span></h3>
-		<div class="block grey code" id="edit-config">
+		<h4 id="rename-edit-config">Rename &amp; Edit config.inc.php</h4>
+		<p>Rename config.sample.inc.php to config.inc.php and for a single database, make the following changes:</p>
+		<h3 class="tag" id="edit-config"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Edit config.inc.php for a Single Database</span><span class="guides-sprite green-end-cap"></span></h3>
+		<div class="block grey code">
 			<script class='brush: php' type='syntaxhighlighter'>
 				<![CDATA[
+					/* 
+					 * Example config settings for a Single Database
+					 * Adjust to reflect the socket connection type
+					 * required by Pagoda
+					*/
+
 					/* Server parameters */
-					$cfg['Servers'][$i]['verbose']      = 'pagoda free';
-					$cfg['Servers'][$i]['host']         = '';
 					$cfg['Servers'][$i]['connect_type'] = 'socket';
 					$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
-					$cfg['Servers'][$i]['port']         = '';
-					$cfg['Servers'][$i]['compress']     = false;
-					$cfg['DefaultLang']                 = 'en-utf-8';
-					$cfg['ServerDefault']               = 1;
-
-					/* Select mysqli if your server has it */
-					$cfg['Servers'][$i]['extension'] = 'mysqli';
-					$cfg['Servers'][$i]['AllowNoPassword'] = false;
 				]]>
 			</script>
 			<div class="extra">
 				/config.inc.php
 			</div>
 		</div>
+		<p>For multiple databases, make these changes in config.inc.php:</p>
+		<h3 class="tag" id="edit-config-multiple"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">PHP</span><span class="horizontal-guides-sprite green">Edit config.inc.php for Multiple Databases</span><span class="guides-sprite green-end-cap"></span></h3>
+		<div class="block grey code">
+			<script class='brush: php' type='syntaxhighlighter'>
+				<![CDATA[
+				/*
+				 * Example config settings for Multiple Databases
+				 * 1. Adjust to reflect the socket connection type
+				 *    required by Pagoda
+				 * 2. Name multiple databases for easy reference
+				 */
+
+				/*
+				 * First server
+				 */
+
+				/* Server parameters */
+				$cfg['Servers'][$i]['verbose']      = 'pagoda-1';
+				$cfg['Servers'][$i]['connect_type'] = 'socket';
+				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
+
+				/*
+				 * Second server
+				 */
+
+				/* Server parameters */
+				$cfg['Servers'][$i]['verbose']      = 'pagoda-2';
+				$cfg['Servers'][$i]['connect_type'] = 'socket';
+				$cfg['Servers'][$i]['socket']       = '/tmp/mysql/yourdb.sock';
+
+
+				/* Default Database */
+				$cfg['ServerDefault'] = 1;	
+				]]>
+			</script>
+			<div class="extra">
+				/config.ing.php
+			</div>
+		</div>
+		
 		<h4 id="add-php-extensions-to-your-box-file">Add PHP Extensions to Your .box File</h4>
-		<p>Add the following php extensions needed to run phpMyAdmin into your apps .box file:</p>
-		<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">.box PHP Extensions</span><span class="guides-sprite green-end-cap"></span></h3>
-		<div class="block grey code" id="box-php-extensions">
+		<p>Add the following php extensions needed to run phpMyAdmin into your app's .box file. If you have questions about the .box file, check out <a href="/getting-started/understanding-the-box-file">Understanding the Box File</a>.</p>
+		<h3 class="tag" id="box-php-extensions"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">.box PHP Extensions</span><span class="guides-sprite green-end-cap"></span></h3>
+		<div class="block grey code">
 			<script class='brush: yaml' type='syntaxhighlighter'>
 				<![CDATA[
 					php_extensions: [mcrypt, mysqli, mysql, mbstring]	
