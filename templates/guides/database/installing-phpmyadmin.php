@@ -11,7 +11,7 @@
 			<li><a href="#download-install-phpmyadmin-locally">Download and Install phpMyAdmin Locally</a></li>
 			<li><a href="#rename-edit-config">Rename &amp; Edit config.inc.php</a></li>
 			<li><span class="guides-sprite tag"></span><a href="#edit-config">Edit config.inc.php for a Single Database</a></li>
-			<li><span class="guides-sprite tag"></span><a href="#edit-config-multiple">Edit config.inc.php for Multiple Databases</a></li>
+			<!-- <li><span class="guides-sprite tag"></span><a href="#edit-config-multiple">Edit config.inc.php for Multiple Databases</a></li> -->
 			<li><a href="#add-php-extensions-to-your-box-file">Add PHP Extensions to Your .box File</a></li>
 			<li><span class="guides-sprite tag"></span><a href="#box-php-extensions">phpMyAdmin .box PHP Extensions</a></li>
 			<li><a href="#add-commit-push-deploy-enjoy">Add, Commit, Push, Deploy &amp; Enjoy</a></li>
