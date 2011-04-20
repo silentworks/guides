@@ -51,6 +51,7 @@
 				<li>Frameworks</li>
 				<li><a href="#link" class="coming-soon">Akelos (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Cake (Coming)</a></li>
+				<!-- <li><a href="frameworks/code-ignitor">Code Ignitor</a></li> -->
 				<li><a href="#link" class="coming-soon">Code Ignitor (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Kohana (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Symfony (Coming)</a></li>
@@ -61,7 +62,7 @@
 				<li>End Solutions</li>
 				<li><a href="#link" class="coming-soon">Drupal (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Magento (Coming)</a></li>
-				<li><a href="/frameworks/wordpress">Wordpress</a></li>
+				<li><a href="/end-solutions/wordpress">Wordpress</a></li>
 			</ul>
 		</div>
 
