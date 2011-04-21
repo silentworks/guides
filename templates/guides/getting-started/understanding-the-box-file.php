@@ -154,8 +154,9 @@
 			</div>
 			
 		<h5 id="Error-Pages">error_pages<span class="guides-sprite gear"></span></h5>
-			<p>Use this setting to specify your own custom error handler pages. You can find a list of HTTP status codes <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">here</a>.</p>
-			<p><b>Note:</b> 404 errors are routed through your default gateway, and specifying a 404 handler will not work.</p>
+			<p>Use this setting to specify your own custom error handler pages. You can find a list of HTTP status codes <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">here</a>.<br/>
+				<br/>
+			<b>Note:</b> 404 errors are routed through your default gateway, and specifying a 404 handler will not work.</p>
 			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Error Pages</span><span class="guides-sprite green-end-cap"></span></h3>
 			<div class="block grey code" id="default-box-config-settings">
 				<script class='brush: yaml' type='syntaxhighlighter'>
@@ -170,8 +171,9 @@
 			</div>
 			
 		<h5 id="Permissions">permissions<span class="guides-sprite gear"></span></h5>	
-			<p>Use this setting to restrict access to URLs in your app by IP.</p>
-			<p><b>Note:</b> This is not match file system paths, but requests paths instead (URL). This means you can restrict access to dynamic URLs like /admin, even if an /admin directory does not exist.</p>
+			<p>Use this setting to restrict access to URLs in your app by IP.<br/>
+				<br/>
+				<b>Note:</b> This is not match file system paths, but requests paths instead (URL). This means you can restrict access to dynamic URLs like /admin, even if an /admin directory does not exist.</p>
 			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Permissions</span><span class="guides-sprite green-end-cap"></span></h3>
 			<div class="block grey code" id="default-box-config-settings">
 				<script class='brush: yaml' type='syntaxhighlighter'>
