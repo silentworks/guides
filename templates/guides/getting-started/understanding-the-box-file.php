@@ -20,7 +20,8 @@
 			<li><a href="#Document-Root">Document Root</a></li>
 			<li><a href="#Index-List">Index List</a></li>
 			<li><a href="#Default-Gateway">Default Gateway</a></li>
-			<li><a href="#Error-Pages">Error Pages:</a></li>
+			<li><a href="#Error-Pages">Error Pages</a></li>
+			<li><a href="#Permissions">Permissions</a></li>
 		</ul>
 		<h4>PHP SPECIFIC SETTINGS</h4>
 		<ul>
@@ -153,8 +154,8 @@
 			</div>
 			
 		<h5 id="Error-Pages">error_pages<span class="guides-sprite gear"></span></h5>
-			<p>Use this setting to specify your own custom error handler pages. You can find a list of HTTP status codes <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">here</a>.<br/>
-			<b>Note:</b> 404 errors are routed through your default gateway, and specifying a 404 handler will not work.</p>
+			<p>Use this setting to specify your own custom error handler pages. You can find a list of HTTP status codes <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">here</a>.</p>
+			<p><b>Note:</b> 404 errors are routed through your default gateway, and specifying a 404 handler will not work.</p>
 			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Error Pages</span><span class="guides-sprite green-end-cap"></span></h3>
 			<div class="block grey code" id="default-box-config-settings">
 				<script class='brush: yaml' type='syntaxhighlighter'>
@@ -168,7 +169,34 @@
 				</div>
 			</div>
 			
-
+		<h5 id="Permissions">permissions<span class="guides-sprite gear"></span></h5>	
+			<p>Use this setting to restrict access to URLs in your app by IP.</p>
+			<p><b>Note:</b> This is not match file system paths, but requests paths instead (URL). This means you can restrict access to dynamic URLs like /admin, even if an /admin directory does not exist.</p>
+			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Permissions</span><span class="guides-sprite green-end-cap"></span></h3>
+			<div class="block grey code" id="default-box-config-settings">
+				<script class='brush: yaml' type='syntaxhighlighter'>
+					<![CDATA[
+						permissions:
+					    	/admin :
+								- '127.0.0.1': allow
+								- all: deny
+							/test/phone-list.txt :
+								- '123.5.15.8': deny
+								- '123.5.15.9': deny
+								- '123.5.15.10': deny
+								- '123.5.15.11': deny
+								- '123.5.15.12': deny
+								- '123.5.15.13': deny
+								- '123.5.15.14': deny
+								- all: allow
+					   
+					]]>
+				</script>
+				<div class="extra">
+					/.box
+				</div>
+			</div>
+			
 		<h2 id="the-basics">Php Config Options</h2>
 		<h5 id="php-Version"class="first">php_version<span class="guides-sprite gear"></span></h5>
 			<p>The version of php to load into your secure executable container. It defaults to the newest stable release.</p>
@@ -248,7 +276,7 @@
 					index_list: [index.html, index.php]
 					default_gateway: index.php
 					error_pages:
-					    404: /404.html
+					    404: /404.html				
 
 					
 					################################################
