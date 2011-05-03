@@ -45,8 +45,8 @@
 		<p>When your app is deployed on Pagoda Box, you specify the total instances of your app (clones) to deploy to our platform. Imagine a bank. Each teller serves one customer at a time. If the bank has a sudden increase of customers, adding more tellers ensures each customer is served concurrently with no waiting in line</p>
 		<p>Each of your clones also handles one web request request at a time. When you have more requests than available clones, we queue the requests until a clone becomes available. You can eliminate queue formation simply by deploying enough clones to comfortably handle your request volume. The number of clones you need will be largely determined by two metrics:
 			<ol class="sub">
-				<li><h5>Code Efficiency</h5><p>All code is not created equal. The more efficient your code, the faster your app generate a response to a request, the fewer clones you need to achieve concurrency.</p></li>
-				<li><h5>Traffic Volume</h5><p>The number of clones you need is greatly determined by the number of requests your app receives.</p></li>
+				<li><h6>Code Efficiency</h6><p>All code is not created equal. The more efficient your code, the faster your app generate a response to a request, the fewer clones you need to achieve concurrency.</p></li>
+				<li><h6>Traffic Volume</h6><p>The number of clones you need is greatly determined by the number of requests your app receives.</p></li>
 			</ol>
 		</p>
 		<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">Each clone receives the underlying resources it needs</span><span class="guides-sprite w-end-cap"></span></h3>
@@ -65,8 +65,8 @@
 		<h4 id="-no-shared-state">No shared state</h4>
 		<p>Because your app is likely running on multiple nodes across our infrastructure. Don't assume two requests will be processed on the same node. This means you need to look out for two things:</p>
 		    <ol class="sub">
-				<li><h5>Sessions</h5><p>Put them somewhere else, like your database or memcache store.</p></li>
-		    	<li><h5>Files</h5><p>If you need to write to a file, you must write to a writable directory. A writable directory is a networked directory shared by all nodes. As a general rule, use these sparingly. If you absolutely need to write to a file and there is no other solution, note that there may be instances of network latency.</p></li>
+				<li><h6>Sessions</h6><p>Put them somewhere else, like your database or memcache store.</p></li>
+		    	<li><h6>Files</h6><p>If you need to write to a file, you must write to a writable directory. A writable directory is a networked directory shared by all nodes. As a general rule, use these sparingly. If you absolutely need to write to a file and there is no other solution, note that there may be instances of network latency.</p></li>
 			</ol>
 	</div>
 </div>
