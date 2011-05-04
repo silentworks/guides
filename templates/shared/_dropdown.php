@@ -51,7 +51,7 @@
 			<ul class="block">
 				<li>Frameworks</li>
 				<li><a href="#link" class="coming-soon">Akelos (Coming)</a></li>
-				<li><a href="#link" class="coming-soon">Cake (Coming)</a></li>
+				<li><a href="#link" class="coming-soon">CakePHP(Coming)</a></li>
 				<!-- <li><a href="frameworks/code-ignitor">Code Ignitor</a></li> -->
 				<li><a href="#link" class="coming-soon">Code Ignitor (Coming)</a></li>
 				<li><a href="#link" class="coming-soon">Kohana (Coming)</a></li>
