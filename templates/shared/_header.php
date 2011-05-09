@@ -8,6 +8,7 @@
 		<li><a href="http://www.pagodabox.com/features"><span class="sprite left"></span>Features<span class="sprite right"></span></a></li>
 		<li><a href="http://www.pagodabox.com/architecture"><span class="sprite left"></span>Architecture<span class="sprite right"></span></a></li>
 		<li><a href="http://www.pagodabox.com/pricing"><span class="sprite left"></span>Pricing<span class="sprite right"></span></a></li>
+		<li><a href="http://www.pagodabox.com/videos"><span class="sprite left"></span>Video Demos<span class="sprite right"></span></a></li>
 		<li><a href="http://blog.pagodabox.com">Blog</a></li>
 		<li class="last"><a href="http://guides.pagodabox.com" class="active"><span class="sprite left"></span>Guides<span class="sprite right"></span></a></li>
 	</ul>
