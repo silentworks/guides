@@ -12,8 +12,8 @@
 		</ul>
 		<h4>GENERAL SETTINGS</h4>
 		<ul>
-			<li><a href="#Network-Writable-Dirs">Network Writable Dirs</a></li>
-			<li><a href="#Local-Writable-Dirs">Local Writable Dirs</a></li>
+			<li><a href="#Shared-Writable-Dirs">Shared Writable Dirs</a></li>
+			<!-- <li><a href="#Unshared-Writable-Dirs">Unshared Writable Dirs</a></li> -->
 		</ul>
 		<h4>WEB SPECIFIC SETTINGS</h4>
 		<ul>
@@ -77,40 +77,39 @@
 	
 	<div class="justify">
 		<h2 id="the-basics">Web Config Options</h2>
-		<h5 class="first" id="Network-Writable-Dirs">network_writable_dirs<span class="guides-sprite gear"></span></h5>
+		<h5 class="first" id="Shared-Writable-Dirs">shared_writable_dirs<span class="guides-sprite gear"></span></h5>
 			<p>
-				Network shared directories that all clones have access to in real time.<br/>
+				These directories are read / write accessible to all your app clones. They are typically used for caching, logging, content uploaded via your app, etc. These directories are mounted at runtime, and should not be created at the same location as a directory containing source code in your repo.<br/>
 				<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Network Writable Directories</span><span class="guides-sprite green-end-cap"></span></h3>
 				<div class="block grey code" id="default-box-config-settings">
 					<script class='brush: yaml' type='syntaxhighlighter'>
 						<![CDATA[
-							network_writable_dirs: [/dirA, /dirB]
+							shared_writable_dirs: [/dirA, /dirB]
 						]]>
 					</script>
 					<div class="extra">
 						/.box
 					</div>
 				</div>
-				
 			</p>
 			<h3 class="tag"><span class="guides-sprite w-cap"></span><span class="horizontal-guides-sprite white">WARNING:</span><span class="guides-sprite w-end-cap"></span></h3>
 			<div class="block yellow">
 				<p>Any directory specified here will no longer be tracked via git in the Pagoda repo.</p>
 				<p>These should be used sparingly. Only use these for upload content or possibly as a central cache store.</p>
 			</div>
-			<h5 id="Local-Writable-Dirs">local_writable_dirs<span class="guides-sprite gear"></span></h5>
-				<p>The same as a network writable directory, but not shared among clones.</p>
-				<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Local Writable Directories</span><span class="guides-sprite green-end-cap"></span></h3>
-				<div class="block grey code" id="default-box-config-settings">
-					<script class='brush: yaml' type='syntaxhighlighter'>
-						<![CDATA[
-							local_writable_dirs: [/dirA, /dirB]
-						]]>
-					</script>
-					<div class="extra">
-						/.box
-					</div>
+		<!-- <h5 id="Unshared-Writable-Dirs">unshared_writable_dirs<span class="guides-sprite gear"></span></h5>
+			<p>The same as a network writable directory, but not shared among clones.</p>
+			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Unshared Writable Directories</span><span class="guides-sprite green-end-cap"></span></h3>
+			<div class="block grey code" id="default-box-config-settings">
+				<script class='brush: yaml' type='syntaxhighlighter'>
+					<![CDATA[
+						unshared_writable_dirs: [/dirA, /dirB]
+					]]>
+				</script>
+				<div class="extra">
+					/.box
 				</div>
+			</div> -->
 		<h5 id="Document-Root">document_root<span class="guides-sprite gear"></span></h5>
 			<p>The root of your executable app source. For instance, if you like to house your app in /app for security or organizational purposes, you can specify that here. All further configurations will be relative to this directory. Default is the root of you project.</p>			
 			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Document Root</span><span class="guides-sprite green-end-cap"></span></h3>
@@ -179,17 +178,14 @@
 				<script class='brush: yaml' type='syntaxhighlighter'>
 					<![CDATA[
 						permissions:
-					    	/admin :
-								- '127.0.0.1': allow
+					    	/secret/notes :
+								- '123.4.56.78' : allow
 								- all: deny
-							/test/phone-list.txt :
-								- '123.5.15.8': deny
-								- '123.5.15.9': deny
-								- '123.5.15.10': deny
-								- '123.5.15.11': deny
-								- '123.5.15.12': deny
-								- '123.5.15.13': deny
-								- '123.5.15.14': deny
+							/james/surprise_birthday.php :
+								- '123.4.56.75' : deny
+								- '123.4.56.76' : deny
+								- '123.4.56.77' : deny
+								- '123.4.56.78' : deny
 								- all: allow
 					   
 					]]>
@@ -199,7 +195,7 @@
 				</div>
 			</div>
 			
-		<h2 id="the-basics">Php Config Options</h2>
+		<h2 id="the-basics">PHP Config Options</h2>
 		<h5 id="php-Version"class="first">php_version<span class="guides-sprite gear"></span></h5>
 			<p>The version of php to load into your secure executable container. It defaults to the newest stable release.</p>
 			<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">PHP Version</span><span class="guides-sprite green-end-cap"></span></h3>
@@ -267,8 +263,7 @@
 					################################################
 					## GENERAL SETTINGS
 					################################################
-					network_writable_dirs: [/dirA, /dirB]
-					local_writable_dirs: [/dirA, /dirB]
+					shared_writable_dirs: [/dirA, /dirB]
 
 
 					################################################
