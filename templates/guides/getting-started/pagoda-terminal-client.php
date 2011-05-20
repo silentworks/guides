@@ -130,7 +130,7 @@
 			<p>-n &lt;instance&gt; | --name=&lt;instance&gt;<br/>
 				<em>Specify the instance name you want to operate on used for database instance.</em></p>
 		<h4 id="launching-an-app">Launching an App</h4>
-		<p>To launch an app, you must be done inside the root directory of your repo. Use the following command:</p>
+		<p>To launch an app, you must be inside the root directory of your repo. Use the following command:</p>
 		<h3 id="launch-an-app" class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">Terminal</span><span class="horizontal-guides-sprite green">Launch an App</span><span class="guides-sprite end-cap"></span></h3>
 		<div class="block black">
 			<script class='brush: bash;' type='syntaxhighlighter'>
@@ -222,7 +222,7 @@
 					]]>
 			</script>
 		</div>
-		<p>If you’re out side of your repo, you simply need to specify which app you would like to roll back:</p>
+		<p>If you’re outside of your repo, you simply need to specify which app you would like to roll back:</p>
 		<h3 id="rollback-while-outside-repo" class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">Terminal</span><span class="horizontal-guides-sprite green">Rollback While Outside Repo</span><span class="guides-sprite end-cap"></span></h3>
 		<div class="block black">
 			<script class='brush: bash;' type='syntaxhighlighter'>
@@ -234,7 +234,7 @@
 			</script>
 		</div>
 		<h4 id="creating-a-database-tunnel">Creating a Database Tunnel</h4>
-		<p>This functionality is so awesome we decided to give it its own guide. Check out the <a href='/database/creating-database-tunnel'>Creating a Secure Database Tunnel from Your Desktop</a>.</p>
+		<p>This functionality is so awesome we decided to give it its own guide. Check out the <a href='/database/creating-database-tunnel'>Creating a Secure Database Tunnel from Your Desktop Guide</a>.</p>
 		<h4 id="destroying-an-app">Destroying an App</h4>
 		<p>Destroying an app is really simple. If you’re inside your repo, just use the following command:</p>
 		<h3 id="destroy-app-while-inside-repo" class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">Terminal</span><span class="horizontal-guides-sprite green">Destroy an App While Inside Repo</span><span class="guides-sprite end-cap"></span></h3>
@@ -251,9 +251,9 @@
 		<div class="block black">
 			<script class='brush: bash;' type='syntaxhighlighter'>
 				<![CDATA[
-					$ pagoda destroy -a &lt;app name&gt;<br/>
+					$ pagoda destroy -a <app name>
 					--OR--<br/>
-					$ pagoda destroy --app=&lt;app name&gt;<br/>
+					$ pagoda destroy --app=<app name>
 					]]>
 			</script>
 		</div>
