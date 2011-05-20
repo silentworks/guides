@@ -38,6 +38,7 @@
 		<div class="block yellow">
 			<p><b>Git</b> is a distributed version control system with an emphasis on collaborative software development.</p>
 			<p><b>GitHub</b> is bar none the best tool for collaborating as a developer.</p>
+			<p>On top of that, the flexibility and feature-set available in the Admin Panel and the Pagoda Terminal Client are directly tied to Github's API.</p>
 		</div>
 		<h4 id="-practical-examples">Show not Tell</h4>
 		<p>What you get with git &amp; github:</p>
