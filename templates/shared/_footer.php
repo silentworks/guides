@@ -12,11 +12,15 @@
 		<div class="section additional">
 			<div class="group first">
 				<h3 class="heading">Drop Us a Line</h3>
-				<p><a href="mailto:hullo@pagodabox.com" class="email">hullo@pagodabox.com</a></p>
+				<p><script type="text/javascript">document.write(
+"<n uers=\"znvygb:uryyb\100cntbqnobk\056pbz\" pynff=\"rznvy\">uryyb\100cntbqnobk\056pbz<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script></p>
 			</div>
 			<div class="group">
 				<h3 class="heading">Support</h3>
-				<p><a href="mailto:support@pagodabox.com" class="email">support@pagodabox.com</a></p>
+				<p><script type="text/javascript">document.write(
+"<n uers=\"znvygb:fhccbeg\100cntbqnobk\056pbz\" pynff=\"rznvy\">fhccbeg\100cntbqnobk\056pbz<\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+</script></p>
 			</div>
 			<div class="group credits">
 				<p><span>Design</span> <span class="pipe-one">:</span> <a href="http://www.delorum.com" id="delorum" class="link">Delorum</a></p>
