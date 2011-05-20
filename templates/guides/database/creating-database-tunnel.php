@@ -59,7 +59,7 @@
 		</script>
 	</div>
 	<p><strong>Note:</strong> Really, you don’t even need to specify the database type if you’re connecting to mysql. The database type defaults to mysql.</p>
-	<p>Once the tunnel is established, use your local database-management tool of choice to connect to your database using the host and port provided by the Pagoda Terminal Client and the username and password for your in your Pagoda database credentials.</p>
+	<p>Once the tunnel is established, use your local database-management tool of choice to connect to your database using the host and port provided by the Pagoda Terminal Client and the username and password in your Pagoda database credentials.</p>
 	<p><em>Database credentials provided by the Pagoda Terminal Client:</em></p>
 	<div class="vertical-guides-sprite image">
 		<span class="guides-sprite top"></span>
