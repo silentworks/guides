@@ -65,6 +65,8 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col ul.checked li															{margin:0; padding:0 0 19px 22px; color:#939393; font-size:15px; line-height:15px; position:relative; list-style-type:none;}
 .main-col .left-col ul li																	{margin:0; padding:0 0 19px 0; color:#4A4A4C; font-size:15px; line-height:15px; position:relative; list-style-type:disc;}
 .main-col .left-col ol li																	{margin:0; padding:0 0 0px 0; color: #ff823c; font-size:15px;  position:relative; font-weight: bold;}
+.main-col .left-col ol.normal li															{margin:0; padding:0 0 19px 0; color: #ff823c; font-size:15px;  position:relative;}
+.main-col .left-col ol.normal li span														{color: #4A4A4C; font-size:15px; line-height:15px; font-weight:normal;}
 .main-col .left-col ol.sub																	{margin: 0 0 -30px 40px; }
 .main-col .left-col ol li p																	{font-weight: normal; padding: 6px 0 2px 0 ; }
 .main-col .left-col ol li h6																{font-weight: normal; font-size: 15px; margin: 10px 0 0 0; color: black; }
@@ -119,6 +121,8 @@ img																							{margin:0; padding:0; border:none;}
 .main-col .left-col .block ul li .step														{margin:0; padding:0 0 0 5px; color:#fff; width:23px; height:24px; display:block; position:absolute; top:0; left:0px; line-height:16px; background-position:-413px -44px; letter-spacing: -1px; font-size: 14px; font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; }
 .main-col .left-col .block .primary-step													{margin:0 0 0 -25px; padding:0 0 25px 85px; color:#686868; font-size:23px; line-height:26px; font-family:"ff-meta-web-pro-1","ff-meta-web-pro-2", arial, sans; position:relative;}
 .main-col .left-col .block .primary-step .step												{margin:0; padding:0 0 0 10px; color:#FFF; font-size:17px; line-height:25px; width:65px; height:45px; display:block; position:absolute; top:0px; left:0px; background-position:-693px -45px;}
+.main-col .left-col table td																{padding:5px 20px 5px 0; font-size:15px}
+.main-col .left-col table																	{margin: 0 0 25px;}
 .main-col .right-col																		{margin:0; padding:29px 0 0; width:auto; float:right;}
 .main-col .right-col .table-contents														{margin:0; padding:0; width:382px; position:relative;}
 .main-col .right-col .table-contents .top-corner											{margin:0; padding:0; width:382px; height:8px; background-position:-411px 0; display:block; position:absolute; top:-8px; left:0;}

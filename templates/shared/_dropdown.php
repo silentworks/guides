@@ -23,6 +23,7 @@
 				<li><a href="/getting-started/what-you-need-to-know-about-pagoda-box">What You Need to Know About Pagoda</a></li>
 				<li><a href="/getting-started/recommended-workflow">Recommended Workflow</a></li>
 				<li><a href="/getting-started/understanding-the-box-file">Understanding the .box Config File</a></li>
+				<li><a href="/getting-started/pagoda-terminal-client">The Pagoda Terminal Client</a></li>
 			</ul>
 			<ul class="block">
 				<li>Processes</li>
@@ -35,7 +36,8 @@
 			</ul>
 			<ul class="block">
 				<li>Database</li>
-				<li><a href="/database/creating-a-database">Creating a Database</a></li>			
+				<li><a href="/database/creating-a-database">Creating a Database</a></li>
+				<li><a href="/database/creating-database-tunnel">Creating a Secure Database Tunnel from Your Desktop</a></li>			
 				<li><a href="#link" class="coming-soon">MySQL (Coming)</a></li>
 				<li><a href="/database/installing-phpmyadmin">Installing phpMyAdmin</a></li>
 			</ul>

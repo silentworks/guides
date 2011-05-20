@@ -53,7 +53,7 @@
 	<ul class="checked">
 		<li><span class="guides-sprite check"></span>Configure PHP for your app</li>
 		<li><span class="guides-sprite check"></span>Create URL rewrites</li>
-		<li><span class="guides-sprite check"></span>Create writable directories</li>
+		<li><span class="guides-sprite check"></span>Create shared writable directories</li>
 		<li><span class="guides-sprite check"></span>Mucho mucho more...</li>
 	</ul>
 	<div class="line-divider"></div>
@@ -80,7 +80,7 @@
 		<h5 class="first" id="Shared-Writable-Dirs">shared_writable_dirs<span class="guides-sprite gear"></span></h5>
 			<p>
 				These directories are read / write accessible to all your app clones. They are typically used for caching, logging, content uploaded via your app, etc. These directories are mounted at runtime, and should not be created at the same location as a directory containing source code in your repo.<br/>
-				<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Network Writable Directories</span><span class="guides-sprite green-end-cap"></span></h3>
+				<h3 class="tag"><span class="guides-sprite cap"></span><span class="horizontal-guides-sprite title">YAML</span><span class="horizontal-guides-sprite green">Shared Writable Directories</span><span class="guides-sprite green-end-cap"></span></h3>
 				<div class="block grey code" id="default-box-config-settings">
 					<script class='brush: yaml' type='syntaxhighlighter'>
 						<![CDATA[

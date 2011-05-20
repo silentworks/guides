@@ -18,7 +18,7 @@
 			<li><span class="guides-sprite step">4</span><a href="#step-4">Customize Your PHP Settings</a></li>
 			<li><span class="guides-sprite step">5</span><a href="#step-5">Set Your Root Directory</a></li>
 			<li><span class="guides-sprite step">6</span><a href="#step-6">Set Your Default Gateway</a></li>
-			<li><span class="guides-sprite step">7</span><a href="#step-7">Prepare Writable Directories (if needed)</a></li>
+			<li><span class="guides-sprite step">7</span><a href="#step-7">Prepare Shared Writable Directories (if needed)</a></li>
 			<li><span class="guides-sprite step">8</span><a href="#step-8">Set Custom Error Pages</a></li>
 			<li><span class="guides-sprite step">9</span><a href="#step-9">Layer on Security</a></li>
 			<li><span class="guides-sprite step">10</span><a href="#step-10">Deploy Already!</a></li>
@@ -150,7 +150,7 @@
 	</div>
 	
 	<div class="block grey steps">
-		<p class="primary-step"><span class="guides-sprite step" id="step-7">Step 7</span>Prepare Writable Directories (if needed)</p>
+		<p class="primary-step"><span class="guides-sprite step" id="step-7">Step 7</span>Prepare Shared Writable Directories (if needed)</p>
 	</div>
 	<p>Pagoda Box is a cloud based infrastructure, so don’t assume your app clones will be on the same compute node. In fact, we spread them out as much as possible for redundancy. That means when you launch a clone of your app, we mount a read-only file system. Your app cannot write to the underlying filesystem. There are instances, albeit very limited, where you might need to write and share the data among nodes (most likely up-loadable media assets). Therefore, you need to specify writable directories (if any) for your app.</p>
 	<h3 class="tag"><span class="guides-sprite cap-notice"></span><span class="horizontal-guides-sprite red">Warning</span><span class="guides-sprite red-end-cap"></span></h3>
