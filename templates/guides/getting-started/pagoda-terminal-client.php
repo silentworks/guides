@@ -120,7 +120,7 @@
 		<p><strong>Deploying - pagoda deploy :</strong></p>
 			<p>-b &lt;branch&gt; | --branch=&lt;branch&gt;<br/>
 				<em>Specify the branch name. By default uses the branch your local repo is on.</em></p>
-			<p>-c &lt;commit&gt; | --commit=&lt;commit&gt;
+			<p>-c &lt;commit&gt; | --commit=&lt;commit&gt;<br/>
 				<em>Specify the commit id. By default uses the commit HEAD is set to.</em></p>
 			<p>--latest<br/>
 				<em>Will attempt to deploy to the latest commit on github rather than your local repo's current commit.</em></p>
